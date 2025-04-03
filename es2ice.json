@@ -1,0 +1,4246 @@
+{
+  "title": "B-kategooria",
+  "modules": [
+    {
+      "id": "M1B",
+      "title": "M1B Raadio- ja elektrotehnika teooria",
+      "maxQuestions": 5,
+      "questions": [
+        {
+          "id": "M1B-1",
+          "text": "Mida tähendab termin impedants?",
+          "answers": [
+            {
+              "text": "Kondensaatoris salvestatavat elektrilaengut.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Vooluringi poolt vahelduvvoolule osutatavat takistust.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Mahtuvust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "impedants",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-2",
+          "text": "Kuidas nimetatakse mahtuvust ja induktiivsust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust?",
+          "answers": [
+            {
+              "text": "Oom.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Džaul.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Dzhaul."
+            },
+            {
+              "text": "Impedants.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "impedants,reaktiivtakistus",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-3",
+          "text": "Kuidas nimetatakse induktiivsuse poolt vahelduvvoolule osutatavat takistust?",
+          "answers": [
+            {
+              "text": "Takistus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Reaktiivtakistus.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Näivjuhtivus.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "reaktiivtakistus",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-4",
+          "text": "Kuidas nimetatakse mahtuvuse poolt vahelduvvoolule osutatavat takistust?",
+          "answers": [
+            {
+              "text": "Takistus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Reaktiivtakistus.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Näivjuhtivus.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "reaktiivtakistus",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-5",
+          "text": "Kuidas reageerib induktiivsus vahelduvvoolule?",
+          "answers": [
+            {
+              "text": "Vahelduvvoolu sageduse suurenedes reaktiivtakistus väheneb.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Vahelduvvoolu amplituudi suurenedes suureneb ka reaktiivtakistus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Vahelduvvoolu sageduse suurenedes reaktiivtakistus suureneb.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "reaktiivtakistus2",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-6",
+          "text": "Kuidas reageerib mahtuvus vahelduvvoolule?",
+          "answers": [
+            {
+              "text": "Vahelduvvoolu sageduse suurenedes reaktiivtakistus väheneb.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Vahelduvvoolu amplituudi suurenedes suureneb ka reaktiivtakistus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Vahelduvvoolu sageduse suurenedes reaktiivtakistus suureneb.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "reaktiivtakistus2",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-7",
+          "text": "Millal annab toiteallikas maksimaalse väljundenergia?",
+          "answers": [
+            {
+              "text": "Juhul kui koormusimpedants on võrdne vooluallika impedantsiga.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Juhul, kui koormusimpedants on võrdne vooluallika impedantsiga."
+            },
+            {
+              "text": "Kui seisulainetegur on saavutanud maksimaalväärtuse.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kui raudsüdamikuga transformaatori asemel kasutatakse õhksüdamikuga transformaatorit.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "sobitamine,impedants",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-8",
+          "text": "Mida tähendab termin impedantside sobitamine?",
+          "answers": [
+            {
+              "text": "Koormusimpedantsi toiteallika impedantsist palju suuremaks tegemine.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Koormusimpedantsi võrdsustamine toiteallika impedantsiga.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Baluni kasutamine antenni toitepunktis.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "sobitamine",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-9",
+          "text": "Mis juhtub kui elektrilise koormuse impedants on võrdne toiteallika impedantsiga?",
+          "answers": [
+            {
+              "text": "Toiteallikas juhib koormusesse minimaalse võimsuse.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Vool katkeb vooluahelas.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Toiteallikas juhib koormusesse maksimaalse võimsuse.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "impedants,sobitamine",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mis juhtub, kui elektrilise koormuse impedants on võrdne toiteallika impedantsiga?"
+        },
+        {
+          "id": "M1B-10",
+          "text": "Miks on impedantside sobitamine raadiotehnikas väga oluline?",
+          "answers": [
+            {
+              "text": "Võimaldab toiteallikast juhtida koormusesse maksimaalse võimsuse.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kindlustab vooluringi aktiiv- ja reaktiivtakistuse võrdsuse.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kindlustab minimaalse võimsuse saamise toitallikast.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "sobitamine,impedants",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-11",
+          "text": "Milline on reaktiivtakistuse mõõtühik?",
+          "answers": [
+            {
+              "text": "Amper.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Oom",
+              "correct": true
+            },
+            {
+              "text": "Siemens.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "oom",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-12",
+          "text": "Milline on impedantsi mõõtühik?",
+          "answers": [
+            {
+              "text": "Oom.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Volt.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Amper.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "oom",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-13",
+          "text": "Mis on Bell?",
+          "answers": [
+            {
+              "text": "Mahtuvuse muutumise mõõtühik.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Induktiivsuse muutumise mõõtühik.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Erinevate võimsuste suhte suurust väljendav ühik.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "bell",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-14",
+          "text": "Mis on detsibell?",
+          "answers": [
+            {
+              "text": "Võimsusnivoode suhte muutumine 0,1 Belli võrra.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Võimsusnivoode suhte muutumine 0,01 Belli võrra",
+              "correct": false
+            },
+            {
+              "text": "Võimsusnivoode suhte muutumine 10 Belli võrra.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "bell",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-15",
+          "text": "Ligikaudu mitu detsibelli on vaevaltmärgatav helitugevuse muutus?",
+          "answers": [
+            {
+              "text": "12 dB.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "6 dB.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "1 dB.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "bell",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-16",
+          "text": "Võimsuse suurenemine kaks korda on detsibellides:",
+          "answers": [
+            {
+              "text": "1 dB.",
+              "correct": false
+            },
+            {
+              "text": "3 dB.",
+              "correct": true
+            },
+            {
+              "text": "6 dB",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "bell",
+          "info": "Lahendus: Võimsuste suhe detsibellides on arvutatav valemiga: 10log(P1/P2).<br>\n                        Kui võimsus suureneb 2 korda, siis 10log2=3dB",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-17",
+          "text": "Mitu korda suureneb võimsus 6 dB puhul?",
+          "answers": [
+            {
+              "text": "1,5 korda.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "2 korda.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "4 korda.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "bell",
+          "info": "Lahendus: Kasutame logaritmi pöördfunktsiooni -eksponentfunktsiooni  (10 astmes x).<br>\n                        P1/P2 = 10 astmes(6dB/10) = 4 korda",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-18",
+          "text": "Mitu korda suureneb võimsus 3 dB puhul?",
+          "answers": [
+            {
+              "text": "1,5 korda.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "2 korda.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "4 korda",
+              "correct": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "bell",
+          "info": "Lahendus: Kasutame logaritmi pöördfunktsiooni -eksponentfunktsiooni  (10 astmes x).<br>\n                        P1/P2= 10 astmes(3dB/10)= 2 korda",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-19",
+          "text": "Signaali raport on ”10 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 150 vatini kui suur on uus signaali tugevuse raport?",
+          "answers": [
+            {
+              "text": "S5.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "S7",
+              "correct": false
+            },
+            {
+              "text": "S9.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "bell_raport",
+          "info": "Lahendus: Võimsuste suhe väljendatuna detsibellides on arvutatav valemiga:<br>\n                        10log(P1/P2)= 10log(1500W/150W)= 10log10= 10dB.<br>\n                        Kui varem näitas S-meeter 10dB üle S9, siis nüüd vähenes näit 10dB ja S-meeter näitab S9.",
+          "isChanged": true,
+          "oldText": "Signaali raport on \"10 dB üle S9\". Kui saatja võimsust vähendatakse 1500 vatilt 150 vatini, kui suur on uus signaali tugevuse raport?"
+        },
+        {
+          "id": "M1B-20",
+          "text": "Signaali raport on “20 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 15 vatini kui suur on uus signaali tugevuse raport?",
+          "answers": [
+            {
+              "text": "S5.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "S7",
+              "correct": false
+            },
+            {
+              "text": "S9.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "bell_raport",
+          "info": "Lahendus: 10log(1500W/15W)= 10log100= 10*2= 20dB",
+          "isChanged": true,
+          "oldText": "Signaali raport on \"20 dB üle S9\". Kui saatja võimsust vähendatakse 1500 vatilt 15 vatini, kui suur on uus signaali tugevuse raport?"
+        },
+        {
+          "id": "M1B-21",
+          "text": "Kui 1 amprilise vooluallikaga on ühendatud kaks paralleelselt lülitatud 10 oomist takistit kui suur vool läbib kumbagi takistit?",
+          "answers": [
+            {
+              "text": "10 amprit.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "1 amper.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "0,5 amprit.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "takisti,paralleelselt",
+          "info": "Lahendus: Võrdseid paralleelseid takistusi läbib ühesugune vool. Kuna vooluallikas annab\n                        voolu tugevusega 1A, siis kumbagi võrdse takistusega takistit läbib sellest pool ehk 0,5A.",
+          "isChanged": true,
+          "oldText": "Kui 1 amprilise vooluallikaga on ühendatud kaks paralleelselt lülitatud 10-oomist takistit, kui suur vool läbib kumbagi takistit?"
+        },
+        {
+          "id": "M1B-22",
+          "text": "Kui suur on kasutatav võimsus kui 400 V pingega vooluallikas ühendatakse 800 oomise koormusega ?",
+          "answers": [
+            {
+              "text": "0,5 vatti.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "200 vatti.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "400 vatti",
+              "correct": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "Lahendus: P=UU/R= (400V*400V)/800oomi= 200W",
+          "isChanged": true,
+          "oldText": "Kui suur on kasutatav võimsus, kui 400 V pingega vooluallikas ühendatakse 800 oomise koormusega?"
+        },
+        {
+          "id": "M1B-23",
+          "text": "Kui suur on 12 V 0,2 A vooluga indikaatorlambi võimsus?",
+          "answers": [
+            {
+              "text": "60 vatti.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "24 vatti.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "2,4 vatti",
+              "correct": true
+            }
+          ],
+          "hasProblem": false,
+          "info": "Lahendus: P=UI=12V*0,2A=2,4W",
+          "isChanged": true,
+          "oldText": "Kui suur on 12 V 0.2A vooluga indikaatorlambi võimsus?"
+        },
+        {
+          "id": "M1B-24",
+          "text": "Kui suur võimsus eraldub 100 oomisel takistil, kui tema jalgadel mõõdetud pinge on 5 V?",
+          "answers": [
+            {
+              "text": "500 millivatti",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Ligikaudu 51 millivatti."
+            },
+            {
+              "text": "20 millivatti",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Ligikaudu 39 millivatti."
+            },
+            {
+              "text": "250 millivatti.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Ligikaudu 9 millivatti."
+            }
+          ],
+          "hasProblem": false,
+          "oldinfo": "<b>Siin on viga ja õiget vastusevarianti ei olegi!!</b> <br>\n                        9mW on siiski kõige lähem.<br>\n                        Lahendus: P=IIR=0,007A*0,007A*250oomi = 0,01225W=12,25mW.<br>\n                        Ilus vastus oleks 12mW",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Kui suur võimsus eraldub 0,25 kilo-oomisel takistil, kui teda läbib vool tugevusega 7,0 milliamprit?"
+        },
+        {
+          "id": "M1B-25",
+          "text": "Kui suur on mitmest takistist koosneva jadalülituse kogutakistus?",
+          "answers": [
+            {
+              "text": "Kogutakistus on võrdne kõikide takistite takistuste summaga.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kogutakistus on väiksem kõige väiksema takisti takistuse väärtusest.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kogutakistuse saame jagades takistite takistuste summa takistite arvuga.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "takisti",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-26",
+          "text": "Kui suur on kahe võrdse paralleelselt lülitatud takistist koosneva ahela kogutakistus?",
+          "answers": [
+            {
+              "text": "Kahekordne ühe takisti takistuse väärtus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Pool kummagi takisti takistuse väärtusest.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kahekordne kummagi takisti väärtus.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "takisti,paralleelselt",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-27",
+          "text": "Kui suur on kahe paralleelselt ühendatud induktiivsuse koguväärtus?",
+          "answers": [
+            {
+              "text": "Pool kummagi väärtusest.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Pool kummagi väärtusest vastastikust induktiivsust arvestamata."
+            },
+            {
+              "text": "Kahekordne kummagi induktiivsuse väärtus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kahekordne kummagi induktiivsuse väärtus vastastikust induktiivsust arvestamata.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Kahekordne kummagi induktiivsuse väärtus."
+            }
+          ],
+          "hasProblem": false,
+          "tags": "paralleelselt",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-28",
+          "text": "Kui suur on kahe paralleelselt lülitatud kondensaatori kogumahtuvus?",
+          "answers": [
+            {
+              "text": "Pool kummagi kondensaatori mahtuvusest.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kogumahtuvus on võrdne kondensaatorite mahtuvuste summaga.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Mahtuvust ei saa määrata teadmata kondensaatorite täpset mahtuvust.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Mahtuvust ei saa määrata teadmata kondensatorite täpset mahtuvust."
+            }
+          ],
+          "hasProblem": false,
+          "tags": "paralleelselt",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M1B-29",
+          "text": "Kui suur on pinge transformaatori 500 keerust koosneva sekundaarmähise klemmidel, kui 2200 keerust koosnev primaarmähis on lülitatud 220 V vahelduvvooluvõrku?",
+          "answers": [
+            {
+              "text": "526,5 V",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "50 V",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "50 V"
+            },
+            {
+              "text": "26 V",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "26 V"
+            }
+          ],
+          "hasProblem": false,
+          "info": "Lahendus: Trafo ülekandetegur on mähiste keerdude arvu suhe. Mähise pinge on võrdeline mähise keerdude arvuga.<br>\n                        Arvutame trafo ülekandeteguri n=w1/w2=2200/500=4,4<br>\n                        220V/4,4=50V",
+          "isChanged": true,
+          "oldText": "Kui suur on pinge transformaatori 500 keerust koosneva sekundaarmähise klemmidel, kui 2200 keerust koosnev primaarmähis on lülitatud 220 V vahelduvvooluvõrku."
+        },
+        {
+          "id": "M1B-30",
+          "text": "Kui suur on 200 oomise väljundtakistusega helisagedusvõimendi sobitamiseks 10 oomise valjuhääldiga vajaliku transformaatori mähiste keerdude suhe?",
+          "answers": [
+            {
+              "text": "4.47 : 1",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "400: 1",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "20 : 1",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "Lahendus: Trafo ülekandetegur on primaar- ja sekundaarpingete (ja ka keerdude arvude) suhe\n                        n=U1/U2=w1/w2. Takistuste sobitamise puhul peab arvestama, et U=ruutjuur(PR). Kuna P taandub\n                        välja,  siis helisagedusvõimendi sobitustrafo ülekandeteguri saame valemist:<br>\n                        n=(ruurjuur R1)/(ruutjuur R2)= 14,14/3,16= 4,47",
+          "isChanged": false
+        }
+      ]
+    },
+    {
+      "id": "M2B",
+      "title": "M2B Raadio- ja elektrotehnika komponendid",
+      "maxQuestions": 4,
+      "questions": [
+        {
+          "id": "M2B-1",
+          "text": "Kuidas mõjub ümbruskonna temperatuur süsiniktakisti takistusele?",
+          "answers": [
+            {
+              "text": "Takistus suureneb 20% temperatuuri tõusmisel iga 10 kraadi võrra.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Takistuse suurus ei muutu.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Takistuse muutus sõltub takisti temperatuuritegurist.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Takistuse muutus sõltub takisti temperatuuritegurist sõltuvalt."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M2B-2",
+          "text": "Mis tüüpi kondensaatorit kasutatakse tihti võrgutoitealaldi silumisfiltris?",
+          "answers": [
+            {
+              "text": "Keraamilist ketaskondensaatorit.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Muutuva mahtuvusega vaakumkondensaatorit.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Elektrolüütkondensaatorit.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "kondensaator",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M2B-3",
+          "text": "Millised kondensaatorid lülitatakse rööbiti transformaatori sekundaarmähisega pingeimpulsside vähendamiseks?",
+          "answers": [
+            {
+              "text": "Suure mahtuvusega kondensaatorid.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Muutuva mahtuvusega vaakumkondensaatorid.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Keraamilised kondensaatorid.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "kondensaator",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M2B-4",
+          "text": "Mis tekitab poolide omaresonantsi?",
+          "answers": [
+            {
+              "text": "Hajutatud elektromagnetism.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Pöörisvoolud.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Keerdudevaheline mahtuvus.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M2B-5",
+          "text": "Milline vooluringi komponent võimaldab suurendada vahelduvvoolu pinget 100 voldilt 1000 voldini?",
+          "answers": [
+            {
+              "text": "Transformaator.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kondensaator.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Diood.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M2B-6",
+          "text": "Kuidas nimetatakse transformaatori primaarmähises voolavat voolu, kui sekundaarmähise külge pole koormust lülitatud?",
+          "answers": [
+            {
+              "text": "Magneetimisvooluks.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Alalisvooluks.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Ergutusvooluks.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Kuidas nimetatakse transformaatori primaarmähises voolavat voolu, kui sekundaarmähise külge pole koormust lülitatud?"
+        },
+        {
+          "id": "M2B-7",
+          "text": "Mis suurustega iseloomustatakse tavaliselt jõutransformaatori primaar- ja sekundaarmähiseid?",
+          "answers": [
+            {
+              "text": "Džauli sekundis.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Dzauli sekundis."
+            },
+            {
+              "text": "Volt või volt-amper.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kulonit sekundis.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M2B-8",
+          "text": "Mis on toiteseadme alalduselemendi vastupinge?",
+          "answers": [
+            {
+              "text": "Suurim siirdepinge, mida diood on võimeline taluma.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "1,4 korda elektrivõrgu sagedus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Mittejuhtivas suunas dioodi klemmidele rakendatud maksimaalne pinge.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M2B-9",
+          "text": "Millist dioodi parameetrit ei tohi ületada?",
+          "answers": [
+            {
+              "text": "Pärisuunaline pingelang dioodil",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Maksimaalne koormusimpedants, täispinge."
+            },
+            {
+              "text": "Diferentsiaaltakistus",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Keskmine võimsus, keskmine pinge."
+            },
+            {
+              "text": "Maksimaalne vastupinge",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Maksimaalne vastupinge, keskmine pärivool."
+            }
+          ],
+          "hasProblem": false,
+          "oldinfo": "Siin on ebatäpne küsimus. Mistahes komponendi max (kas voolu või pinget) ei või ületada. Keskmist\n                        küll -kuni max-ni. Mõeldud on ilmselt samaaegselt ületamist.",
+          "info":  "",
+          "isChanged": true,
+          "oldText": "Millised on ränidioodide kaks parameetrit, mida ei või ületada?"
+        },
+        {
+          "id": "M2B-10",
+          "text": "Miks peavad alaldi dioodid olema termaalselt kaitstud?",
+          "answers": [
+            {
+              "text": "Nende läheduse tõttu transformaatorile.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Ülemäärase kuumenemise tõttu võivad rikneda.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Nende tundlikkuse tõttu siirdepingete mõjule.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M2B-11",
+          "text": "Mis on Zener dioodi (stabilitroni) peamine omadus?",
+          "answers": [
+            {
+              "text": "Tagab konstantse voolu kõikuva pinge puhul.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Konstantne vool kõikuva pinge puhul."
+            },
+            {
+              "text": "Tagab konstantse pinge kõikuva voolu puhul.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Konstantne pinge muutliku voolu puhul."
+            },
+            {
+              "text": "Tagab konstantse voolu konstantse pinge puhul.",
+              "isChanged": true,
+              "oldText": "-",
+              "correct": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "diood",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M2B-12",
+          "text": "Mis tüüpi diood on võimeline ostsilleerima ja ka võimendama?",
+          "answers": [
+            {
+              "text": "Seleendiood",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Punktkontaktdiood."
+            },
+            {
+              "text": "Tunneldiood.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Zener diood",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Ränialaldi."
+            }
+          ],
+          "hasProblem": false,
+          "tags": "diood",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M2B-13",
+          "text": "Mis on varikapi peamine omadus?",
+          "answers": [
+            {
+              "text": "Hoiab stabiilset pinget läbiva muutliku voolu puhul.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Tema mahtuvus sõltub rakendatud pingest.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Tema sisemahtuvus sõltub rakendatud pingest."
+            },
+            {
+              "text": "Hoiab stabiilset voolu muutliku pinge puhul.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Omab negatiivse takistusega regiooni."
+            }
+          ],
+          "hasProblem": false,
+          "tags": "diood",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mis on varaktordioodi peamine omadus?"
+        },
+        {
+          "id": "M2B-14",
+          "text": "Milleks kasutatakse PIN dioodi?",
+          "answers": [
+            {
+              "text": "Stabiilse voolu allikas.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Stabiilse pinge allikas.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kõrgsageduslik dioodlüliti.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "diood",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M2B-15",
+          "text": "Kui suur on SSB telefonitööks vajaliku hea kvartsfiltri pääsuriba laius?",
+          "answers": [
+            {
+              "text": "6 kHz – 6 dB pääsuriba juures",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "6kHz -6dB pääsuriba juures."
+            },
+            {
+              "text": "2,1 kHz – 6 dB pääsuriba juures",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "2,1kHz –6dB pääsuriba juures."
+            },
+            {
+              "text": "500 Hz – 6 dB pääsuriba juures",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "500Hz -6dB pääsuriba juures."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        }
+      ]
+    },
+    {
+      "id": "M3B",
+      "title": "M3B Raadio- ja elektrotehnika ahelad",
+      "maxQuestions": 5,
+      "questions": [
+        {
+          "id": "M3B-1",
+          "text": "Miks ühendatakse toitealaldi dioodidega paralleelselt kondensaator ja takisti?",
+          "answers": [
+            {
+              "text": "Väljundpinge lainelisuse silumiseks.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Väljundpinge lainesuse silumiseks."
+            },
+            {
+              "text": "Väljundpinge suurendamiseks.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Pingelangude võrdsustamiseks dioodidel ja pingeimpulsside kahjuliku mõju vähendamiseks.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M3B-2",
+          "text": "Milline on täislaine alaldi väljundpinge filtreerimata kuju?",
+          "answers": [
+            {
+              "text": "Sile alalispinge.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Sisendpinge sagedusega võrdne impulsside jada.",
+              "correct": false
+            },
+            {
+              "text": "Sisendpinge kahekordse sagedusega võrdne impulsside jada.",
+              "correct": true
+            }
+          ],
+          "hasProblem": false,
+          "info": "Varem oli siin testis märgitud õigeks vastuseks B, kuid õige peaks olema: kahekordse sagedusega.\n\n<br /><a href=\"https://electronics.stackexchange.com/questions/25181/is-full-wave-rectifier-better-than-half-wave-one/25185#25185\" target=\"_blank\">electronics.stackexchange.com</a>",
+          "isChanged": false
+        },
+        {
+          "id": "M3B-3",
+          "text": "Millised komponendid moodustavad toitealaldi filtri?",
+          "answers": [
+            {
+              "text": "Dioodid.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Trafod ja transistorid.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kondensaatorid ja drosselid.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M3B-4",
+          "text": "Milline peab olema ühefaasilise sildalaldi alaldusdioodi vastupinge suurus?",
+          "answers": [
+            {
+              "text": "Pool alaldi väljundpingest.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Veerand alaldi nominaalsest väljundpingest."
+            },
+            {
+              "text": "Võrdne alaldi väljundpingega.",
+              "correct": true
+            },
+            {
+              "text": "Võrdne alaldi väljundpinge kahekordse väärtusega.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Võrdne alaldi nominaalse väljundpinge kahekordse väärtusega."
+            }
+          ],
+          "hasProblem": false,
+          "tags": "vastupinge",
+          "oldinfo": "Siin tuleb paluda küsijal täpsustada, millise täisperioodalaldiga on tegemist: kas nn.\n                        klassikalise  täisperioodlülituses (vastastakt e. keskväljavõttega) alaldiga (Joon. 1.) või\n                        sildlülituses alaldiga (Joon2.)?\n                        <br><br>\n                        Vt. \"Raadioamatööri käsiraamat\" 1972.a.  lk. 608 „Väikese võimsuselise alaldi arvutus”. Selle\n                        järgi  peaks esimesel  juhul olema dioodi vastupinge 3 kordne alaldi väljundpinge ja teisel juhul\n                        1,5 kordne    -vastusevariandid puuduvad!<br>\n                        Klassikalise vastastakt täisperiood alaldi puhul jääb ühele dioodile vastupingeks  alaldi\n                        kahekordne väljundpinge -vastusevariant C ja sildalaldi puhul jääb ühele dioodile vastupingeks\n                        alaldi väljundpinge  -vastusevariant B.\n                        <br><br>\n                        NB! Alati võib ja on isegi soovitatav kasutada suurema vastupingega dioode.",
+          "info":  "",
+          "isChanged": true,
+          "oldText": "Milline peab olema täisperioodalaldi alalduselemendi vastupinge suurus?"
+        },
+        {
+          "id": "M3B-5",
+          "text": "Milline peab olema transmissiooniliiniga ühendatud madalpääsfiltri impedants liini impedantsiga võrreldes?",
+          "answers": [
+            {
+              "text": "Märgatavalt kõrgem.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Enamvähem sama.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Võrdne liini kahekordse impedantsiga.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M3B-6",
+          "text": "Milline peab olema silumiskondensaatoriga poolperioodalaldi alaldusdioodi väikseim vastupinge?",
+          "answers": [
+            {
+              "text": "Pool alaldi nominaalsest väljundpingest.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Alaldi nominaalse tipp-pinge kahekordne väärtus.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Alaldi nominaalse tipp-pinge ühe või kahekordne väärtus."
+            },
+            {
+              "text": "Võrdne alaldi väljundpingega.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "vastupinge",
+          "oldinfo": "\"Raadioamatööri käsiraamat\" annab praktilises arvutuses 3 kordse -seega õige vastusevariant nagu\n                        puudub!<br><br>\n\n                        Kui alaldi väljundkoormus ei sisalda mahtuvust, sobib vastusevariant C või esimene väide\n                        vastusevariandist B –nominaalse tipppinge ühekordne väärtus.<br>\n                        Mahtuvusliku koormuse korral (silumiskondensaatori lisamisel) liitub dioodi D vastupingele\n                        laadunud  kondensaatori poolt  täiendav pinge –seega nominaalse tipp-pinge kahekordne väärtus\n                        –vastusevariant B teine väide.<br><br>\n\n                        NB! Alati võib ja on isegi  soovitatav kasutada suurema vastupingega dioode.",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Milline peab olema poolperioodalaldi alalduselemendi vastupinge suurus?"
+        },
+        {
+          "id": "M3B-7",
+          "text": "Kuhu ühendatakse toitealaldi šunttakisti?",
+          "answers": [
+            {
+              "text": "Paralleelselt filterkondensaatoriga.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Paralleelselt alaldi sisendiga.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Paralleelselt väljundfiltri drosseliga.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "shunttakisti",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Kuhu ühendatakse toitealaldi shunttakisti?"
+        },
+        {
+          "id": "M3B-8",
+          "text": "Mitu kraadi siinuslainest kasutab poolperioodalaldi?",
+          "answers": [
+            {
+              "text": "90 kraadi",
+              "correct": false
+            },
+            {
+              "text": "180 kraadi.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "360 kraadi",
+              "correct": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "siinuslaine",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M3B-9",
+          "text": "Mitu kraadi siinuslainest kasutab täisperioodalaldi?",
+          "answers": [
+            {
+              "text": "90 kraadi",
+              "correct": false
+            },
+            {
+              "text": "180 kraadi",
+              "correct": false
+            },
+            {
+              "text": "360 kraadi",
+              "correct": true
+            }
+          ],
+          "hasProblem": false,
+          "tags": "siinuslaine",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M3B-10",
+          "text": "Mis funktsiooni täidavad kõrgepingealaldis dioodidega paralleelselt lülitatud kondensaatorid ja takistid?",
+          "answers": [
+            {
+              "text": "Kahe- või kolmekordistavad väljundpinget.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kaitsevad dioode pingeimpulsside eest ja ühtlustavad dioodide pingelange.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Kaitsevad teistest dioodidest kiiremini vastutakistust taastavaid dioode."
+            },
+            {
+              "text": "Reguleerivad väljundpinget.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "oldinfo": "Elektrilist skeemi nägemata ei tea, millist kõrgepingealaldit küsija on silmas pidanud.<br><br>\n\nKui on tegemist pingekordistamislülituses kõrgepingealaldiga, siis võib olla tegemist pinge\n kordistamise kondensaatoritega, KUIGI NEED EI OLE LÜLITATUD DIOODIDEGA TÄPSELT PARALLEELSELT (vt.\n Joonis 4. Pingekordisti) ja võivad ka neli ja rohkemgi kordi kordistada (vastusevariant A).<br><br>\n\nKui on aga tegemist mittekordistava alaldiga, siis kaitsevad kondensaatorid tõepoolest dioode\n pingeimpulsside eest ja takistid ühtlustavad nende pingelange (vastusevariant B), mis on aga üsna\n kohmakas sõnastuses.<br /><br /><b>Eksamil loetakse õigeks vastusevariant B</b>",
+          "info": "",
+          "isChanged": false
+        }
+      ]
+    },
+    {
+      "id": "M4B",
+      "title": "M4B Raadiovastuvõtuseadmed",
+      "maxQuestions": 4,
+      "questions": [
+        {
+          "id": "M4B-1",
+          "text": "Mis on produkt-detektor?",
+          "answers": [
+            {
+              "text": "Detektor, mis annab ostsillaatorsignaali seguastme sisendisse.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Võimendav detektor, mis kitsendab vastuvõtja võimenduskanali pääsuriba.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Detektor, mis kasutab segustusprotsessis vastuvõtjas genereeritud kandesagedust.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mis on produkt detektor?"
+        },
+        {
+          "id": "M4B-2",
+          "text": "Millised on põhilised seguastme väljundis esinevad sagedused?",
+          "answers": [
+            {
+              "text": "Sisendsignaali kahe- ja neljakordne sagedus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Sisendsageduste summa, vahe ja ruutjuurkordne sagedus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Sisendsagedused ning summaarne ja vahesagedus.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Sisendsagedused ning summaarne ja vahesagedus."
+            }
+          ],
+          "hasProblem": false,
+          "tags": "segustusprotsess",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M4B-3",
+          "text": "Mida nimetatakse detekteerimiseks?",
+          "answers": [
+            {
+              "text": "Vastuvõetaval kandelainel oleva informatsiooni summutamist S-meetri töölerakendamise eesmärgil.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Vastuvõetaval kandelainel oleva informatsiooni sumbutamist S-meetri töölerakendamise eesmärgil."
+            },
+            {
+              "text": "Moduleeritud kõrgsagedussignaalilt informatsiooni eraldamist.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Moduleeritud kõrgsagedussignaalilt informatsiooni eraldamine."
+            },
+            {
+              "text": "Kandelaine modulatsiooni.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M4B-4",
+          "text": "Mis on sagedusdiskriminaator?",
+          "answers": [
+            {
+              "text": "FM signaalide detekteerimiseks kasutatav lülitus.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kahe kandelaine naabruses asuva parasiitsignaali filtreerimislülitus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Automaatne lainelülitus.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "sagedusdiskriminaator",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M4B-5",
+          "text": "Mida kasutatakse FM signaali detekteerimiseks?",
+          "answers": [
+            {
+              "text": "Balanssmodulaatorit.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Sagedusdiskriminaatorit.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Produkt detektorit.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "sagedusdiskriminaator",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M4B-6",
+          "text": "Mida nimetatakse segustusprotsessiks?",
+          "answers": [
+            {
+              "text": "Lairibavastuvõtjas müra kõrvaldamist faasivõrdluse teel.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Lairibavastuvõtjas müra kõrvaldamist faasinihke abil.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kahe signaali liitmist summaarse- ja vahesageduse saamiseks.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "segustusprotsess",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M4B-7",
+          "text": "Mis eelised on sagedusmuundusprotsessil?",
+          "answers": [
+            {
+              "text": "Automaatselt toimiv müralukustus ja suurenenud selektiivsus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Suurenenud selektiivsus ja optimaalne häälestatud võnkeringide konstruktsioon.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Automaatne signaali piiramine ja müralukustus.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M4B-8",
+          "text": "Mis on vahesagedusvõimendi?",
+          "answers": [
+            {
+              "text": "Fikseeritult häälestatud pääsuribaga võimendi.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Vastuvõtja filter.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Vastuvõtja demodulaator.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M4B-9",
+          "text": "Mis vastuvõtjas juhtub kui väga tugev signaal jõuab seguastmeni?",
+          "answers": [
+            {
+              "text": "Seguastmes genereeritakse parasiitsed segustusproduktid.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Seguaste lakkab töötamast.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Toimub automaatne signaali piiramine.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mis vastuvõtjas juhtub, kui väga tugev signaal jõuab seguastmeni?"
+        },
+        {
+          "id": "M4B-10",
+          "text": "Mis on vastuvõtja kõrgsagedusvõimendi esmane ülesanne?",
+          "answers": [
+            {
+              "text": "Kindlustada enamik vastuvõtja võimendusest.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Automaatse võimenduse reguleerimise süsteemi abil muuta parasiitsignaalide mahasurumise astet.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Parandada vastuvõtja mürategurit.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M4B-11",
+          "text": "Millised kaks faktorit määratlevad vastuvõtja tundlikkuse?",
+          "answers": [
+            {
+              "text": "Dünaamiline diapasoon ja kolmanda järgu lõikepunkt.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Hind ja kättesaadavus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Ribalaius ja mürategur.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        }
+      ]
+    },
+    {
+      "id": "M5B",
+      "title": "M5B Raadiosaateseadmed",
+      "maxQuestions": 4,
+      "questions": [
+        {
+          "id": "M5B-1",
+          "text": "Mis tüüpi sisendsignaali kasutatakse SSB saatja lineaarsuse kontrollimiseks?",
+          "answers": [
+            {
+              "text": "Tavalist kõnet.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Helisageduslikku siinuslainet.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kaht helisageduslikku siinuslainet",
+              "correct": true
+            }
+          ],
+          "hasProblem": false,
+          "tags": "lineaarsus",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M5B-2",
+          "text": "Miks kasutatakse raadiosaatja kõrgepingealaldis šunttakistit.",
+          "answers": [
+            {
+              "text": "Parandab pingeregulatsiooni.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Laadib filterkondensaatori tühjaks.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kõrvaldab poolidelt elektrilöögi saamise ohu.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "shunttakisti",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Miks kasutatakse raadiosaatja kõrgepingealaldis shunttakistit."
+        },
+        {
+          "id": "M5B-3",
+          "text": "Mida saab kontrollida kahe tooni testi abil?",
+          "answers": [
+            {
+              "text": "Sagedusmodulatsiooni protsenti.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kandesageduse faasinihet.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kõrgsagedusvõimendi lineaarsust.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "lineaarsus",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M5B-4",
+          "text": "Miks on mõningates lampvõimendites vajalik neutralisatsioon?",
+          "answers": [
+            {
+              "text": "Häälestatud võnkeringides koormatud Q vähendamiseks.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Võre ja katoodi vahelise lekkevoolu vähendamiseks.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Elektroodidevahelise mahtuvuse tõttu tekkida võiva ostsilleerimise vältimiseks.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M5B-5",
+          "text": "Milliseid kaht helisagedust võib kasutada SSB telefonisaatja lineaarsuse kontrollimiseks?",
+          "answers": [
+            {
+              "text": "Tuleb kasutada signaale sagedusega 20 Hz ja 20000 Hz.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Tuleb kasutada signaale sagedusega 20Hz ja 20000Hz."
+            },
+            {
+              "text": "Võib kasutada suvalisi helisagedusi, mis paiknevad saatja helisagedustrakti pääsuribas tingimusel, et nad ei ole teineteisega harmoonilises suhtes.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Tuleb kasutada sagedusi 1200 Hz ja 2400 Hz.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Tuleb kasutada sagedusi 1200Hz ja 2400Hz."
+            }
+          ],
+          "hasProblem": false,
+          "tags": "lineaarsus",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M5B-6",
+          "text": "Mis tüüpi filter tuleb installeerida amatöörsaatjasse harmooniliste sageduste kiirguse vältimiseks?",
+          "answers": [
+            {
+              "text": "Võtmeklõpsu filter.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Madalpääsfilter.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kõrgpääsfilter.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "filter",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M5B-7",
+          "text": "Mida on vaja omada telefonitööks ettenähtud amatöörraadiojaamas?",
+          "answers": [
+            {
+              "text": "Splatteri filter.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Mikrofon.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Vastuvõtja helisagedusfilter",
+              "correct": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M5B-8",
+          "text": "Monteerisite oma autosse VHF või UHF FM raadiojaama. Milline on antenni jaoks parim koht vältimaks juhi ja reisijate ülikõrgsagedusliku kiirituse ohtu?",
+          "answers": [
+            {
+              "text": "Katuse keskkoht.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Tuuleklaasi ülemine äär.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Ükskõik kummal esimesel poritiival.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M5B-9",
+          "text": "Mis on saatjas kasutatavate ekraanide otstarve?",
+          "answers": [
+            {
+              "text": "Moodustab strukturaalse madalpääsfiltri.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Likvideerib ebasoovitava kõrgsagedusliku kiirguse.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Takistab helisagedusliku tagasiside tekkimist saatjas",
+              "correct": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M5B-10",
+          "text": "Miks kasutatakse nn. pii-filtrit saatja väljundis?",
+          "answers": [
+            {
+              "text": "Saatja väljundimpedantsi sobitamiseks antenni toiteliiniga ja parasiitkiirguse vähendamiseks.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Antenni poolt vastuvõetud mürasignaalide mahajuhtimiseks.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Antennis tekkinud staatiliste pingete saatjasse pääsu takistamiseks.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        }
+      ]
+    },
+    {
+      "id": "M6B",
+      "title": "M6B Antennid ja fiidrid",
+      "maxQuestions": 4,
+      "questions": [
+        {
+          "id": "M6B-1",
+          "text": "Miks kasutatakse sagedasti Yagi antenni 50 MHz sagedusalal?",
+          "answers": [
+            {
+              "text": "Annab horisontaaltasapinnas hea ringkiirguse.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "On väiksem, odavam ja kergem üles panna kui dipoolantenn.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "On väiksem, odavam ja kergem üles panna, kui dipoolantenn."
+            },
+            {
+              "text": "Vähendab teiste jaamade poolt tekitatavaid interferentshäireid nii külg- kui tagasuunas.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M6B-2",
+          "text": "Milline meetod on parim ebasümmeetrilise koaksiaalkaabli sobitamiseks Yagi antenniga?",
+          "answers": [
+            {
+              "text": "“T” -sobitus",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "\"T\"-sobitus."
+            },
+            {
+              "text": "Delta sobitus",
+              "correct": false
+            },
+            {
+              "text": "Gamma sobitus",
+              "correct": true
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M6B-3",
+          "text": "Kuidas saab suurendada parasiitelementidega suundantenni sagedusriba laiust?",
+          "answers": [
+            {
+              "text": "Kasutada suurema läbimõõduga elemente.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Vähendada elementide vahet.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kasutada teleskoopelemente",
+              "correct": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M6B-4",
+          "text": "Kui suur on sobitatud ja resonantsis oleva poollaine dipoolantenni toitepunkti impedants vabas ruumis?",
+          "answers": [
+            {
+              "text": "Ligikaudu 50 oomi, takistuslik.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Ligikaudu 73 oomi, takistuslik ja induktiivne.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Ligikaudu 73 oomi, takistuslik",
+              "correct": true
+            }
+          ],
+          "hasProblem": false,
+          "info": "NB! Impedants on puhtalt takistuslik ideaaljuhul, kui antenn on sobitatud ja resonantsis.",
+          "isChanged": true,
+          "oldText": "Kui suur on poollaine dipoolantenni toitepunkti impedants vabas ruumis?"
+        },
+        {
+          "id": "M6B-5",
+          "text": "Kui suur on dipoolantenni võimendus võrreldes isotroopse kiirgajaga?",
+          "answers": [
+            {
+              "text": "On võrdse võimendusega.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Dipoolantenni võimendus on ligikaudu 2,3 dB suurem.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Dipoolantenni võimendus on ligikaudu 5,6 dB suurem.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Dipoolantenni võimendus on 5,6 dB."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M6B-6",
+          "text": "Mida tähendab termin ette-taha suhe?",
+          "answers": [
+            {
+              "text": "Direktorite ja reflektorite arvu suhet.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Antenni peakiire suunas kiiratava võimsuse ja täpselt vastassuunalise kiirgusvõimsuse suhet.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Aktiivse vibraatori asendit reflektori ja direktorite suhtes.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M6B-7",
+          "text": "Miks vahel mähitakse antenni koaksiaalkaabel umbes 10-keeruliseks pooliks?",
+          "answers": [
+            {
+              "text": "Skin-efekti vähendamiseks.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Skin-effekti vähendamiseks."
+            },
+            {
+              "text": "Mustuse ja niiskuse sadestumise vähendamiseks juhtmel.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Soojuse ärajuhtimiseks töötades kõrge seisulainega liinis.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "oldinfo": "Pole kuulnud midagi nn. skin-effektist (vastusevariant A). Ilmselt on õige B, kuigi kinnitust\n                        sellele pole kusagilt leidnud, kuulnud. Kuidas õli mustust eemal hoiab?? Niiskust vast veel.",
+          "info":  "",
+          "isChanged": true,
+          "oldText": "Miks kasutatakse silikoonõli või autovaha TV-tüüpi lapikkaabli pinna katteks?"
+        },
+        {
+          "id": "M6B-8",
+          "text": "Mis ühikutes väljendatakse kõrgsagedusliku toiteliini kadusid?",
+          "answers": [
+            {
+              "text": "dB/km",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Bell/100 m",
+              "correct": false
+            },
+            {
+              "text": "dB/100 m",
+              "correct": true
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M6B-9",
+          "text": "Mis juhtub dielektrikus kadudega toiteliinis töösageduse suurenemisel?",
+          "answers": [
+            {
+              "text": "Kaod vähenevad.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kaod suurenevad.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kaod jäävad samaks.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mis juhtub dielektrikus kadudega toiteliinis töösageduse suurenemisel?"
+        },
+        {
+          "id": "M6B-10",
+          "text": "Kuidas mõjutab koaksiaalkaablit läbiva signaali sageduse suurenemine sumbuvust?",
+          "answers": [
+            {
+              "text": "Sumbuvus suureneb.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Sumbuvus on suurem sagedustel üle 144 MHz."
+            },
+            {
+              "text": "Sumbuvus väheneb.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Sumbuvus on väiksem sagedustel üle 144 MHz."
+            },
+            {
+              "text": "Sumbuvus jääb samaks.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Sumbuvus on sagedustel kuni 1,5GHz enamvähem ühtlane."
+            }
+          ],
+          "hasProblem": false,
+          "oldinfo": "NB!! Väga rumalasti esitatud küsimus ja vastusevariandidki üsna totrad.<br>\nKoaksiaalkaabli impedants ei mõjuta mitte kuidagi kaablit  läbiva signaali sumbuvust!<br>\nSignaali sumbuvust mõjutavad kaabli materjalid ja konstruktsioon (kokkuvõttes kaabli tüüp oma\n                        parameetritega). Sumbuvust mõjutab sagedus (mida kõrgem sagedus, seda suurem sumbuvus) ja kaabli\n                        pikkus (mida pikem kaabel, seda suurem sumbuvus).<br><br>\n\n                        Vastusevariant A on õige, kuna teised on sootuks absurdsed! Samas võinuks ka väita, et sumbuvus on\n                        suurem sagedustel üle 28MHz jne.",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Kuidas mõjutab koaksiaalkaabli impedants teda läbiva signaali sumbuvust?"
+        }
+      ]
+    },
+    {
+      "id": "M7B",
+      "title": "M7B Raadiolevi",
+      "maxQuestions": 2,
+      "questions": [
+        {
+          "id": "M7B-1",
+          "text": "Mis iseloomustab nn. “backscatter” signaale?",
+          "answers": [
+            {
+              "text": "Väga hea arusaadavus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Lainetav heli.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Ümberpööratud külgribad.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mis iseloomustab nn. \"backscatter\" signaale?"
+        },
+        {
+          "id": "M7B-2",
+          "text": "Mis on päikesevoog (solar flux)?",
+          "answers": [
+            {
+              "text": "Päikese magnetvälja intensiivsus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Maa poole pööratud Päikese küljel nähtavate plekkide arv.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Päikese poolt kiiratav ioniseeriv energia.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "oldinfo": "NB! Küsimus on pisut ebatäpne: Solar-fluks on päikese poolt kiiratav ioniseeriv energia.<br><br>\n                        Solar-fluks indeks on aga päikese aktiivsuse hindamise indeks.",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mis on solar-flux indeks?"
+        },
+        {
+          "id": "M7B-3",
+          "text": "Mida nimetatakse geomagnetiliseks häireks?",
+          "answers": [
+            {
+              "text": "Päikesevoo (solar-flux) indeksi järsk langus.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Päikese solar-fluks indeksi järsk langus."
+            },
+            {
+              "text": "Maa magnetvälja järsk muutus lühikese aja jooksul.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Maa magnetpooluse nihe.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M7B-4",
+          "text": "Kui kiiresti jõuab Päikeselt kiirguv laetud osakeste vool Maale?",
+          "answers": [
+            {
+              "text": "1,5 sekundiga",
+              "correct": false
+            },
+            {
+              "text": "8 minutiga",
+              "correct": false
+            },
+            {
+              "text": "20 kuni 40 tunniga.",
+              "correct": true
+            }
+          ],
+          "hasProblem": false,
+          "info": "Tavaliselt jõuavad laetud osakesed Maa lähistele paari-kolme päevaga. Eriti võimsad pursked võivad osakesi teele saata kiirusega üle 2000 km/s, siis on Maale jõudmine vaid ööpäeva küsimus. Purskest endast teadasaamine toimub valguse kiirusel ehk umbes 8,5 minutiga.",
+          "isChanged": false
+        },
+        {
+          "id": "M7B-5",
+          "text": "Milline raadiolainete levimehhanism võimaldab saadet vastu võtta pinnalaine ulatusest kaugemal kuid lähemal ionosfäärist peegeldunud lainest?",
+          "answers": [
+            {
+              "text": "Sporaadiline E-levi.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Lühikese hüppega levi.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Raadiolaine peegeldumine troposfääri ja ionosfääri ebaühtluskohtadest (scatter).",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Milline raadiolainete levimehhanism võimaldab saadet vastu võtta pinnalaine ulatusest kaugemal, kuid lähemal ionosfäärist peegeldunud lainest?"
+        },
+        {
+          "id": "M7B-6",
+          "text": "Millises ionosfääri kihis kutsuvad äkilised ionosfääri häired esile raadiolainete suurenenud sumbuvuse?",
+          "answers": [
+            {
+              "text": "D-kihis.",
+              "correct": true
+            },
+            {
+              "text": "E-kihis",
+              "correct": false
+            },
+            {
+              "text": "F2-kihis.",
+              "correct": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "Sellele küsimusele ei ole ka lihtne üheselt vastata, kihtide omadused sõltuvad sagedusest ja\n                        ööpäeva tsüklist, mida küsimuses pole täpsustatud.  Kui äkilistele häirete põhjuseks on näiteks\n                        äikesetormid, siis mõjutavad need eelkõige kõige madalamat kihti D (vastusevariant A). Öösel seda\n                        kihti aga praktiliselt ei eksisteeri ja seetõttu võivad ka E kihi häired põhjustada suurenenud\n                        sumbuvust. Ka võivad maa magnetvälja äkilised muutused (nn. magnettormid) tekitada muutusi nii\n                        D kui ka E kihtides, mis suurendavad sumbuvust.<br>\n                        F kiht ainukesena on välistatud, kuna paikneb kõige kõrgemal.<br /><br />Õige vastus uuendatud 28.03.2025 ühe eksamilkäinu tagasiside põhjal. Õigeks vastuseks loeti: D-kihis.",
+          "isChanged": false
+        },
+        {
+          "id": "M7B-7",
+          "text": "Kuidas mõjutab geomagnetiline torm raadiolainete levi?",
+          "answers": [
+            {
+              "text": "Väga hea raadioside kõrgematel geomagnetilistel laiuskraadidel.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Halvenenud raadiolevi kõrgematel geomagnetilistel laiuskraadidel.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Halvenenud raadiolevi kõrgematel geomagnetilistel laiuskraadidel."
+            },
+            {
+              "text": "Suurenenud pinnalaine ulatus.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M7B-8",
+          "text": "Mis on raadiolainete levi kriitiline nurk?",
+          "answers": [
+            {
+              "text": "Väikseim tõusunurk, mille juures raadiolained peegelduvad veel ionosfäärist Maale tagasi.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Minimaalne raadiolainete levi tõusunurk, mille juures raadiolained peegelduvad Maale tagasi ionosfääri teatud seisundi puhul."
+            },
+            {
+              "text": "Kompassi suund teie asukohast korrespondendi suunas.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Suurim tõusunurk, mille juures raadiolained peegelduvad veel ionosfäärist Maale tagasi.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Maksimaalne raadiolainete levi tõusunurk, mille juures raadiolained peegelduvad veel Maale tagasi ionosfääri teatud seisundi puhul."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M7B-9",
+          "text": "Kui kaua tavaliselt kestavad ootamatud ionosfääri häired?",
+          "answers": [
+            {
+              "text": "Kogu päev.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Mõnest minutist kuni mõne tunnini.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Keskmiselt ühe nädala.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M7B-10",
+          "text": "Millistel laiuskraadidel esineb tavaliselt rohkem geomagnetilisi häireid?",
+          "answers": [
+            {
+              "text": "Ekvaatori laiuskraadidel.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "45 kraadist kõrgematel laiustel.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kõikidel laiuskraadidel ühtemoodi.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        }
+      ]
+    },
+    {
+      "id": "M8B",
+      "title": "M8B Mõõtetehnika ja selle kasutamine",
+      "maxQuestions": 2,
+      "questions": [
+        {
+          "id": "M8B-1",
+          "text": "Milline mõõteriist sisaldab horisontaal- ja vertikaalkanali võimendi?",
+          "answers": [
+            {
+              "text": "Oommeeter.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Signaalgeneraator.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Ostsillograaf.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "ostsillograaf",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M8B-2",
+          "text": "Mis tüüpi signaale on võimalik ostsilloskoobi abil vaadelda?",
+          "answers": [
+            {
+              "text": "Suvalisi ajast sõltuvaid signaale instrumendi sagedusriba piires.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Rahvusvahelisi laevade lipusignaale.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Ookeanilaevade blinkersignaal",
+              "correct": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "ostsillograaf",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mis tüüpi signaale on võimalik ostsillograafi abil vaadelda?"
+        },
+        {
+          "id": "M8B-3",
+          "text": "Mis seade on ostsilloskoop?",
+          "answers": [
+            {
+              "text": "Seade, mis näitab antenni kiirgustakistust.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Seade, mis näitab antenni toiteliini seisulaine tegurit.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Seade, mis võimaldab uurida kuvaril signaalide lainekuju.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "ostsillograaf",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mis seade on ostsillograaf?"
+        },
+        {
+          "id": "M8B-4",
+          "text": "Mis võib põhjustada ostsilloskoobi kineskoobi luminofoori riknemise?",
+          "answers": [
+            {
+              "text": "Vertikaalkanali võimendi ületüürimine.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Liig suur heleduse säting.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kiire ebaõige fokusseerimine.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Kiire ebaõige fokuseerimine."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mis võib põhjustada ostsillograafi kineskoobi luminofoori riknemise?"
+        },
+        {
+          "id": "M8B-5",
+          "text": "Mis seade on antenni mürasild?",
+          "answers": [
+            {
+              "text": "Seade antenni või muu elektrilise lülituse mürateguri mõõtmiseks.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Seade antenni või muu elektrilise lülituse impedantsi mõõtmiseks.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Seade vastuvõtjas esineva müra hävitamiseks.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "mürasild",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M8B-6",
+          "text": "Kuhu ühendatakse antenni mürasild?",
+          "answers": [
+            {
+              "text": "Seade ühendatakse antenni toitepunkti ja müra suurus loetakse seadme skaalalt.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Seade ühendatakse saatja ja antenni vahele ning häälestatakse minimaalse seisulaine teguri saavutamiseni.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Seade ühendatakse vastuvõtja ja tundmatu impedantsiga skeemi vahele ning häälestatakse minimaalse müra saavutamiseni.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "mürasild",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M8B-7",
+          "text": "Mis seade on väljatugevuse mõõtja?",
+          "answers": [
+            {
+              "text": "Seade, mis mõõdab seisulaine tegurit antenni toiteliinis.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Seade modulatsioonisügavuse määramiseks saatja väljundis.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Seade kõrgsagedussignaali suhtelise võimsuse mõõtmiseks.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "väljatugevuse_mõõtja",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M8B-8",
+          "text": "Kui palju tuleb suurendada saatja väljundvõimsusust, et saatja läheduses asuva vastuvõtja S-meetri näit suureneks S8-lt S9-ni ?",
+          "answers": [
+            {
+              "text": "Ligikaudu kaks korda.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Ligikaudu kolm korda.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Ligikaudu neli korda.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "NB! Enamusel S-meetritel on iga S-palli vahe on võimsuse järgi neljakordne ehk 6dB. Aga on ka\n                        olemas (märksa harvem küll) S-meetreid, mis on gradueeritud 3dB (kaks korda) vahedega.",
+          "isChanged": true,
+          "oldText": "Kui palju tuleb suurendada saatja väljundvõimsusust, et saatja läheduses asuva vastuvõtja S-meetri näit suureneks S8-lt S9-ni?"
+        },
+        {
+          "id": "M8B-9",
+          "text": "Milline on kõige sobivam lihtne instrument antenni kiirguse suunadiagrammi määramiseks horisontaaltasapinnas?",
+          "answers": [
+            {
+              "text": "Väljatugevuse mõõtja.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Antenni mürasild.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Tester.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "väljatugevuse_mõõtja",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M8B-10",
+          "text": "Millist seadet saab kasutada saatja väljundsignaalis esinevate intermodulatsioonimoonutustes tekitatud parasiitsignaalide uurimiseks?",
+          "answers": [
+            {
+              "text": "Vattmeeter.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Spektrianalüsaator.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Loogikaskeemide analüsaator.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Millist seadet saab kasutada saatja väljundsignaalis esinevate intermodulatsiooni moonutustes tekitatud parasiitsignaalide uurimiseks?"
+        }
+      ]
+    },
+    {
+      "id": "M9B",
+      "title": "M9B Raadiohäired ja elektromagnetiline ühildatavus (EMC)",
+      "maxQuestions": 2,
+      "questions": [
+        {
+          "id": "M9B-1",
+          "text": "Mis on atmosfääriliste raadiohäirete peamine tekkepõhjus?",
+          "answers": [
+            {
+              "text": "Päikeseplekid.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Äikesetormid.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Lennukid",
+              "correct": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M9B-2",
+          "text": "Kuidas on võimalik kindlaks teha, kas raadiohäireid tekitav elektriliin asub teie majas?",
+          "answers": [
+            {
+              "text": "Kontrolli elektriliini pinget graafilise reflektomeetriga.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kontrolli vahelduvvoolu lainekuju ostsillograafi abil.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Lülita välja maja elektrivõrgu pealüliti ja kuula patareitoitega raadiot.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M9B-3",
+          "text": "Kuidas on võimalik vähendada auto elektrigeneraatori poolt tekitatavaid raadiohäireid?",
+          "answers": [
+            {
+              "text": "Ühendada raadio toitejuhtmed akuga nii pikka teed mööda kui vähegi võimalik.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Ühendada raadio toitejuhtmed akuga nii pikka teed mööda, kui vähegi võimalik."
+            },
+            {
+              "text": "Ühendades raadio toitejuhtmed akuga lühimat võimalikku teed kaudu.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Ühendades kõrgpääsfiltri järjestikku raadiojaama auto pardavõrguga ühendavasse juhtmesse.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M9B-4",
+          "text": "Kuidas saab vähendada väga tugeva signaali toimel vastuvõtjas tekkivaid intermodulatsioonihäireid?",
+          "answers": [
+            {
+              "text": "Vähendades vastuvõtja toitepinget.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Lülitades vastuvõtja sisendisse attenuaatori.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kasutada vastuvõtja kõige kitsama pääsuribaga filtrit.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "attenuaator",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M9B-5",
+          "text": "Miks on kasulik omada vastuvõtja sisendis attenuaatorit?",
+          "answers": [
+            {
+              "text": "Vähendab vastuvõetava signaali ribalaiust.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Elimineerib isotroopilise kiirguse põhjustatud efekte.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kaitseb vastuvõtja ülekoormamist erakordselt tugeva signaali poolt.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "attenuaator",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M9B-6",
+          "text": "Teie naaber teatab, et tekitate häireid televisioonivastuvõtule. Teie olete aga kindel, et teie aparatuur töötab korralikult. Mida peate tegema?",
+          "answers": [
+            {
+              "text": "Lülitate kohe oma saatja välja ja pöördute Sideameti poole abi saamiseks.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Lülitate kohe oma saatja välja ja pöördute <strike>Sideameti</strike> Tehnilise Järelvalve Ameti poole abi saamiseks."
+            },
+            {
+              "text": "Kontakteerudes naabriga proovite välja selgitada, kas tõepoolest teie töö eetris on TV-häirete tekkepõhjuseks.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Monteerite saatja väljundisse kõrgpääsfiltri ja televiisori sisendisse madalpääsfiltri.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M9B-7",
+          "text": "Mis tüüpi filter tuleb kõigepealt paigaldada amatöörraadiojaama harmooniliste sageduste kiirguse vältimiseks?",
+          "answers": [
+            {
+              "text": "Võtmeklõpsu filter.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Madalpääsfilter.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kõrgpääsfilter.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "filter",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M9B-8",
+          "text": "Mis tüüpi interferentshäireid võib kiirata mitmebandi antenn, mis on ühendatud valesti häälestatud raadiojaama väljundisse?",
+          "answers": [
+            {
+              "text": "Harmoonilisi sagedusi.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Aurora taolisi signaale.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Parasiitsignaale.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M9B-9",
+          "text": "Mida tähendab väljend \"harmooniliste kiirgus\" ?",
+          "answers": [
+            {
+              "text": "Töösageduse täiskordsete sageduste kiirgus eetrisse.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "50 Hz brummsagedusega moduleeritud signaalide kiirgus.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Lähedal paiknevates teistes saatjates võib tekkida liitmodulatsioon teie saatja töö tõttu.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mida tähendab väljend \"harmooniliste kiirgus\"?"
+        },
+        {
+          "id": "M9B-10",
+          "text": "Milline filter tuleb paigutada televiisori sisendisse esmase abinõuna amatöörraadiojaama poolt tekitatud kõrgsagedusliku ülekoormuse vähendamiseks?",
+          "answers": [
+            {
+              "text": "Kõrgpääsfilter.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Kõrgpääs."
+            },
+            {
+              "text": "Madalpääsfilter.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Madalpääs."
+            },
+            {
+              "text": "Ribafilter.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "filter",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Milline filter tuleb paigutada  televiisori sisendisse  esmase abinõuna  amatöörraadiojaama poolt tekitatud kõrgsagedusliku  ülekoormuse   vähendamiseks?"
+        }
+      ]
+    },
+    {
+      "id": "M10B",
+      "title": "M10B Ohutustehnika",
+      "maxQuestions": 1,
+      "questions": [
+        {
+          "id": "M10B-1",
+          "text": "Milline inimese keha organ on kõige tundlikum kõrgsagedusliku energia poolt põhjustatud kudede kuumenemise suhtes?",
+          "answers": [
+            {
+              "text": "Silmad",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Käed",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Süda",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M10B-2",
+          "text": "Tugev kõrgsagedusenergia kiirgus võib olenevalt lainepikkusest, kõrgsagedusvälja intensiivsusest ja muudest teguritest rikkuda inimkeha kudesid. Kuidas mõjub kiirgus keha kudedele?",
+          "answers": [
+            {
+              "text": "Kutsub esile kiiritushaiguse.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kuumendab kudesid.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Jahutab kudesid.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Tugev kõrgsagedusenergia  kiirgus võib olenevalt lainepikkusest, kõrgsagedus-välja intensiivsusest ja muudest teguritest rikkuda inimkeha kudesid. Kuidas mõjub kiirgus keha kudedele?"
+        },
+        {
+          "id": "M10B-3",
+          "text": "Kui suur võib maksimaalselt olla inimkeha läbiv vahelduvvool, mis endast ei kujuta veel ohtu?",
+          "answers": [
+            {
+              "text": "1000 A",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "0,1 A",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "10 mA",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M10B-4",
+          "text": "Mida tuleb teha kõigepealt kui näed voolujuhtmetesse kinnijäänud inimest?",
+          "answers": [
+            {
+              "text": "Helistad mobiiltelefoniga Häirekeskusesse ja küsid juhendeid",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Hakkad otsima telefoni, et abi kutsuda."
+            },
+            {
+              "text": "Alustad kohe südame kaudse massaaži ja kunstliku hingamise tegemist.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Mingi voolu mittejuhtiva eseme abil vabastad kannatanu juhtmetest ja alustad kohe südame kaudse massaashi ja kunstliku hingamise tegemist samaaegselt hüüdes abi järele."
+            },
+            {
+              "text": "Viskad elektrijuhtmetele mingi maandusjuhtme.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mida tuleb teha kõigepealt, kui näed voolujuhtmetesse kinnijäänud inimest?"
+        },
+        {
+          "id": "M10B-5",
+          "text": "Kui tahad teha mõningaid häälestusoperatsioone oma VHF/UHF raadiojaama juures, mida peab tegema enne jaama sisselülitamist?",
+          "answers": [
+            {
+              "text": "Tuleb maha võtta kõik varjestused-ekraanid maksimaalse jahutuse saamiseks.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Lülitada sisse mürasild interferentshäirete vähendamiseks.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Tuleb veenduda, et kõik varjestused on kinnitatud oma kohale.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M10B-6",
+          "text": "Mida peab silmas pidama, kui taod antennimasti tõmmitsate kinnitusvaiu maasse?",
+          "answers": [
+            {
+              "text": "Et vai ei asuks antennimastile liialt lähedal.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Et vai oleks küllaldase pikkusega.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Et löögisuuna pikendusel ei seisaks inimesi, keda varre otsast juhuslikult äralendav kirves või vasar võiks vigastada.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M10B-7",
+          "text": "Mida tuleb jälgida raiudes puid välipäeva või kokkutuleku lõkke jaoks?",
+          "answers": [
+            {
+              "text": "Kas puud on küllaldaselt kuivad.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Tuleb seista jalad harkis, et juhuslikul puust möödalöömisel kirves ei tabaks jalgu.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Tuleb seista jalad harki, et juhuslikul puust möödalöömisel kirves ei tabaks jalgu."
+            },
+            {
+              "text": "Usaldada see töö kellelegi teisele.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M10B-8",
+          "text": "Mida tuleb silmas pidada antennimasti püstitamisel või antenni vedamisel majade vahele?",
+          "answers": [
+            {
+              "text": "Kas antenn maast vaadatuna jätab kena mulje.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Antenn peab olema täpselt 0,5 lainepikkuse pikkune",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Ega antenn mitte kuskil naabrimehe krundi nurgast üle ei käiks."
+            },
+            {
+              "text": "Et antenn ei saaks mingil viisil kokku puutuda elektriülekandeliinidega",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Et antenn püstitamisel, pööramisel või tuule käes kõikudes mitte kuskil ei puudutaks elektriülekandeliinide juhtmeid."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M10B-9",
+          "text": "Tehes tööd kõrgel antennimasti otsas tuleb jälgida et....",
+          "answers": [
+            {
+              "text": "Lähiajal ei oleks oodata piksevihma.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kasutatavad tööriistad oleksid paigutatud ja kinnitatud selliselt, et nad ei saaks allolijatele pähe kukkuda.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kas kõik vajalik on kaasas, et ei peaks mitu korda üles - alla ronima",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Kas kõik vajalik on kaasas, et ei peaks mitu korda üles-alla ronima."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M10B-10",
+          "text": "Kui oled autoga sõitnud välipäevale peab silmas pidama .....",
+          "answers": [
+            {
+              "text": "Kas tagasisõiduks kütust jätkub.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Kas tagasisõiduks bensiini jätkub."
+            },
+            {
+              "text": "Et mitte mingisugust auto osa ei oleks kasutatud antenni, antenni- või jõukaablite kinnituspunktidena, mis auto suvalisel ärasõidul viib kaasa pool laagrit koos kallite aparaatidega ja võib põhjustada õnnetusi inimestega.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Et mitte mingisugust auto osa  ei oleks kasutatud antenni, antenni- või jõukaablite kinnituspunktidena, mis auto suvalisel ärasõidul viib kaasa pool laagrit koos kallite aparaatidega ja võib põhjustada õnnetusi inimestega."
+            },
+            {
+              "text": "Et auto ei saaks iseenesest liikuma hakata.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Kui oled autoga sõitnud välipäevale peab silmas pidama..."
+        }
+      ]
+    },
+    {
+      "id": "M11B",
+      "title": "M11B Amatöörraadiojaama opereerimise reeglid ja protseduurid",
+      "maxQuestions": 3,
+      "questions": [
+        {
+          "id": "M11B-1",
+          "text": "Mis on kõige olulisem tegur kutsesageduse valikul teil kasutada lubatud sagedusalal?",
+          "answers": [
+            {
+              "text": "Sagedus ei tohi olla hõivatud teiste amatööride poolt.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Peate kuulma sel sagedusel mõnd jaama veendumaks et teid võidaks kuulda.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Teie antenn peab olema resonantsis antud sagedusel.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mis on kõige olulisem tegur töösageduse valikul teil kasutada lubatud sagedusalal?"
+        },
+        {
+          "id": "M11B-2",
+          "text": "Soovite suvise päeva õhtupoolikul sidet saada amatööriga, kes asub teist ligikaudu 2000 km eemal. Milline laineala sobiks edukaks sidepidamiseks kõige rohkem?",
+          "answers": [
+            {
+              "text": "80 või 40 m laineala.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "80 või 40 m band."
+            },
+            {
+              "text": "40 või 15 m laineala.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "40 või 15 m band."
+            },
+            {
+              "text": "15 või 10 m laineala.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "15 või 10 m band."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Soovite suvise päeva õhtupoolikul sidet saada amatööriga, kes asub teist ligi kaudu 2000 km eemal. Milline band sobiks edukaks sidepidamiseks kõige rohkem?"
+        },
+        {
+          "id": "M11B-3",
+          "text": "Kuidas saab raadiojaama häälestamisel eetrisoleku aega viia miinimumini?",
+          "answers": [
+            {
+              "text": "Kasutades suvalise pikkusega antenni.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Häälestades jaama esmalt 40m lainealal, siis minna üle teistele lainealadele.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Häälestades jaama esmalt 40m bandil siis minna üle teistele bandidele."
+            },
+            {
+              "text": "Kasutades jaama häälestamiseks antenni ekvivalenti (dummy load).",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M11B-4",
+          "text": "Kuulete oma sagedusel Haiitis toimunud maavärina päästjate teabevahetust. Mida teete?",
+          "answers": [
+            {
+              "text": "Teatate jaamale, et sagedus on hõivatud.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Otsite töötamiseks mõne teise sageduse",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Hakkate otsekohe hädaabikutse infovahetust kirja panema."
+            },
+            {
+              "text": "Helistate Päästeametisse.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "Vastusaevariant B on küll loogiline, kuid kinnitust mustvalgel sellele pole leidnud\n                        (sideseadusest,  päästeseadusest vms).",
+          "isChanged": true,
+          "oldText": "Peate sidet oma sõbraga Tartust ja äkki kuulete oma sagedusel hädaabikutset. Mida teete?"
+        },
+        {
+          "id": "M11B-5",
+          "text": "Milline on morsekoodis antud standardse väljakutse \"CQ\" formaat?",
+          "answers": [
+            {
+              "text": "Saadate kolm korda \"CQ\", millele järgneb protseduurisignaal \"DE\" ja kolm korda oma kutsungi.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Saadate \"CQ\" kolm korda, \"DE\" üks kord ja oma kutsungi ka üks kord.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Saadate \"CQ\" kolm korda,\"DE\" üks kord ja oma kutsungi ka üks kord."
+            },
+            {
+              "text": "Saadate \"CQ\" kümme korda, \"DE\" üks kord ja oma kutsung üks kord.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Milline on Morsekoodis antud standardse väljakutse \"CQ\" formaat?"
+        },
+        {
+          "id": "M11B-6",
+          "text": "Kuidas te vastate morsekoodis \"CQ\" väljakutsele?",
+          "answers": [
+            {
+              "text": "Saadate oma kutsungit neli korda.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Saadate teise jaama kutsungi kaks korda, \"DE\" ja oma kutsungi kaks korda.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Saadate teise jaama kutsungi üks kord, \"DE\" ja oma kutsungi neli korda",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Saadate teise jaama kutsungi üks kord,\"DE\" ja oma kutsungi neli korda."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Kuidas te vastate \"CQ\" väljakutsele?"
+        },
+        {
+          "id": "M11B-7",
+          "text": "Millise kiirusega tuleb morsekoodis saata \"CQ\"?",
+          "answers": [
+            {
+              "text": "Aeglasemalt kui 25 märki minutis.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Aeglasemalt, kui 25 märki minutis."
+            },
+            {
+              "text": "Suurima kiirusega, mida teie võti on võimeline arendama.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kiirusega, millist olete ise võimeline korralikult vastu võtma.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Millise kiirusega tuleb saata \"CQ\"?"
+        },
+        {
+          "id": "M11B-8",
+          "text": "Mis tähendus on Morsekoodi liittähtedel AR ?",
+          "answers": [
+            {
+              "text": "Vastaku ainult kutsutud jaam.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kõik on korralikult vastu võetud.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Saate lõpp.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M11B-9",
+          "text": "Mida tähendavad Morsekoodis saadetud liittähed SK ?",
+          "answers": [
+            {
+              "text": "Enam-vähem korralikult vastu võetud.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Parimad tervitused.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Parimad tevitused."
+            },
+            {
+              "text": "Side lõpp.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M11B-10",
+          "text": "Mida tähendavad Morsekoodis saadetud liittähed KN ?",
+          "answers": [
+            {
+              "text": "Murrujoon.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Side lõpp.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Vastaku ainult kutsutud jaam .",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Vastaku ainult kutsutud jaam."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M11B-11",
+          "text": "Mida tähendab \"CQ\" ?",
+          "answers": [
+            {
+              "text": "Märguanne teisele jaamale, et kutsute teda veerand tunni pärast.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Teisele jaamale märguandmiseks, et kutsute teda veerand tunni pärast."
+            },
+            {
+              "text": "Märguanne, et proovite uut antenni ja väljakutsetele ei vasta.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Märguandmiseks, et proovite uut antenni ja väljakutsetele ei vasta."
+            },
+            {
+              "text": "Üldväljakutse märkimaks, et üritate kellegagi ühendust luua.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Milleks kasutatakse signaali \"CQ\" ?"
+        },
+        {
+          "id": "M11B-12",
+          "text": "Mida tähendab lühend QRS ?",
+          "answers": [
+            {
+              "text": "Mind segavad staatilised häired.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Saatke aeglasemalt.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Saatke RST raport.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M11B-13",
+          "text": "Mida tähendab lühend QTH ?",
+          "answers": [
+            {
+              "text": "Kellaaeg on ...",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Kellaaeg on..."
+            },
+            {
+              "text": "Minu nimi on ...",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Minu nimi on..."
+            },
+            {
+              "text": "Minu asukoht on ...",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Minu asukoht on..."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mida tähendab lühend QTH ?"
+        },
+        {
+          "id": "M11B-14",
+          "text": "Milline on standardse telefoniväljakutse formaat?",
+          "answers": [
+            {
+              "text": "Saadate teise jaama kutsungi vähemalt kümme korda, siis sõnad \"this is\", seejärel oma kutsung vähemalt kaks korda.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Saadate fraasi \"CQ\" vähemalt viis korda, siis \"this is\" ja oma kutsung üks kord.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Saadate fraasi \"CQ\" kolm korda, \"this is\" ja oma kutsungi kolm korda.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Saadate fraasi \"CQ\" kolm korda,\"this is\" ja oma kutsungi kolm korda."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M11B-15",
+          "text": "Kuidas te vastate raadiotelefoni väljakutsele?",
+          "answers": [
+            {
+              "text": "Saadate teise jaama kutsungit kümme korda, siis \"this is\" ja oma kutsungit vähemalt kaks korda.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Saadate teise jaama kutsungit kümme korda , siis \"this is\" ja oma kutsungit vähemalt kaks korda."
+            },
+            {
+              "text": "Saadate teise jaama kutsungit veerimistabelit kasutades vähemalt viis korda, \"this is\" ja oma kutsungit vähemalt üks kord.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Saadate teise jaama kutsungit ühe korra, \"this is\" ja oma kutsungit veerimistabelit kasutades ühe korra.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M11B-16",
+          "text": "Kuidas tuleb veerimistabeli abil saata kutsung ES9A ?",
+          "answers": [
+            {
+              "text": "Eemeli Sagari Nine Aarne.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Echo Sierra Nine Alfa.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Edward Santiago Nine Alabama.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "veerimistabel",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Kuidas tuleb veerimistabeli abil saata kutsung ES9A ?"
+        },
+        {
+          "id": "M11B-17",
+          "text": "Kuidas veeritakse kutsungit AE0LQY ?",
+          "answers": [
+            {
+              "text": "Able Easy Zero Lima Quebec Yankee.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Arizona Equador Zero London Queen Yesterday",
+              "correct": false
+            },
+            {
+              "text": "Alfa Echo Zero Lima Quebec Yankee",
+              "correct": true
+            }
+          ],
+          "hasProblem": false,
+          "tags": "veerimistabel",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Kuidas veeritakse kutsungit AE0LQY ?"
+        },
+        {
+          "id": "M11B-18",
+          "text": "Mida tähendab lühend AS ?",
+          "answers": [
+            {
+              "text": "Aktsiaselts.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Asu saatele.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Oota",
+              "correct": true
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mida tähendab lühend AS ?"
+        },
+        {
+          "id": "M11B-19",
+          "text": "Mida tähendab R RST signaali raportis?",
+          "answers": [
+            {
+              "text": "Signaali taastumist.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "CW tooni resonantsi.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Signaali loetavust.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Mida tähendab R RST signaali rapordis?"
+        },
+        {
+          "id": "M11B-20",
+          "text": "Mida tähendab lühend QSL?",
+          "answers": [
+            {
+              "text": "Kas pean saatma teile oma jaamapäeviku?",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kas võite kinnitada minu saadetud teate kättesaamist?",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Kas pean saatma aeglasemalt?",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        }
+      ]
+    },
+    {
+      "id": "M12B",
+      "title": "M12B Amatöörraadioside siseriiklik ja rahvusvaheline õiguslik regulatsioon",
+      "maxQuestions": 4,
+      "questions": [
+        {
+          "id": "M12B-1",
+          "text": "Mida loetakse amatöörraadiojaamaks?",
+          "answers": [
+            {
+              "text": "Tehasvalmistatud raadiosideaparatuuri ja selle energiatoite seadmete kogumit.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Tehniliste seadmete kogumit, mida raadioamatöör võib kasutada amatöörraadiosideks vastavalt Tarbijakaitse ja Tehnilise Järelevalve Ameti poolt väljastatud tööloa alusel.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Tehniliste seadmete kogumit, mida raadioamatöör võib kasutada amatöörraadiosideks vastavalt <strike>Sideameti</strike> Tehnilise Järelvalve Ameti poolt väljastatud tööloa alusel."
+            },
+            {
+              "text": "Tehniliste seadmete kogumit, mida raadioamatöör võiks kasutada amatöörraadiosideks ka ilma Tarbijakaitse ja Tehnilise Järelevalve Ameti poolt väljastatavat tööluba omamata.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Tehniliste seadmete kogumit, mida raadioamatöör võiks kasutada amatöörraadiosideks ka ilma <strike>Sideameti</strike> Tehnilise Järelvalve Ameti poolt väljastatavat tööluba omamata."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-2",
+          "text": "Amatöörraadiojaama tehniliste seadmete kogumikku kuuluvad:",
+          "answers": [
+            {
+              "text": "Saatja ja vastuvõtja.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Saatja, vastuvõtja ja energiatoite seade.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Saatja, vastuvõtja, lõppseade ja antenn(id).",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-3",
+          "text": "Amatöör-vahendusraadiojaamaks loetakse:",
+          "answers": [
+            {
+              "text": "Kindlal sagedusel või sagedustel toimivat amatöörraadiojaama, mille vahendusel teostatakse vastuvõetavate sõnaliste või digitaalsete saadete edastamist reaalajas või läbi vahemälu.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Avakosmoses paiknevat raadiojaama.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Amatöörraadiojaama, mille kaudu edastatakse ainult ringteateid.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "loetakse",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-4",
+          "text": "Amatöörraadiomajakaks loetakse:",
+          "answers": [
+            {
+              "text": "Avakosmoses paiknevat amatöörraadiojaama, mille vahendusel teostatakse raadiolevi tingimuste võrdlust.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Automaatselt toimivat amatöörraadiojaama, mida kasutatakse väljatugevuse mõõtmisel, antennide häälestamisel ja raadiolevi tingimuste hindamisel.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Ühiskasutusega amatöörraadiojaama, mida võib sidepidamiseks kasutada mitu raadioamatööri.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "loetakse",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-5",
+          "text": "Ühiskasutusega amatöörraadiojaamaks loetakse:",
+          "answers": [
+            {
+              "text": "Amatöörraadiojaama, mis toimib ainult teatud kindlal sagedusel ja kellaajal.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Amatöörraadiojaama, mida võivad kasutada ka raadioamatööri kvalifikatsiooni mitteomavad isikud.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Amatöörraadiojaama, mis kuulub juriidilisele isikule või ERAÜ juures registreeritud raadioamatööride kollektiivile.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "loetakse",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-6",
+          "text": "Amatöörraadiojaama registreeritud asukohaks loetakse:",
+          "answers": [
+            {
+              "text": "Asukoht, kust konkreetne raadiojaam antud ajahetkel väljub eetrisse.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Amatöörraadiojaama valdaja elukoht.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "See asukoht, mis on märgitud tööloale.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-7",
+          "text": "Amatöörraadiosideks loetakse:",
+          "answers": [
+            {
+              "text": "Mittetulunduslikku raadiosidet, milles osalevad ainult raadioamatöörid.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Raadiosidet, milles korrespondentide valik on vaba.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Raadiosidet, kus osapooled vahetavad informatsiooni ainult morsekoodi abil",
+              "correct": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-8",
+          "text": "Amatöörraadiosidet tohib kasutada:",
+          "answers": [
+            {
+              "text": "Sagedusalades, mis vastavad IARU 2. regiooni sagedusplaanile.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Sagedusalades, mis vastavad IARU 2.regiooni sagedusplaanile."
+            },
+            {
+              "text": "Ainult sagedusalades, mis on eraldatud amatöörraadiosideks Eesti raadiosageduste plaaniga.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Ainult mitteavalike raadiosõnumite edastamiseks.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-9",
+          "text": "Raadioamatööriks loetakse isikut:",
+          "answers": [
+            {
+              "text": "Kes oma vanuse, raadiotehniliste teadmiste ja elukogemuste põhjal võib seda nimetust kanda.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Kes kasutab tavalist, headest tavadest lähtuvat kõnekeelt raadioside pidamisel.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "Isikut, kes omab raadioamatööri kvalifikatsioonitunnistust.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-10",
+          "text": "Amatöörraadiosides tohib edastada sihituseta või korrespondendita saateid:",
+          "answers": [
+            {
+              "text": "Amatöörtelevisiooni saatja video- ja helikanali häälestamiseks.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Amatöörtelevisiooni saatja video- ja helikanali edastamiseks."
+            },
+            {
+              "text": "Amatöörraadiomajakate poolt.",
+              "correct": true
+            },
+            {
+              "text": "Kõikidele Eesti raadioamatööridele määratud infoteadete edastamiseks.",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-11",
+          "text": "Millist varianti saab kasutada Eesti amatöörjaama kutsungi moodustamiseks?",
+          "answers": [
+            {
+              "text": "Kolmetäheline eesliide, number ja neljatäheline järelliide.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Kolmetähelisest eesliitest, kahekohalisest numbrist ja kolmetähelisest järelliitest."
+            },
+            {
+              "text": "Ühetäheline eesliide, number ja neljatäheline järelliide.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Ühetähelisest eesliitest, ühekohalisest numbrist ja neljatähelisest järelliitest."
+            },
+            {
+              "text": "Kahetäheline eesliide, number ja neljatäheline järelliide.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Kahetähelisest eesliitest, numbrist ja kuni neljatähelisest järelliitest."
+            }
+          ],
+          "hasProblem": false,
+          "tags": "kutsung",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Eesti amatöörraadiojaamale eraldatav kutsung koosneb:"
+        },
+        {
+          "id": "M12B-12",
+          "text": "Haapsalus registreeritud amatöörraadiojaama kutsung algab:",
+          "answers": [
+            {
+              "text": "ES1",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "ES0",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "ES3",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "kutsung",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-13",
+          "text": "Kutsung ES9Z kuulub piirkondlikult:",
+          "answers": [
+            {
+              "text": "Hiiumaale.",
+              "correct": false
+            },
+            {
+              "text": "Üleriigiline, kasutamiseks ainult ERAÜ poolt.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Põlvamaale.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "kutsung",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-14",
+          "text": "Kutsung ES2XX võib kuuluda millise klassi Eesti amatöörraadiojaamale?",
+          "answers": [
+            {
+              "text": "C",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "B",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "A",
+              "correct": true,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "kutsung",
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-15",
+          "text": "Ühiskasutusega (raadioklubi) amatöörraadiojaamale omistatakse kutsungi järelliide:",
+          "answers": [
+            {
+              "text": "AAA-CCC",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "A-ZZ",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "XAA-ZZZ",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "tags": "kutsung",
+          "info": "",
+          "isChanged": true,
+          "oldText": "Ühiskasutusega (raadioklubi) amatöörraadiojaamale omistatakse kutsung:"
+        },
+        {
+          "id": "M12B-16",
+          "text": "Ühiskasutusega (raadioklubi) amatöörraadiojaama vastutavaks järelevaatajaks võib olla ainult:",
+          "answers": [
+            {
+              "text": "A-klassi kvalifikatsioonitunnistust omav raadioamatöör.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "B-klassi kvalifikatsioonitunnistust omav raadioamatöör.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "C-klassi kvalifikatsioonitunnistust omav raadioamatöör.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Ühiskasutusega (raadioklubi) amatöörraadiojaama vastutavaks järelvaatajaks võib olla ainult:"
+        },
+        {
+          "id": "M12B-17",
+          "text": "Amatöörraadiojaama luba väljastatakse Tarbijakaitse ja Tehnilise Järelevalve Ameti poolt kestvusega:",
+          "answers": [
+            {
+              "text": "Tähtajatu.",
+              "correct": false,
+              "isChanged": false
+            },
+            {
+              "text": "3 aastat.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "1 aasta."
+            },
+            {
+              "text": "5 aastat.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "3 aastat."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Amatöörraadiojaama luba väljastatakse <strike>Sideameti</strike> Tehnilise Järelvalve Ameti poolt kestvusega:"
+        },
+        {
+          "id": "M12B-18",
+          "text": "Amatöörraadiojaama tohib kasutada:",
+          "answers": [
+            {
+              "text": "Ainult raadioamatööri harmoneeritud kvalifikatsioonitunnistuse alusel",
+              "correct": false
+            },
+            {
+              "text": "Ainult kehtiva amatöörraadiojaama tööloa alusel.",
+              "correct": true,
+              "isChanged": false
+            },
+            {
+              "text": "Ainult raadioamatööri kvalifikatsioonieksami sooritamise tunnistuse alusel.",
+              "correct": false,
+              "isChanged": false
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-19",
+          "text": "Amatöörraadiojaama tööluba kuulub hoidmisele:",
+          "answers": [
+            {
+              "text": "Seda ei reguleerita",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Raadiojaama valdaja elukohas."
+            },
+            {
+              "text": "Raadiojaama registreeritud asukohas.",
+              "correct": false
+            },
+            {
+              "text": "Tarbijakaitse ja Tehnilise Järelevalve Ametis.",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "<strike>Sideametis</strike> Tehnilise Järelvalve Ametis."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": false
+        },
+        {
+          "id": "M12B-20",
+          "text": "Mida tuleb teha tööloale kantud andmete muutumisel.",
+          "answers": [
+            {
+              "text": "Tuleb taotleda uut tööluba.",
+              "correct": true,
+              "isChanged": true,
+              "oldText": "Kolm kuud."
+            },
+            {
+              "text": "Tuleb sooritada uus eksam",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Kuus kuud."
+            },
+            {
+              "text": "Tuleb tööloal veekindla markeriga andmed muuta",
+              "correct": false,
+              "isChanged": true,
+              "oldText": "Üks aasta."
+            }
+          ],
+          "hasProblem": false,
+          "info": "",
+          "isChanged": true,
+          "oldText": "Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta on lubatud:"
+        }
+      ]
+    }
+  ]
+}
