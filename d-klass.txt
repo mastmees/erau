@@ -92,10 +92,11 @@ M1-23 Kui suur on 12 V 0,2 A vooluga indikaatorlambi võimsus?
 A. 60 vatti.
 B. 24 vatti.
 C. 2,4 vatti
-M1-24 Kui suur võimsus eraldub 0,25 kilo-oomisel takistil kui teda läbib vool tugevusega 7,0 milliamprit?
-A. Ligikaudu 51 millivatti.
-B. Ligikaudu 39 millivatti.
-C. Ligikaudu 9 millivatti.
+M1-24 Kui suur võimsus eraldub 100 oomisel takistil, kui tema jalgadel mõõdetud pinge on 5 V?
+A.  500 millivatti.
+B.  50 millivatti.
+C.  20 millivatti.
+D.  250 millivatti.
 M1-25 Kui suur on mitmest takistist koosneva jadalülituse kogutakistus?
 A. Kogutakistus on võrdne kõikide takistite takistuste summaga.
 B. Kogutakistus on väiksem kõige väiksema takisti takistuse väärtusest.
@@ -107,7 +108,7 @@ C. Kahekordne kummagi takisti väärtus.
 M1-27 Kui suur on kahe paralleelselt ühendatud induktiivsuse koguväärtus?
 A. Pool kummagi väärtusest vastastikust induktiivsust arvestamata.
 B. Kahekordne kummagi induktiivsuse väärtus.
-C. Kahekordne kummagi induktiivsuse väärtus.
+C. Ei saa määrata induktiivsuste täpset suurust teadmata.
 M1-28 Kui suur on kahe paralleelselt lülitatud kondensaatori kogumahtuvus?
 A. Pool kummagi kondensaatori mahtuvusest.
 B. Kogumahtuvus on võrdne kondensaatorite mahtuvuste summaga.
@@ -153,10 +154,11 @@ M2-8 Mis on toiteseadme alalduselemendi vastupinge?
 A. Suurim siirdepinge, mida diood on võimeline taluma.
 B. 1,4 korda elektrivõrgu sagedus.
 C. Mittejuhtivas suunas dioodi klemmidele rakendatud maksimaalne pinge.
-M2-9 Millised on ränidioodide kaks parameetrit, mida ei või ületada?
-A. Maksimaalne koormusimpedants,tipppinge.
-B. Keskmine võimsus,keskmine pinge.
-C. Maksimaalne vastupinge,keskmine pärivool.
+M2-9 Millist dioodi parameetrit ei tohi ületada?
+A. Pärisuunaline pingelang dioodil
+B. Diferentsiaaltakistus
+C. Maksimaalne vastupinge
+D. Laviinpinge
 M2-10 Miks peavad alaldi dioodid olema termaalselt kaitstud?
 A. Nende läheduse tõttu transformaatorile.
 B. Ülemäärase kuumenemise tõttu võivad rikneda.
@@ -193,18 +195,20 @@ M3-3 Millised komponendid moodustavad toitealaldi filtri?
 A. Dioodid.
 B. Trafod ja transistorid.
 C. Kondensaatorid ja drosselid.
-M3-4 Milline peab olema täisperioodalaldi alalduselemendi vastupinge suurus?
-A. Veerand alaldi nominaalsest väljundpingest.
-B. Võrdne alaldi väljundpingega. ?
-C. Võrdne alaldi nominaalse väljundpinge kahekordse väärtusega.
+M3-4 Milline peab olema ühefaasilise sildalaldi alaldusdioodi vastupinge suurus?
+A. Pool alaldi väljundpingest.
+B. Võrdne alaldi väljundpingega.
+C. Võrdne alaldi väljundpinge kahekordse väärtusega.
+D. Võrdne alaldi nominaalse väljundpinge neljakordse väärtusega. 
 M3-5 Milline peab olema transmissiooniliiniga ühendatud madalpääsfiltri impedants liini impedantsiga võrreldes?
 A. Märgatavalt kõrgem.
 B. Enamvähem sama.
 C. Võrdne liini kahekordse impedantsiga.
-M3-6 Milline peab olema poolperioodalaldi alalduselemendi vastupinge suurus?
+M3-6  Milline peab olema silumiskondensaatoriga poolperioodalaldi alaldusdioodi väikseim vastupinge?
 A. Pool alaldi nominaalsest väljundpingest.
-B. Alaldi nominaalse tipppinge ühe või kahekordne väärtus.
+B. Alaldi nominaalse tipp-pinge kahekordne väärtus.
 C. Võrdne alaldi väljundpingega.
+D. Võrdne alaldi neljakordse väljundpingega.
 M3-7 Kuhu ühendatakse toitealaldi šunttakisti?
 A. Paralleelselt filterkondensaatoriga.
 B. Paralleelselt alaldi sisendiga.
@@ -332,10 +336,11 @@ M6-6 Mida tähendab termin ette-taha suhe?
 A. Direktorite ja reflektorite arvu suhet.
 B. Antenni peakiire suunas kiiratava võimsuse ja täpselt vastassuunalise kiirgusvõimsuse suhet.
 C. Aktiivse vibraatori asendit reflektori ja direktorite suhtes.
-M6-7 Miks kasutatakse silikoonõli või autovaha TV-tüüpi lapikkaabli pinna katteks?
-A. Skin-effekti vähendamiseks.
+M6-7 Miks vahel mähitakse antenni koaksiaalkaabel umbes 10-keeruliseks pooliks?
+A. Skin-efekti vähendamiseks.
 B. Mustuse ja niiskuse sadestumise vähendamiseks juhtmel.
 C. Soojuse ärajuhtimiseks töötades kõrge seisulainega liinis.
+D. Lindude eemalepeletamiseks antenni juurest.
 M6-8 Mis ühikutes väljendatakse kõrgsagedusliku toiteliini kadusid?
 A. dB/km
 B. Bell/100m
@@ -344,10 +349,11 @@ M6-9 Mis juhtub dielektrikus kadudega toiteliinis töösageduse suurenemisel?
 A. Kaod vähenevad.
 B. Kaod suurenevad.
 C. Kaod jäävad samaks.
-M6-10 Kuidas mõjutab koaksiaalkaabli impedants teda läbiva signaali sumbuvust?
-A. Sumbuvus on suurem sagedustel üle 144 MHz.
-B. Sumbuvus on väiksem sagedustel üle 144 MHz.
-C. Sumbuvus on sagedustel kuni 1,5GHz enamvähem ühtlane.
+M6-10 Kuidas mõjutab koaksiaalkaablit läbiva signaali sageduse suurenemine sumbuvust?
+A. Sumbuvus suureneb.
+B. Sumbuvus väheneb.
+C. Sumbuvus jääb samaks.
+D. Sumbuvus on enamvähem ühtlane sagedustel kuni 200 GHz.
 Moodul M7B Raadiolevi ( 2 küsimust)
 M7-1 Mis iseloomustab nn. “backscatter” signaale?
 A. Väga hea arusaadavus.
@@ -526,10 +532,11 @@ M11-3 Kuidas saab raadiojaama häälestamisel eetrisoleku aega viia miinimumini?
 A. Kasutades suvalise pikkusega antenni.
 B. Häälestades jaama esmalt 40m bandil siis minna üle teistele bandidele.
 C. Kasutades jaama häälestamiseks antenni ekvivalenti (dummy load).
-M11-4 Peate sidet oma sõbraga Tartust ja äkki kuulete oma sagedusel hädaabikutset. Mida teete?
+M11-4 Kuulete oma sagedusel Haiitis toimunud maavärina päästjate teabevahetust. Mida teete?
 A. Teatate jaamale, et sagedus on hõivatud.
-B. Hakkate otsekohe hädaabikutse infovahetust kirja panema.
+B. Otsite töötamiseks mõne teise sageduse.
 C. Helistate Päästeametisse.
+D. Helistate Tehnilise Järelevalve Ametisse.
 M11-5 Milline on morsekoodis antud standardse väljakutse "CQ" formaat?
 A. Saadate kolm korda "CQ",millele järgneb protseduurisignaal "DE" ja kolm korda oma kutsungi.
 B. Saadate "CQ" kolm korda,"DE" üks kord ja oma kutsungi ka üks kord.
@@ -554,10 +561,11 @@ M11-10 Mida tähendavad Morsekoodis saadetud liittähed KN ?
 A. Murrujoon.
 B. Side lõpp.
 C. Vastaku ainult kutsutud jaam .
-M11-11 Milleks kasutatakse signaali "CQ" ?
-A. Teisele jaamale märguandmiseks,et kutsute teda veerand tunni pärast.
-B. Märguandmiseks,et proovite uut antenni ja väljakutsetele ei vasta.
-C. Üldväljakutse märkimaks,et üritate kellegagi ühendust luua.
+M11-11 Mida tähendab "CQ" ?
+A. Märguanne teisele jaamale, et kutsute teda veerand tunni pärast.
+B. Märguanne, et proovite uut antenni ja väljakutsetele ei vasta.
+C. Üldväljakutse märkimaks, et üritate kellegagi ühendust luua.
+D. Ainult kutsutud jaam tohib vastata.
 M11-12 Mida tähendab lühend QRS ?
 A. Mind segavad staatilised häired.
 B. Saatke aeglasemalt.
@@ -674,7 +682,12 @@ M12-19 Amatöörraadiojaama tööluba kuulub hoidmisele:
 A. Raadiojaama valdaja elukohas.
 B. Raadiojaama registreeritud asukohas.
 C. Sideametis.
-M12-20 Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta on lubatud:
+M12-20 Mida tuleb teha tööloale kantud andmete muutumisel.
+A. Tuleb taotleda uut tööluba.
+B. Tuleb sooritada uus eksam
+C. Tuleb tööloal veekindla markeriga andmed muuta
+M12-21 Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta on lubatud:
 A. Kolm kuud.
-B. Kuus kuud.
-C. Üks aasta.
+B. Viis kuud.
+C. Kuus kuud.
+D. Üks aasta.

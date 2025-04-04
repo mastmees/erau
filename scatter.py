@@ -53,8 +53,24 @@ for m in ij["modules"]:
         for a in bq[module][qn]:
           if a!='?':
             print(" ",bq[module][qn][a])
+      else:
+        for a in q["answers"]:
+          if a["correct"]:
+            ca=a["text"]
+            cao=a.get("oldtext",None)
+            for aa in bq[module][qn]:
+              if aa!="?":
+                if bq[module][qn][aa] in (ca,cao):
+                  break
+            else:
+              print(f"cannot identify correct answer to {module}-{qn} {q['text']}")
+              print(" should be :",ca)
+              print(" options are :")
+              for aa in bq[module][qn]:
+                if aa!="?":
+                  print("    ",bq[module][qn][aa])
     else:
-      print(f"no question {module}-{id} {q['text']}")
+      print(f"no question {module}-{qn} {q['text']}")
     qc+=1
 
 print(qc,"questions from es2ice.json")

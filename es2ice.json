@@ -583,13 +583,13 @@
           "text": "Kui suur võimsus eraldub 100 oomisel takistil, kui tema jalgadel mõõdetud pinge on 5 V?",
           "answers": [
             {
-              "text": "500 millivatti",
+              "text": "500 millivatti.",
               "correct": false,
               "isChanged": true,
               "oldText": "Ligikaudu 51 millivatti."
             },
             {
-              "text": "20 millivatti",
+              "text": "20 millivatti.",
               "correct": false,
               "isChanged": true,
               "oldText": "Ligikaudu 39 millivatti."
@@ -1131,19 +1131,19 @@
           "text": "Kui suur on SSB telefonitööks vajaliku hea kvartsfiltri pääsuriba laius?",
           "answers": [
             {
-              "text": "6 kHz – 6 dB pääsuriba juures",
+              "text": "6 kHz –6dB pääsuriba juures.",
               "correct": false,
               "isChanged": true,
               "oldText": "6kHz -6dB pääsuriba juures."
             },
             {
-              "text": "2,1 kHz – 6 dB pääsuriba juures",
+              "text": "2,1 kHz –6dB pääsuriba juures.",
               "correct": true,
               "isChanged": true,
               "oldText": "2,1kHz –6dB pääsuriba juures."
             },
             {
-              "text": "500 Hz – 6 dB pääsuriba juures",
+              "text": "500 Hz –6dB pääsuriba juures.",
               "correct": false,
               "isChanged": true,
               "oldText": "500Hz -6dB pääsuriba juures."
@@ -1392,7 +1392,7 @@
               "isChanged": false
             },
             {
-              "text": "Kaitsevad dioode pingeimpulsside eest ja ühtlustavad dioodide pingelange.",
+              "text": "Kaitsevad teistest dioodidest kiiremini vastutakistust taastavaid dioode.",
               "correct": true,
               "isChanged": true,
               "oldText": "Kaitsevad teistest dioodidest kiiremini vastutakistust taastavaid dioode."
@@ -2128,11 +2128,11 @@
               "isChanged": false
             },
             {
-              "text": "Bell/100 m",
+              "text": "Bell/100m",
               "correct": false
             },
             {
-              "text": "dB/100 m",
+              "text": "dB/100m",
               "correct": true
             }
           ],
@@ -3043,7 +3043,7 @@
           "text": "Mida tuleb teha kõigepealt kui näed voolujuhtmetesse kinnijäänud inimest?",
           "answers": [
             {
-              "text": "Helistad mobiiltelefoniga Häirekeskusesse ja küsid juhendeid",
+              "text": "Helistad mobiiltelefoniga Häirekeskusesse ja küsid juhendeid.",
               "correct": true,
               "isChanged": true,
               "oldText": "Hakkad otsima telefoni, et abi kutsuda."
@@ -3154,7 +3154,7 @@
               "oldText": "Ega antenn mitte kuskil naabrimehe krundi nurgast üle ei käiks."
             },
             {
-              "text": "Et antenn ei saaks mingil viisil kokku puutuda elektriülekandeliinidega",
+              "text": "Et antenn ei saaks mingil viisil kokku puutuda elektriülekandeliinidega.",
               "correct": true,
               "isChanged": true,
               "oldText": "Et antenn püstitamisel, pööramisel või tuule käes kõikudes mitte kuskil ei puudutaks elektriülekandeliinide juhtmeid."
@@ -3311,7 +3311,7 @@
               "isChanged": false
             },
             {
-              "text": "Otsite töötamiseks mõne teise sageduse",
+              "text": "Otsite töötamiseks mõne teise sageduse.",
               "correct": true,
               "isChanged": true,
               "oldText": "Hakkate otsekohe hädaabikutse infovahetust kirja panema."
@@ -4192,7 +4192,7 @@
           "text": "Amatöörraadiojaama tööluba kuulub hoidmisele:",
           "answers": [
             {
-              "text": "Seda ei reguleerita",
+              "text": "Seda ei reguleerita.",
               "correct": true,
               "isChanged": true,
               "oldText": "Raadiojaama valdaja elukohas."
