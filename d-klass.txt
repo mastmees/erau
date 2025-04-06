@@ -1,693 +1,612 @@
-Moodul M1B Raadio- ja elektrotehnika teooria. ( 5 küsimust)
-M1-1 Mida tähendab termin impedants?
-A. Kondensaatoris salvestatavat elektrilaengut.
-B. Vooluringi poolt vahelduvvoolule osutatavat takistust.
-C. Mahtuvust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust.
-M1-2 Kuidas nimetatakse mahtuvust ja induktiivsust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust?
-A. Oom.
-B. Dzhaul.
-C. Impedants.
-M1-3 Kuidas nimetatakse induktiivsuse poolt vahelduvvoolule osutatavat takistust?
-A. Takistus.
-B. Reaktiivtakistus.
-C. Näivjuhtivus.
-M1-4 Kuidas nimetatakse mahtuvuse poolt vahelduvvoolule osutatavat takistust?
-A. Takistus.
-B. Reaktiivtakistus.
-C. Näivjuhtivus.
-M1-5 Kuidas reageerib induktiivsus vahelduvvoolule?
-A. Vahelduvvoolu sageduse suurenedes reaktiivtakistus väheneb.
-B. Vahelduvvoolu amplituudi suurenedes suureneb ka reaktiivtakistus.
-C. Vahelduvvoolu sageduse suurenedes reaktiivtakistus suureneb.
-M1-6 Kuidas reageerib mahtuvus vahelduvvoolule?
-A. Vahelduvvoolu sageduse suurenedes reaktiivtakistus väheneb.
-B. Vahelduvvoolu amplituudi suurenedes suureneb ka reaktiivtakistus.
-C. Vahelduvvoolu sageduse suurenedes reaktiivtakistus suureneb.
-M1-7 Millal annab toiteallikas maksimaalse väljundenergia?
-A. Juhul kui koormusimpedants on võrdne vooluallika impedantsiga.
-B. Kui seisulainetegur on saavutanud maksimaalväärtuse.
-C. Kui raudsüdamikuga transformaatori asemel kasutatakse õhksüdamikuga transformaatorit.
-M1-8 Mida tähendab termin impedantside sobitamine?
-A. Koormusimpedantsi toiteallika impedantsist palju suuremaks tegemine.
-B. Koormusimpedantsi võrdsustamine toiteallika impedantsiga.
-C. Baluni kasutamine antenni toitepunktis.
-M1-9 Mis juhtub kui elektrilise koormuse impedants on võrdne toiteallika impedantsiga?
-A. Toiteallikas juhib koormusesse minimaalse võimsuse.
-B. Vool katkeb vooluahelas.
-C. Toiteallikas juhib koormusesse maksimaalse võimsuse.
-M1-10 Miks on impedantside sobitamine raadiotehnikas väga oluline?
-A. Võimaldab toiteallikast juhtida koormusesse maksimaalse võimsuse.
-B. Kindlustab vooluringi aktiiv- ja reaktiivtakistuse võrdsuse.
-C. Kindlustab minimaalse võimsuse saamise toitallikast.
-M1-11 Milline on reaktiivtakistuse mõõtühik?
-A. Amper.
-B. Oom
-C. Siemens.
-M1-12 Milline on impedantsi mõõtühik?
-A. Oom.
-B. Volt.
-C. Amper.
-M1-13 Mis on Bell?
-A. Mahtuvuse muutumise mõõtühik.
-B. Induktiivsuse muutumise mõõtühik.
-C. Erinevate võimsuste suhte suurust väljendav ühik.
-M1-14 Mis on detsibell?
-A. Võimsusnivoode suhte muutumine 0,1 Belli võrra.
-B. Võimsusnivoode suhte muutumine 0,01 Belli võrra
-C. Võimsusnivoode suhte muutumine 10 Belli võrra.
-M1-15 Ligikaudu mitu detsibelli on vaevaltmärgatav helitugevuse muutus?
-A. 12 dB.
-B. 6 dB.
-C. 1 dB.
-D. 3 dB
-M1-16 Võimsuse suurenemine kaks korda on detsibellides:
-A. 1 dB.
-B. 3 dB.
-C. 6 dB
-M1-17 Mitu korda suureneb võimsus 6 dB puhul?
-A. 1,5 korda.
-B. 2 korda.
-C. 4 korda.
-M1-18 Mitu korda suureneb võimsus 3 dB puhul?
-A. 1,5 korda.
-B. 2 korda.
-C. 4 korda
-M1-19 Signaali raport on ”10 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 150 vatini kui suur on uus signaali tugevuse raport?
-A. S5.
-B. S7
-C. S9.
-M1-20 Signaali raport on “20 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 15 vatini kui suur on uus signaali tugevuse raport?
-A. S5.
-B. S7
-C. S9.
-M1-21 Kui 1 amprilise vooluallikaga on ühendatud kaks paralleelselt lülitatud 10 oomist takistit kui suur vool läbib kumbagi takistit?
-A. 10 amprit.
-B. 1 amper.
-C. 0,5 amprit.
-M1-22 Kui suur on kasutatav võimsus kui 400 V pingega vooluallikas ühendatakse 800 oomise koormusega ?
-A. 0,5 vatti.
-B. 200 vatti.
-C. 400 vatti
-M1-23 Kui suur on 12 V 0,2 A vooluga indikaatorlambi võimsus?
-A. 60 vatti.
-B. 24 vatti.
-C. 2,4 vatti
-M1-24 Kui suur võimsus eraldub 100 oomisel takistil, kui tema jalgadel mõõdetud pinge on 5 V?
-A.  500 millivatti.
-B.  50 millivatti.
-C.  20 millivatti.
-D.  250 millivatti.
-M1-25 Kui suur on mitmest takistist koosneva jadalülituse kogutakistus?
-A. Kogutakistus on võrdne kõikide takistite takistuste summaga.
-B. Kogutakistus on väiksem kõige väiksema takisti takistuse väärtusest.
-C. Kogutakistuse saame jagades takistite takistuste summa takistite arvuga.
-M1-26 Kui suur on kahe võrdse paralleelselt lülitatud takistist koosneva ahela kogutakistus?
-A. Kahekordne ühe takisti takistuse väärtus.
-B. Pool kummagi takisti takistuse väärtusest.
-C. Kahekordne kummagi takisti väärtus.
-M1-27 Kui suur on kahe paralleelselt ühendatud induktiivsuse koguväärtus?
-A. Pool kummagi väärtusest vastastikust induktiivsust arvestamata.
-B. Kahekordne kummagi induktiivsuse väärtus.
-C. Ei saa määrata induktiivsuste täpset suurust teadmata.
-M1-28 Kui suur on kahe paralleelselt lülitatud kondensaatori kogumahtuvus?
-A. Pool kummagi kondensaatori mahtuvusest.
-B. Kogumahtuvus on võrdne kondensaatorite mahtuvuste summaga.
-C. Mahtuvust ei saa määrata teadmata kondensatorite täpset mahtuvust.
-M1-29 Kui suur on pinge transformaatori 500 keerust koosneva sekundaarmähise klemmidel, kui 2200 keerust koosnev primaarmähis on lülitatud 220 V vahelduvvooluvõrku?
-A. 526,5 V
-A. 50 V
-B. 26 V
-M1-30 Kui suur on 200 oomise väljundtakistusega helisagedusvõimendi sobitamiseks 10 oomise valjuhääldiga vajaliku transformaatori mähiste keerdude suhe?
-A. 4.47 : 1
-B. 400: 1
-C. 20 : 1
-Moodul M2B Raadio- ja elektrotehnika komponendid (4 küsimust )
-M2-1 Kuidas mõjub ümbruskonna temperatuur süsiniktakisti takistusele?
-A. Takistus suureneb 20% temperatuuri tõusmisel iga 10 kraadi võrra.
-B. Takistuse suurus ei muutu.
-C. Takistuse muutus sõltub takisti temperatuuritegurist sõltuvalt
-M2-2 Mis tüüpi kondensaatorit kasutatakse tihti võrgutoitealaldi silumisfiltris?
-A. Keraamilist ketaskondensaatorit.
-B. Muutuva mahtuvusega vaakumkondensaatorit.
-C. Elektrolüütkondensaatorit.
-M2-3 Millised kondensaatorid lülitatakse rööbiti transformaatori sekundaarmähisega pingeimpulsside vähendamiseks?
-A. Suure mahtuvusega kondensaatorid.
-B. Muutuva mahtuvusega vaakumkondensaatorid.
-C. Keraamilised kondensaatorid.
-M2-4 Mis tekitab poolide omaresonantsi?
-A. Hajutatud elektromagnetism.
-B. Pöörisvoolud.
-C. Keerdudevaheline mahtuvus.
-M2-5 Milline vooluringi komponent võimaldab suurendada vahelduvvoolu pinget 100 voldilt 1000 voldini?
-A. Transformaator.
-B. Kondensaator.
-C. Diood.
-M2-6 Kuidas nimetatakse transformaatori primaarmähises voolavat voolu, kui sekundaarmähise külge pole koormust lülitatud?
-A. Magneetimisvooluks.
-B. Alalisvooluks.
-C. Ergutusvooluks.
-M2-7 Mis suurustega iseloomustatakse tavaliselt jõutransformaatori primaar- ja sekundaarmähiseid?
-A. Dzauli sekundis.
-B. Volt või volt-amper.
-C. Kulonit sekundis.
-M2-8 Mis on toiteseadme alalduselemendi vastupinge?
-A. Suurim siirdepinge, mida diood on võimeline taluma.
-B. 1,4 korda elektrivõrgu sagedus.
-C. Mittejuhtivas suunas dioodi klemmidele rakendatud maksimaalne pinge.
-M2-9 Millist dioodi parameetrit ei tohi ületada?
-A. Pärisuunaline pingelang dioodil
-B. Diferentsiaaltakistus
-C. Maksimaalne vastupinge
-D. Laviinpinge
-M2-10 Miks peavad alaldi dioodid olema termaalselt kaitstud?
-A. Nende läheduse tõttu transformaatorile.
-B. Ülemäärase kuumenemise tõttu võivad rikneda.
-C. Nende tundlikkuse tõttu siirdepingete mõjule.
-M2-11 Mis on Zener dioodi (stabilitroni) peamine omadus?
-A. Konstantne vool kõikuva pinge puhul.
-B. Konstantne pinge muutliku voolu puhul.
-M2-12 Mis tüüpi diood on võimeline ostsilleerima ja ka võimendama?
-A. Punktkontaktdiood.
-B. Tunneldiood.
-C. Ränialaldi.
-M2-13 Mis on varikapi peamine omadus?
-A. Hoiab stabiilset pinget läbiva muutliku voolu puhul.
-B. Tema sisemahtuvus sõltub rakendatud pingest.
-C. Omab negatiivse takistusega regiooni.
-M2-14 Milleks kasutatakse PIN dioodi?
-A. Stabiilse voolu allikas.
-B. Stabiilse pinge allikas.
-C. Kõrgsageduslik dioodlüliti.
-M2-15 Kui suur on SSB telefonitööks vajaliku hea kvartsfiltri pääsuriba laius?
-A. 6kHz -6dB pääsuriba juures
-B. 2,1kHz –6dB pääsuriba juures
-C. 500Hz --6dB pääsuriba juures
-Moodul M3B Raadio- ja elektrotehnika ahelad. ( 5 küsimust )
-M3-1 Miks ühendatakse toitealaldi dioodidega paralleelselt kondensaator ja takisti?
-A. Väljundpinge lainesuse silumiseks.
-B. Väljundpinge suurendamiseks.
-C. Pingelangude võrdustamiseks dioodidel ja pingeimpulsside kahjuliku mõju vähendamiseks.
-M3-2 Milline on täislaine alaldi väljundpinge filtreerimata kuju?
-A. Sile alalispinge.
-B. Sisendpinge sagedusega võrdne impulsside jada.
-C. Sisendpinge kahekordse sagedusega võrdne impulsside jada.
-M3-3 Millised komponendid moodustavad toitealaldi filtri?
-A. Dioodid.
-B. Trafod ja transistorid.
-C. Kondensaatorid ja drosselid.
-M3-4 Milline peab olema ühefaasilise sildalaldi alaldusdioodi vastupinge suurus?
-A. Pool alaldi väljundpingest.
-B. Võrdne alaldi väljundpingega.
-C. Võrdne alaldi väljundpinge kahekordse väärtusega.
-D. Võrdne alaldi nominaalse väljundpinge neljakordse väärtusega. 
-M3-5 Milline peab olema transmissiooniliiniga ühendatud madalpääsfiltri impedants liini impedantsiga võrreldes?
-A. Märgatavalt kõrgem.
-B. Enamvähem sama.
-C. Võrdne liini kahekordse impedantsiga.
-M3-6  Milline peab olema silumiskondensaatoriga poolperioodalaldi alaldusdioodi väikseim vastupinge?
-A. Pool alaldi nominaalsest väljundpingest.
-B. Alaldi nominaalse tipp-pinge kahekordne väärtus.
-C. Võrdne alaldi väljundpingega.
-D. Võrdne alaldi neljakordse väljundpingega.
-M3-7 Kuhu ühendatakse toitealaldi šunttakisti?
-A. Paralleelselt filterkondensaatoriga.
-B. Paralleelselt alaldi sisendiga.
-C. Paralleelselt väljundfiltri drosseliga.
-M3-8 Mitu kraadi siinuslainest kasutab poolperioodalaldi?
-A. 90 kraadi
-B. 180 kraadi.
-C. 360 kraadi
-M3-9 Mitu kraadi siinuslainest kasutab täisperioodalaldi?
-A. 90 kraadi
-B. 180 kraadi
-C. 360 kraadi
-M3-10 Mis funktsiooni täidavad kõrgepingealaldis dioodidega paralleelselt lülitatud kondensaatorid ja takistid?
-A. Kahe- või kolmekordistavad väljundpinget.
-B. Kaitsevad teistest dioodidest kiiremini vastutakistust taastavaid dioode.
-C. Reguleerivad väljundpinget.
-Moodul M4B Raadiovastuvõtuseadmed. (4 küsimust )
-M4-1 Mis on produkt-detektor?
-A. Detektor, mis annab ostsillaatorsignaali seguastme sisendisse.
-B. Võimendav detektor,mis kitsendab vastuvõtja võimenduskanali pääsuriba.
-C. Detektor,mis kasutab segustusprotsessis vastuvõtjas genereeritud kandesagedust.
-M4-2 Millised on põhilised seguastme väljundis esinevad sagedused?
-A. Sisendsignaali kahe- ja neljakordne sagedus.
-B. Sisendsageduste summa,vahe ja ruutjuurkordne sagedus.
-D. Sisendsagedused ning summaarne ja vahesagedus.
-M4-3 Mida nimetatakse detekteerimiseks?
-A. Vastuvõetaval kandelainel oleva informatsiooni sumbutamist S-meetri töölerakendamise eesmärgil.
-B. Moduleeritud kõrgsagedussignaalilt informatsiooni eraldamine.
-C. Kandelaine modulatsiooni.
-M4-4 Mis on sagedusdiskriminaator?
-A. FM signaalide detekteerimiseks kasutatav lülitus.
-B. Kahe kandelaine naabruses asuva parasiitsignaali filtreerimislõlitus.
-C. Automaatne lainelülitus.
-M4-5 Mida kasutatakse FM signaali detekteerimiseks?
-A. Balanssmodulaatorit.
-B. Sagedusdiskriminaatorit.
-C. Produkt detektorit.
-M4-6 Mida nimetatakse segustusprotsessiks?
-A. Lairibavastuvõtjas müra kõrvaldamist faasivõrdluse teel.
-B. Lairibavastuvõtjas müra kõrvaldamist faasinihke abil.
-C. Kahe signaali liitmist summaarse- ja vahesageduse saamiseks.
-M4-7 Mis eelised on sagedusmuundusprotsessil?
-A. Automaatselt toimiv müralukustus ja suurenenud selektiivsus.
-B. Suurenenud selektiivsus ja optimaalne häälestatud võnkeringide konstruktsioon.
-C. Automaatne signaali piiramine ja müralukustus.
-M4-8 Mis on vahesagedusvõimendi?
-A. Fikseeritult häälestatud pääsuribaga võimendi.
-B. Vastuvõtja filter.
-C. Vastuvõtja demodulaator.
-M4-9 Mis vastuvõtjas juhtub kui väga tugev signaal jõuab seguastmeni?
-A. Seguastmes genereeritakse parasiitsed segustusproduktid.
-B. Seguaste lakkab tüütamast.
-C. Toimub automaatne signaali piiramine.
-M4-10 Mis on vastuvõtja kõrgsagedusvõimendi esmane ülesanne?
-A. Kindlustada enamik vastuvõtja võimendusest.
-B. Automaatse võimenduse reguleerimise süsteemi abil muuta parsiitsignaalide mahasurumise astet.
-C. Parandada vastuvõtja mürategurit.
-M4-11 Millised kaks faktorit määratlevad vastuvõtja tundlikkuse?
-A. Dünaamiline diapasoon ja kolmanda järgu lõikepunkt.
-B. Hind ja kättesaadavus.
-C. Ribalaius ja mürategur.
-Moodul M5B Raadiosaateseadmed (4 küsimust)
-M5-1 Mis tüüpi sisendsignaali kasutatakse SSB saatja lineaarsuse kontrollimiseks?
-A. Tavalist kõnet.
-B. Helisageduslikku siinuslainet.
-C. Kaht helisageduslikku siinuslainet
-M5-2 Miks kasutatakse raadiosaatja kõrgepingealaldis šunttakistit.
-A. Parandab pingeregulatsiooni.
-B. Laadib filterkondensaatori tühjaks.
-C. Kõrvaldab poolidelt elektrilöögi saamise ohu.
-M5-3 Mida saab kontrollida kahe tooni testi abil?
-A. Sagedusmodulatsiooni protsenti.
-B. Kandesageduse faasinihet.
-C. Kõrgsagedusvõimendi lineaarsust.
-M5-4 Miks on mõningates lampvõimendites vajalik neutralisatsioon?
-A. Häälestatud võnkeringides koormatud Q vähendamiseks.
-B. Võre ja katoodi vahelise lekkevoolu vähendamiseks.
-C. Elektroodidevahelise mahtuvuse tõttu tekkida võiva ostsilleerimise vältimiseks. http://beradio.com/departments/radio_staying_neutral/
-M5-5 Milliseid kaht helisagedust võib kasutada SSB telefonisaatja lineaarsuse kontrollimiseks?
-A. Tuleb kasutada signaale sagedusega 20Hz ja 20000Hz.
-B. Võib kasutada suvalisi helisagedusi, mis paiknevad saatja helisagedustrakti pääsuribas tingimusel,et nad ei ole teineteisega harmoonilises suhtes.
-C. Tuleb kasutada sagedusi 1200Hz ja 2400Hz.
-M5-6 Mis tüüpi filter tuleb installeerida amatöörsaatjasse harmooniliste sageduste kiirguse vältimiseks?
-A. Võtmeklõpsu filter.
-B. Madalpääsfilter.
-C. Kõrgpääsfilter.
-M5-7 Mida on vaja omada telefonitööks ettenähtud amatöörraadiojaamas?
-A. Splatteri filter.
-B. Mikrofon.
-C. Vastuvõtja helisagedusfilter
-M5-8 Monteerisite oma autosse VHF või UHF FM raadiojaama. Milline on antenni jaoks parim koht vältimaks juhi ja reisijate ülikõrgsagedusliku kiirituse ohtu?
-A. Katuse keskkoht.
-B. Tuuleklaasi ülemine äär.
-C. Ükskõik kummal esimesel poritiival.
-M5-9 Mis on saatjas kasutatavate ekraanide otstarve?
-A. Moodustab strukturaalse madalpääsfiltri.
-B. Likvideerib ebasoovitava kõrgsagedusliku kiirguse.
-C. Takistab helisagedusliku tagasiside tekkimist saatjas
-M5-10 Miks kasutatakse nn. pii-filtrit saatja väljundis?
-A. Saatja väljundimpedantsi sobitamiseks antenni toiteliiniga ja parasiitkiirguse vähendamiseks.
-B. Antenni poolt vastuvõetud mürasignaalide mahajuhtimiseks.
-C. Antennis tekkinud staatiliste pingete saatjasse pääsu takistamiseks.
-Moodul M6B Antennid ja fiidrid ( 4 küsimust)
-M6-1 Miks kasutatakse sagedasti Yagi antenni 50 MHz sagedusalal?
-A. Annab horisontaaltasapinnas hea ringkiirguse.
-B. On väiksem,odavam ja kergem üles panna kui dipoolantenn.
-C. Vähendab teiste jaamade poolt tekitatavaid interferentshäireid nii külg- kui tagasuunas.
-M6-2 Milline meetod on parim ebasümmeetrilise koaksiaalkaabli sobitamiseks Yagi antenniga?
-A. “T” -sobitus
-B. Delta sobitus
-C. Gamma sobitus
-M6-3 Kuidas saab suurendada parasiitelementidega suundantenni sagedusriba laiust?
-A. Kasutada suurema läbimõõduga elemente.
-B. Vähendada elementide vahet.
-C. Kasutada teleskoopelemente
-M6-4 Kui suur on sobitatud ja resonantsis oleva poollaine dipoolantenni toitepunkti impedants vabas ruumis?
-A. Ligikaudu 50 oomi,takistuslik.
-B. Ligikaudu 73 oomi,takistuslik ja induktiivne.
-C. Ligikaudu 73 oomi,takistuslik
-M6-5 Kui suur on dipoolantenni võimendus võrreldes isotroopse kiirgajaga?
-A. On võrdse võimendusega.
-B. Dipoolantenni võimendus on ligikaudu 2,3 dB suurem.
-C. Dipoolantenni võimendus on 5,6 dB.
-M6-6 Mida tähendab termin ette-taha suhe?
-A. Direktorite ja reflektorite arvu suhet.
-B. Antenni peakiire suunas kiiratava võimsuse ja täpselt vastassuunalise kiirgusvõimsuse suhet.
-C. Aktiivse vibraatori asendit reflektori ja direktorite suhtes.
-M6-7 Miks vahel mähitakse antenni koaksiaalkaabel umbes 10-keeruliseks pooliks?
-A. Skin-efekti vähendamiseks.
-B. Mustuse ja niiskuse sadestumise vähendamiseks juhtmel.
-C. Soojuse ärajuhtimiseks töötades kõrge seisulainega liinis.
-D. Lindude eemalepeletamiseks antenni juurest.
-M6-8 Mis ühikutes väljendatakse kõrgsagedusliku toiteliini kadusid?
-A. dB/km
-B. Bell/100m
-C. dB/100m
-M6-9 Mis juhtub dielektrikus kadudega toiteliinis töösageduse suurenemisel?
-A. Kaod vähenevad.
-B. Kaod suurenevad.
-C. Kaod jäävad samaks.
-M6-10 Kuidas mõjutab koaksiaalkaablit läbiva signaali sageduse suurenemine sumbuvust?
-A. Sumbuvus suureneb.
-B. Sumbuvus väheneb.
-C. Sumbuvus jääb samaks.
-D. Sumbuvus on enamvähem ühtlane sagedustel kuni 200 GHz.
-Moodul M7B Raadiolevi ( 2 küsimust)
-M7-1 Mis iseloomustab nn. “backscatter” signaale?
-A. Väga hea arusaadavus.
-B. Lainetav heli.
-C. Ümberpööratud külgribad.
-M7-2 Mis on päikesevoog (solar flux)?
-A. Päikese magnetvälja intensiivsus.
-B. Maa poole pööratud Päikese küljel nähtavate plekkide arv.
-C. Päikese poolt kiiratav ioniseeriv energia.
-M7-3 Mida nimetatakse geomagnetiliseks häireks?
-A. Päikese solar-fluks indeksi järsk langus.
-B. Maa magnetvälja järsk muutus lühikese aja jooksul.
-C. Maa magnetpooluse nihe.
-M7-4 Kui kiiresti jõuab Päikeselt kiirguv laetud osakeste vool Maale?
-A. 1,5 sekundiga
-B. 8 minutiga
-C. 20 kuni 40 tunniga.
-M7-5 Milline raadiolainete levimehhanism võimaldab saadet vastu võtta pinnalaine ulatusest kaugemal kuid lähemal ionosfäärist peegeldunud lainest?
-A. Sporaadiline E-levi.
-B. Lühikese hüppega levi.
-C. Raadiolaine peegeldumine troposfääri ja ionosfääri ebaühtluskohtadest (scatter).
-M7-6 Millises ionosfääri kihis kutsuvad äkilised ionosfääri häired esile raadiolainete suurenenud sumbuvuse?
-A. D-kihis.
-B. E-kihis
-C. F2-kihis.
-M7-7 Kuidas mõjutab geomagnetiline torm raadiolainete levi?
-A. Väga hea raadioside kõrgematel geomagnetilistel laiuskraadidel.
-B. Halvenenud raadiolevi kõrgematel geomagnetilistel laiuskraadidel.’
-C. Suurenenud pinnalaine ulatus.
-M7-8 Mis on raadiolainete levi kriitiline nurk?
-A. Minimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad Maale tagasi ionosfääri teatud seisundi puhul
-B. Kompassi suund teie asukohast korrespondendi suunas.
-C. Maksimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad veel Maale tagasi ionosfääri teatud seisundi puhul.
-M7-9 Kui kaua tavaliselt kestavad ootamatud ionosfääri häired?
-A. Kogu päev.
-B. Mõnest minutist kuni mõne tunnini.
-C. Keskmiselt ühe nädala.
-M7-10 Millistel laiuskraadidel esineb tavaliselt rohkem geomagnetilisi häireid?
-A. Ekvaatori laiuskraadidel.
-B. 45 kraadist kõrgematel laiustel.
-C. Kõikidel laiuskraadidel ühtemoodi.
-Moodul M8B Mõõtetehnika ja selle kasutamine ( 2 küsimust )
-M8-1 Milline mõõteriist sisaldab horisontaal- ja vertikaalkanali võimendi?
-A. Oommeeter.
-B. Signaalgeneraator.
-C. Ostsillograaf.
-M8-2 Mis tüüpi signaale on võimalik ostsilloskoobi abil vaadelda?
-A. Suvalisi ajast sõltuvaid signaale instrumendi sagedusriba piires.
-B. Rahvusvahelisi laevade lipusignaale.
-C. Ookeanilaevade blinkersignaal
-M8-3 Mis seade on ostsilloskoop?
-A. Seade,mis näitab antenni kiirgustakistust.
-B. Seade,mis näitab antenni toiteliini seisulaine tegurit.
-C. Seade, mis võimaldab uurida kuvaril signaalide lainekuju.
-M8-4 Mis võib põhjustada ostsilloskoobi kineskoobi luminofoori riknemise?
-A. Vertikaalkanali võimendi ületüürimine.
-B. Liig suur heleduse säting.
-C. Kiire ebaõige fokuseerimine.
-M8-5 Mis seade on antenni mürasild?
-A. Seade antenni või muu elektrilise lülituse mürateguri mõõtmiseks.
-B. Seade antenni või muu elektrilise lülituse impedantsi mõõtmiseks.
-C. Seade vastuvõtjas esineva müra hävitamiseks.
-M8-6 Kuhu ühendatakse antenni mürasild?
-A. Seade ühendatakse antenni toitepunkti ja müra suurus loetakse seadme skaalalt.
-B. Seade ühendatakse saatja ja antenni vahele ning häälestatakse minimaalse seisulaine teguri saavutamiseni.
-C. Seade ühendatakse vastuvõtja ja tundmatu impedantsiga skeemi vahele ning häälestatakse minimaalse müra saavutamiseni.
-M8-7 Mis seade on väljatugevuse mõõtja?
-A. Seade,mis mõõdab seisulaine tegurit antenni toiteliinis.
-B. Seade modulatsioonisügavuse määramiseks saatja väljundis.
-C. Seade kõrgsagedussignaali suhtelise võimsuse mõõtmiseks.
-M8-8 Kui palju tuleb suurendada saatja väljundvõimsusust, et saatja läheduses asuva vastuvõtja S-meetri näit suureneks S8-lt S9-ni ?
-A. Ligikaudu kaks korda.
-B. Ligikaudu kolm korda.
-C. Ligikaudu neli korda.
-M8-9 Milline on kõige sobivam lihtne instrument antenni kiirguse suunadiagrammi määramiseks horisontaaltasapinnas?
-A. Väljatugevuse mõõtja.
-B. Antenni mürasild.
-C. Tester.
-M8-10 Millist seadet saab kasutada saatja väljundsignaalis esinevate intermodulatsioonimoonutustes tekitatud parasiitsignaalide uurimiseks?
-A. Vattmeeter.
-B. Spektrianalüsaator.
-C. Loogikaskeemide analüsaator.
-Moodul M9B Raadiohäired ja elektromagnetiline ühildatavus ( 2 küsimust)
-M9-1 Mis on atmosfääriliste raadiohäirete peamine tekkepõhjus?
-A. Päikeseplekid.
-B. Äikesetormid.
-C. Lennukid
-M9-2 Kuidas on võimalik kindlaks teha, kas raadiohäireid tekitav elektriliin asub teie majas?
-A. Kontrolli elektriliini pinget graafilise reflektomeetriga.
-B. Kontrolli vahelduvvoolu lainekuju ostsilloskoobi abil.
-C. Lülita välja maja elektrivõrgu pealüliti ja kuula patareitoitega raadiot.
-M9-3 Kuidas on võimalik vähendada auto elektrigeneraatori poolt tekitatavaid raadiohäireid?
-A. Ühendada raadio toitejuhtmed akuga nii pikka teed mööda kui vähegi võimalik.
-B. Ühendades raadio toitejuhtmed akuga lühimat võimalikku teed kaudu.
-C. Ühendades kõrgpääsfiltri järjestikku raadiojaama auto pardavõrguga ühendavasse juhtmesse.
-M9-4 Kuidas saab vähendada väga tugeva signaali toimel vastuvõtjas tekkivaid intermodulatsioonihäireid?
-A. Vähendades vastuvõtja toitepinget.
-B. Lülitades vastuvõtja sisendisse attenuaatori.
-C. Kasutada vastuvõtja kõige kitsama pääsuribaga filtrit.
-M9-5 Miks on kasulik omada vastuvõtja sisendis attenuaatorit?
-A. Vähendab vastuvõetava signaali ribalaiust.
-B. Elimineerib isotroopilise kiirguse põhjustatud efekte.
-C. Kaitseb vastuvõtja ülekoormamist erkordselt tugeva signaali poolt.
-M9-6 Teie naaber teatab, et tekitate häireid televisioonivastuvõtule. Teie olete aga kindel, et teie aparatuur töötab korralikult. Mida peate tegema?
-A. Lülitate kohe oma saatja välja ja pöördute Sideameti poole abi saamiseks.
-B. Kontakteerudes naabriga proovite välja selgitada, kas tõepoolest teie töö eetris on TV-häirete tekkepõhjuseks.
-C. Monteerite saatja väljundisse kõrgpääsfiltri ja televiisori sisendisse madalpääsfiltri.
-M9-7 Mis tüüpi filter tuleb kõigepealt paigaldada amatöörraadiojaama harmooniliste sageduste kiirguse vältimiseks?
-A. Võtmeklõpsu filter.
-B. Madalpääsfilter.
-C. Kõrgpääsfilter.
-M9-8 Mis tüüpi interferentshäireid võib kiirata mitmebandi antenn, mis on ühendatud valesti häälestatud raadiojaama väljundisse?
-A. Harmoonilisi sagedusi.
-B. Aurora taolisi signaale.
-C. Parasiitsignaale.
-M9-9 Mida tähendab väljend "harmooniliste kiirgus" ?
-A. Töösageduse täiskordsete sageduste kiirgus eetrisse.
-B. 50 Hz brummsagedusega moduleeritud signaalide kiirgus.
-C. Lähedal paiknevates teistes saatjates võib tekkida liitmodulatsioon teie saatja töö tõttu.
-M9-10 Milline filter tuleb paigutada televiisori sisendisse esmase abinõuna amatöörraadiojaama poolt tekitatud kõrgsagedusliku ülekoormuse vähendamiseks?
-A. Kõrgpääs.
-B. Madalpääs.
-C. Ribafilter.
-D. Sõltub, millisel sagedusel tekitab raadiojaam häireid.
-Moodul M10B Ohutustehnika (1 küsimus)
-M10-1 Milline inimese keha organ on kõige tundlikum kõrgsagedusliku energia poolt põhjustatud kudede kuumenemise suhtes?
-A. Silmad
-B. Käed
-C. Süda
-M10-2 Tugev kõrgsagedusenergia kiirgus võib olenevalt lainepikkusest, kõrgsagedusvälja intensiivsusest ja muudest teguritest rikkuda inimkeha kudesid. Kuidas mõjub kiirgus keha kudedele?
-A. Kutsub esile kiiritushaiguse.
-B. Kuumendab kudesid.
-C. Jahutab kudesid.
-M10-3 Kui suur võib maksimaalselt olla inimkeha läbiv vahelduvvool, mis endast ei kujuta veel ohtu?
-A. 1000 A
-B. 0,1 A
-C. 10 mA
-M10-4 Mida tuleb teha kõigepealt kui näed voolujuhtmetesse kinnijäänud inimest?
-A. Hakkad otsima telefoni,et abi kutsuda.
-B. Mingi voolu mittejuhtiva eseme abil vabastad kannatanu juhtmetest ja alustad kohe südame kaudse massaashi ja kunstliku hingamise tegemist samaaegselt hüüdes abi järele,
-C. Viskad elektrijuhtmetele mingi maandusjuhtme.
-M10-5 Kui tahad teha mõningaid häälestusoperatsioone oma VHF/UHF raadiojaama juures, mida peab tegema enne jaama sisselülitamist?
-A. Tuleb maha võtta kõik varjestused-ekraanid maksimaalse jahutuse saamiseks.
-B. Lülitada sisse mürasild interferentshäirete vähendamiseks.
-C. Tuleb veenduda,et kõik varjestused on kinnitatud oma kohale.
-M10-6 Mida peab silmas pidama, kui taod antennimasti tõmmitsate kinnitusvaiu maasse?
-A. Et vai ei asuks antennimastile liialt lähedal.
-B. Et vai oleks küllaldase pikkusega.
-C. Et löögisuuna pikendusel ei seisaks inimesi, keda varre otsast juhuslikult äralendav kirves või vasar võiks vigastada.
-M10-7 Mida tuleb jälgida raiudes puid välipäeva või kokkutuleku lõkke jaoks?
-A. Kas puud on küllaldaselt kuivad.
-B. Tuleb seista jalad harki,et juhuslikul puust möödalöömisel kirves ei tabaks jalgu.
-C. Usaldada see töö kellelegi teisele.
-M10-8 Mida tuleb silmas pidada antennimasti püstitamisel või antenni vedamisel majade vahele?
-A. Kas antenn maast vaadatuna jätab kena mulje.
-B. Ega antenn mitte kuskil naabrimehe krundi nurgast üle ei käiks.
-C. Et antenn püstitamisel, pööramisel või tuule käes kõikudes mitte kuskil ei puudutaks elektriülekandeliinide juhtmeid.
-M10-9 Tehes tööd kõrgel antennimasti otsas tuleb jälgida et....
-A. Lähiajal ei oleks oodata piksevihma.
-B. Kasutatavad tööriistad oleksid paigutatud ja kinnitatud selliselt, et nad ei saaks allolijatele pähe kukkuda.
-C. Kas kõik vajalik on kaasas,et ei peaks mitu korda üles - alla ronima
-M10-10 Kui oled autoga sõitnud välipäevale peab silmas pidama .....
-A. Kas tagasisõiduks bensiini jätkub.
-B. Et mitte mingisugust auto osa ei oleks kasutatud antenni,antenni- või jõukaablite kinnituspunktidena,mis auto suvalisel ärasõidul viib kaasa pool laagrit koos kallite aparaatidega ja võib põhjustada õnnetusi inimestega.
-C. Et auto ei saaks iseenesest liikuma hakata.
-Moodul M11B Amatöörraadiojaama opereerimise reeglid ja protseduurid (2 küsimust)
-M11-1 Mis on kõige olulisem tegur kutsesageduse valikul teil kasutada lubatud sagedusalal?
-A. Sagedus ei tohi olla hõivatud teiste amatööride poolt.
-B. Peate kuulma sel sagedusel mõnd jaama veendumaks et teid võidaks kuulda.
-C. Teie antenn peab olema resonantsis antud sagedusel.
-M11-2 Soovite suvise päeva õhtupoolikul sidet saada amatööriga, kes asub teist ligikaudu 2000 km eemal. Milline laineala sobiks edukaks sidepidamiseks kõige rohkem?
-A. 80 või 40 m band.
-B. 40 või 15 m band.
-C. 15 või 10 m band.
-M11-3 Kuidas saab raadiojaama häälestamisel eetrisoleku aega viia miinimumini?
-A. Kasutades suvalise pikkusega antenni.
-B. Häälestades jaama esmalt 40m bandil siis minna üle teistele bandidele.
-C. Kasutades jaama häälestamiseks antenni ekvivalenti (dummy load).
-M11-4 Kuulete oma sagedusel Haiitis toimunud maavärina päästjate teabevahetust. Mida teete?
-A. Teatate jaamale, et sagedus on hõivatud.
-B. Otsite töötamiseks mõne teise sageduse.
-C. Helistate Päästeametisse.
-D. Helistate Tehnilise Järelevalve Ametisse.
-M11-5 Milline on morsekoodis antud standardse väljakutse "CQ" formaat?
-A. Saadate kolm korda "CQ",millele järgneb protseduurisignaal "DE" ja kolm korda oma kutsungi.
-B. Saadate "CQ" kolm korda,"DE" üks kord ja oma kutsungi ka üks kord.
-C. Saadate "CQ" kümme korda, "DE" üks kord ja oma kutsung üks kord.
-M11-6 Kuidas te vastate morsekoodis "CQ" väljakutsele?
-A. Saadate oma kutsungit neli korda.
-B. Saadate teise jaama kutsungi kaks korda, "DE" ja oma kutsungi kaks korda.
-C. Saadate teise jaama kutsungi üks kord,"DE" ja oma kutsungi neli korda
-M11-7 Millise kiirusega tuleb morsekoodis saata "CQ"?
-A. Aeglasemalt kui 25 märki minutis.
-B. Suurima kiirusega, mida teie võti on võimeline arendama.
-C. Kiirusega,millist olete ise võimeline korralikult vastu võtm
-M11-8 Mis tähendus on Morsekoodi liittähtedel AR ?
-A. Vastaku ainult kutsutud jaam.
-B. Kõik on korralikult vastu võetud.
-C. Saate lõpp.
-M11-9 Mida tähendavad Morsekoodis saadetud liittähed SK ?
-A. Enam-vähem korralikult vastu võetud.
-B. Parimad tevitused.
-C. Side lõpp.
-M11-10 Mida tähendavad Morsekoodis saadetud liittähed KN ?
-A. Murrujoon.
-B. Side lõpp.
-C. Vastaku ainult kutsutud jaam .
-M11-11 Mida tähendab "CQ" ?
-A. Märguanne teisele jaamale, et kutsute teda veerand tunni pärast.
-B. Märguanne, et proovite uut antenni ja väljakutsetele ei vasta.
-C. Üldväljakutse märkimaks, et üritate kellegagi ühendust luua.
-D. Ainult kutsutud jaam tohib vastata.
-M11-12 Mida tähendab lühend QRS ?
-A. Mind segavad staatilised häired.
-B. Saatke aeglasemalt.
-C. Saatke RST raport.
-M11-13 Mida tähendab lühend QTH ?
-A. Kellaaeg on ...
-B. Minu nimi on ...
-C. Minu asukoht on ...
-M11-14 Milline on standardse telefoniväljakutse formaat?
-A. Saadate teise jaama kutsungi vähemalt kümme korda,siis sõnad "this is",seejärel oma kutsung vähemalt kaks korda.
-B. Saadate fraasi "CQ" vähemalt viis korda,siis "this is" ja oma kutsung üks kord.
-C. Saadate fraasi "CQ" kolm korda,"this is" ja oma kutsungi kolm korda.
-M11-15 Kuidas te vastate raadiotelefoni väljakutsele?
-A. Saadate teise jaama kutsungit kümme korda ,siis "this is" ja oma kutsungit vähemalt kaks korda.
-B. Saadate teise jaama kutsungit veerimistabelit kasutades vähemalt viis korda, "this is" ja oma kutsungit vähemalt üks kord.
-C. Saadate teise jaama kutsungit ühe korra,"this is" ja oma kutsungit veerimistabelit kasutades ühe korra.
-M11-16 Kuidas tuleb veerimistabeli abil saata kutsung ES9A ?
-A. Eemeli Sagari Nine Aarne.
-B. Echo Sierra Nine Alfa.
-C. Edward Santiago Nine Alabama.
-M11-17 Kuidas veeritakse kutsungit AE0LQY ?
-A. Able Easy Zero Lima Quebec Yankee.
-B. Arizona Equador Zero London Queen Yesterday
-C. Alfa Echo Zero Lima Quebec Yankee
-M11-18 Mida tähendab lühend AS ?
-A. Aktsiaselts.
-B. Asu saatele.
-C. Oota
-M11-19 Mida tähendab R RST signaali raportis?
-A. Signaali taastumist.
-B. CW tooni reonantsi.
-C. Signaali loetavust.
-M11-20 Mida tähendab lühend QSL?
-A. Kas pean saatma teile oma jaamapäeviku?
-B. Kas võite kinnitada minu saadetud teate kättesaamist?
-C. Kas pean saatma aeglasemalt?
-Moodul M12B Amatöörraadioside siseriiklik ja rahvusvaheline õiguslik regulatsioon. ( 4 küsimust )
-M12-1 Mida loetakse amatöörraadiojaamaks?
-A. Tehasvalmistatud raadiosideaparatuuri ja selle energiatoite seadmete kogumit.
-B. Tehniliste seadmete kogumit,mida raadioamatöör võib kasutada amatöörraadiosideks vastavalt Sideameti poolt väljastatud tööloa alusel.
-C. Tehniliste seadmete kogumit,mida raadioamatöör võiks kasutada amatöörraadiosideks ka ilma Sideameti poolt väljastatavat tööluba omamata.
-M12-2 Amatöörraadiojaama tehniliste seadmete kogumikku kuuluvad:
-A. Saatja ja vastuvõtja.
-B. Saatja, vastuvõtja ja energiatoite seade.
-C. Saatja,vastuvõtja,lõppseade ja antenn(id).
-M12-3 Amatöör-vahendusraadiojaamaks loetakse:
-A. Kindlal sagedusel või sagedustel toimivat amatöörraadiojaama,mille vahendusel teostatakse vastuvõetavate sõnaliste või digitaalsete saadete edastamist reaalajas või läbi vahemälu.
-B. Avakosmoses paiknevat raadiojaama.
-C. Amatöörraadiojaama,mille kaudu edastatakse ainult ringteateid.
-M12-4 Amatöörraadiomajakaks loetakse:
-A. Avakosmoses paiknevat amatöörraadiojaama, mille vahendusel teostatakse raadiolevi tingimuste võrdlust.
-B. Automaatselt toimivat amatöörraadiojaama,mida kasutatakse väljatugevuse mõõtmisel,antennide häälestamisel ja raadiolevi tingimuste hindamisel.
-C. Ühiskasutusega amatöörraadiojaama,mida võib sidepidamiseks kasutada mitu raadioamatööri.
-M12-5 Ühiskasutusega amatöörraadiojaamaks loetakse:
-A. Amatöörraadiojaama,mis toimib ainult teatud kindlal sagedusel ja kellaajal.
-B. Amatöörraadiojaama,mida võivad kasutada ka raadioamatööri kvalifikatsiooni mitteomavad isikud.
-C. Amatöörraadiojaama,mis kuulub juriidilisele isikule või ERAÜ juures registreeritud raadioamatööride kollektiivile.
-M12-6 Amatöörraadiojaama registreeritud asukohaks loetakse:
-A. Asukoht,kust konkreetne raadiojaam antud ajahetkel väljub eetrisse.
-B. Amatöörraadiojaama valdaja elukoht.
-C. See asukoht, mis on märgitud tööloale.
-D. Seda õigusaktid enam ei reguleeri.
-M12-7 Amatöörraadiosideks loetakse:
-A. Mittetulunduslikku raadiosidet,milles osalevad ainult raadioamatöörid.
-B. Raadiosidet,milles korrespondentide valik on vaba.
-C. Raadiosidet,kus osapooled vahetavad informatsiooni ainult morsekoodi abil
-M12-8 Amatöörraadiosidet tohib kasutada:
-A. Sagedusalades,mis vastavad IARU 2.regiooni sagedusplaanile.
-B. Ainult sagedusalades,mis on eraldatud amatöörraadiosideks Eesti raadiosageduste plaaniga.
-C. Ainult mitteavalike raadiosõnumite edastamiseks.
-M12-9 Raadioamatööriks loetakse isikut:
-A. Kes oma vanuse,raadiotehniliste teadmiste ja elukogemuste põhjal võib seda nimetust kanda.
-B. Kes kasutab tavalist,headest tavadest lähtuvat kõnekeelt raadioside pidamisel.
-C. Isikut,kes omab raadioamatööri kvalifikatsioonitunnistust.
-M12-10 Amatöörraadiosides tohib edastada sihituseta või korrespondendita saateid:
-A. Amatöörtelevisiooni saatja video- ja helikanali edastamiseks.
-B. Amatöörraadiomajakate poolt.
-C. Kõikidele Eesti radioamatööridele määratud infoteadete edastamiseks.
-M12-11 Millist varianti saab kasutada Eesti amatöörjaama kutsungi moodustamiseks?
-A. Kolmetäheline eesliide, number ja neljatäheline järelliide.
-B. Ühetäheline eesliide, number ja neljatäheline järelliide.
-C. Kahetäheline eesliide, number ja neljatäheline järelliide.
-D. Kahekohaline numbriline eesliide ja kuni kolmetähelisest järelliide.
-M12-12 Haapsalus registreeritud amatöörraadiojaama kutsung algab:
-A. ES1
-B. ES0
-C. ES3
-M12-13 Kutsung ES9Z kuulub piirkondlikult:
-A. Hiiumaale
-B. Üleriigiline,kasutamiseks ainult ERAÜ poolt.
-C. Põlvamaale.
-M12-14 Kutsung ES2XX võib kuuluda millise klassi Eesti amatöörraadiojaamale?
-A. C
-B. B
-C. A
-M12-15 Ühiskasutusega (raadioklubi) amatöörraadiojaamale omistatakse kutsungi järelliide:
-A. AAA-CCC
-B. A-ZZ
-C. XAA-ZZZ
-M12-16 Ühiskasutusega (raadioklubi) amatöörraadiojaama vastutavaks järelevaatajaks võib olla ainult:
-A. A-klassi kvalifikatsioonitunnistust omav raadioamatöör.
-B. -klassi kvalifikatsioonitunnistust omav raadioamatöör.
-C. C-klassi kvalifikatsioonitunnistust omav raadioamatöör.
-M12-17 Amatöörraadiojaama luba väljastatakse Tarbijakaitse ja Tehnilise Järelevalve Ameti poolt kestvusega:
-A. Tähtajatu.
-B. 1 aasta.
-C. 3 aastat.
-D. 5 aastat
-M12-18 Amatöörraadiojaama tohib kasutada:
-A. Ainult raadioamatööri harmoneeritud kvalifikatsioonitunnistuse alusel
-B. Ainult kehtiva amatöörraadiojaama tööloa alusel.
-C. Ainult raadioamatööri kvalifikatsioonieksami sooritamise tunnistuse alusel.
-M12-19 Amatöörraadiojaama tööluba kuulub hoidmisele:
-A. Raadiojaama valdaja elukohas.
-B. Raadiojaama registreeritud asukohas.
-C. Sideametis.
-M12-20 Mida tuleb teha tööloale kantud andmete muutumisel.
-A. Tuleb taotleda uut tööluba.
-B. Tuleb sooritada uus eksam
-C. Tuleb tööloal veekindla markeriga andmed muuta
-M12-21 Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta on lubatud:
-A. Kolm kuud.
-B. Viis kuud.
-C. Kuus kuud.
-D. Üks aasta.
+Moodul M1D Raadio- ja elektrotehnika teooria (2/30)
+M1-100  Milliseid laineid kasutatakse raadiosides?
+A*. Raadiolaineid.
+B. Sidelaineid.
+C. Raadiosides ei kasutata laineid.
+M1-101  Raadiolained läbivad 300 000 kilomeetrit
+A*. 1 sekundiga.
+B. 1 päevaga.
+C. 1 valgusaastaga.
+M1-102  Mis vahe on elektromagnetlainetel ja raadiolainetel?
+A. Elektromagnetlained levivad vaakumis.
+B. Nad levivad erineva kiirusega.
+C*. Neil polegi vahet.
+M1-103  Mida ühist on elektromagnetlainetel ja raadiolainetel?
+A*. Kõik raadiolained on elektromagnetlained.
+B. Nad levivad helikiirusega.
+C. Neil pole midagi ühist.
+M1-104  Mida ühist on valgusel ja raadiolainetel?
+A*. Nad on elektromagnetlained.
+B. Nad levivad helikiirusega.
+C. Neil pole midagi ühist.
+M1-105  Mis vahe on raadiolainetel ja helilainetel?
+A. Helilained on raadiolainetest kiiremad.
+B. Helilaine ei suuda levida õhus.
+C*. Helilaine ei ole elektromagnetlaine.
+M1-106  Raadiolaine on:
+A.* Umbes miljon korda kiirem kui helilaine.
+B. Umbes kaks korda aeglasem kui helilaine.
+C. Sama kiire kui helilaine.
+M1-107  Mille poolest sarnanevad pikklained, kesklained, lühilained ja ultralühilained?
+A*. Nad on elektromagnetlained.
+B. Neil on sama lainepikkus.
+C. Nad ei sarnane üksteisega.
+M1-108  Mis vahe on pikklainetel, kesklainetel, lühilainetel ja ultralühilainetel?
+A. Ultralühilained levivad helikiirusel.
+B*. Neil on erinev lainepikkus.
+C. Neil ei ole mingit vahet.
+M1-109 Mis on lainepikkus?
+A. Aeg, mis lainel kulub 300 000 kilomeetri läbimiseks.
+B*. Vahemaa kahe laineharja vahel.
+C. Lainel ei ole pikkust.
+M1-110 Mis on sagedus?
+A. Aeg, mis lainel kulub 300 000 kilomeetri läbimiseks.
+B. Vahemaa kahe laineharja vahel.
+C*. Ajaühikus kiirgunud lainete arv.
+M1-111 Kuidas on seotud elektromagnetlaine lainepikkus ja sagedus?
+A. Lainepikkus meetrites on võrdne sagedusega hertsides.
+B*. Mida väiksem lainepikkus, seda suurem sagedus.
+C. Nad ei ole omavahel seotud.
+M1-112 Kui saadetava raadiolaine sagedus suureneb 2 korda, siis tema lainepikkus:
+A*. Väheneb 2 korda, sest laine jõuab enne järgmise laine kiirgamist läbida 2 korda väiksema teepikkuse.
+B. Suureneb 2 korda, sest laine jõuab enne järgmise laine kiirgamist läbida 2 korda suurema teepikkuse.
+C. Lainepikkus ei muutu.
+M1-113 Raadiolaine pikkust mõõdetakse:
+A. Hertsides.
+B*. Meetrites.
+C. Raadiolaine pikkust ei saa mõõta.
+M1-114 Raadiolaine sagedust mõõdetakse:
+A*. Hertsides.
+B. Meetrites.
+C. Raadiolaine sagedust ei saa mõõta.
+M1-115 Miks kasutatakse mõõtühikute ees liiteid “piko-”, “nano-”, “mikro-”, “milli-”, “kilo-“, “mega-“, “giga-”, “tera”?
+A*. Selleks, et vähem nulle kirjutada.
+B. Ilma eesliiteta ühikute kirjutamine pole lubatud.
+C. Eesliiteid ei tohi mingil juhul kasutada.
+M1-116 Miks kasutatakse mõõtühikutes eesliidet “mega”?
+A. Tegemist on eesliitega, mis lisatakse eriti sümpaatsele mõõtühikule.
+B*. Ühiku väärtuse miljonikordseks suurendamiseks.
+C. Ühiku väärtuse miljonikordseks vähendamiseks.
+M1-117 Kuidas on seotud sagedused 5 000 000 hertsi ja 5 megahertsi?
+A. 5 000 000 hertsi on suurem kui 5 megahertsi.
+B. 5 000 000 hertsi on väiksem kui 5 megahertsi.
+C*. Nad on võrdsed.
+M1-118 Kuidas on seotud sagedused 5 000 hertsi ja 5 megahertsi?
+A. 5 000 hertsi on suurem kui 5 megahertsi.
+B*. 5 000 hertsi on väiksem kui 5 megahertsi.
+C. Nad on võrdsed.
+M1-119 Kuidas on seotud sagedused 5 mHz ja 5 MHz?
+A. 5 mHz on suurem kui 5 MHz.
+B*. 5 mHz on väiksem kui 5 MHz.
+C. Nad on võrdsed.
+M1-120 1 kilovatt on:
+A. 1 vatt.
+B*. 1000 vatti.
+C. 0,001 vatti.
+M1-121 Te töötate sagedusel 14250 kHz ja tahate sagedust muuta 5 kHz ülespoole. Te valite uueks töösageduseks:
+A*. 14255 kHz.
+B. 14245 kHz.
+C. 19250 kHz.
+M1-122 Kuidas on seotud suurused 10 kilohertsi ja 10 millivolti?
+A. 10 kilohertsi on suurem kui 10 millivolti.
+B. 10 kilohertsi on väiksem kui 10 millivolti.
+C*. Nad ei ole seotud.
+M1-123 Mida mõõdetakse vattides?
+A*. Võimsust.
+B. Kaitseriietuse pehmust.
+C. Lainepikkust.
+M1-124 Mida mõõdetakse voltides?
+A. Sagedust.
+B. Kaitseriietuse voltide arvu.
+C*. Pinget.
+M1-125 Mida mõõdetakse oomides?
+A. Oomegategurit.
+B*. Takistust.
+C. Sagedust.
+M1-126 Mida mõõdetakse amprites?
+A*. Voolutugevust.
+B. Levitegurit.
+C. Sagedust.
+M1-127 Mida mõõdetakse hertsides?
+A. Elektrivoolu kahjulikku mõju südamele.
+B*. Sagedust.
+C. Lainepikkust.
+M1-128 Mida mõõdetakse meetrites?
+A. Takistust.
+B*. Lainepikkust.
+C. Sagedust.
+M1-129 Lainepikkust mõõdetakse meetrites, kuna:
+A*. Meeter on pikkusühik.
+B. Elektromagnetlained levivad väga suure kiirusega.
+C. Meetri kasutamisel saavutatakse kõige suurem saatja võimsus.
+Moodul M2D Raadio- ja elektrotehnika komponendid (2/10)
+M2-130  Vaske kasutatakse raadiotehnikas seetõttu, et sellest valmistatud detailid:
+A*. Juhivad hästi elektrit.
+B. On head isolaatorid.
+C. Sulavad kergesti.
+M2-131  Kaablite ja juhtmete ümber oleva plastmassikihi ülesanne on:
+A*. Kaabli elektriline isoleerimine.
+B. Lühise korral kõrge temperatuuri tekkimise vältimine.
+C. Kaabli juhtivuse parandamine.
+M2-132  Pooljuhi põhiomaduseks on:
+A*. Juhib elektrit metallidest halvemini, kuid isolaatoritest paremini.
+B. Saab jootmise abil montaažplaadile kinnitada.
+C. Ei saa kasutada raadiolampides.
+M2-133  Raadiolampide kohta saab öelda:
+A. Neid enam ei kasutata.
+B. Neid kasutatakse elektroonikaseadmetes.
+C*. Neis ei saa kasutada pooljuhte.
+M2-134  Miks kasutatakse isolaatorite valmistamiseks portselani?
+A*. Portselan on vastupidav ja ei juhi elektrit.
+B. Portselanist valmistatud isolaatorid on valged.
+C. Portselan juhib väga hästi elektrit.
+M2-135  Antennikaabli ühendamiseks transiiveriga kasutatakse:
+A. Sulavkaitset.
+B*. Pistikut ja pistikupesa.
+C. Transformaatorit.
+M2-136  Takisteid kasutatakse:
+A. Raadiojaama ruumi võõraste isikute tuleku takistamiseks.
+B*. Sobiva takistusega vooluahelate koostamiseks.
+C. Elektrienergia tarbimise vähendamiseks öisel ajal.
+M2-137  Miks kasutatakse raadiodetailide monteerimisel jootmist?
+A*. Korralik jootmine tagab hea ühenduse.
+B. Joodetud detailid peegeldavad paremini valgust.
+C. Sulavkaitse rakendub joodetud detailide puhul paremini.
+M2-138  Kuidas ühendaksite omavahel kaks vasktraati?
+A. Kasutate juhtsõlme kontrollsõlmega.
+B. Panete otsad lähestikku, nii et magnetjõud mõjuma hakkavad.
+C*. Joodate kokku.
+M2-139 Kui sulavkaitse läbi põleb, Te:
+A*. Uurite, miks kaitse läbi põles.
+B. Asendate sulavkaitsme vastupidavamaga.
+C. Ei kasuta edasises töös sulavkaitsmeid.
+Moodul M3D Raadio- ja elektrotehnika ahelad (2/10)
+M3-140  Alalisvooluahela kohta võib öelda:
+A*. Pinge polaarsus selles ahelas ei muutu.
+B. Pinge polaarsus selles ahelas muutub.
+C. Alalisvooluahela otstel on pinge alati +1,5 volti.
+M3-141  Vahelduvooluahela kohta võib öelda:
+A. Pinge ja voolutugevus selles ahelas ei muutu.
+B*. Pinge polaarsus selles ahelas muutub.
+C. Vahelduvvooluahela otstel on pinge maksimumväärtus alati 220V.
+M3-142  Transiiver vajab toiteks 12-voldilist alalispinget. Selle saamiseks Te:
+A. Vähendate elektrivõrgu pinget peakilbist 12 voldini.
+B*. Kasutate elektrivõrgu ja transiiveri vahel alalistoiteplokki.
+C. Kasutate elektrivõrgu ja transiiveri vahel potentsiomeeterlülitust.
+M3-143  Toiteploki ülesandeks on:
+A*. Seadmete sobiva toitepingega varustamine.
+B. Seadmetest väljuva pinge tagastamine elektrivõrku.
+C. Imiku toitmine vanemate äraolekul.
+M3-144  Teil on vaja valmistada maanduskontuur. Selleks Te kasutate:
+A. Ülitugevat klaaskiudu.
+B*. Pikka metallvarrast.
+C. Eriotstarbelist plastikkontuuri.
+M3-145  Maandusjuhe on vajalik selleks, et:
+A. Vältida seadmete tuulega lendutõusmist.
+B*. Välistada seadme korpuse sattumine pinge alla.
+C. Suurendada saatja võimsust.
+M3-146  Maandusjuhtme paigaldamisel on kõige olulisem:
+A. Valida võimalikult hinnaline materjal.
+B. Paigaldada juhe läbilöögi vältimiseks maast võimalikult kõrgele.
+C*. Tagada juhtme võimalikult hea ühendus maaga.
+M3-147  Raadioseadmetes kasutatakse sulavkaitsmeid järgmisel otstarbel:
+A. Jootetina sulamistemperatuuri alandamiseks, et raadiodetailid ei kahjustuks.
+B*. Vooluahela katkestamiseks liiga suure koormuse puhul.
+C. Jää eemaldamiseks talvisel ajal kaitseks saatja lõppastme külmumise eest.
+M3-148  Akude laadimiseks Te:
+A. Ühendate laetava aku elektrivõrku kolmefaasilise pistiku abil.
+B*. Kasutate akulaadijat.
+C. Ühendate laetava aku elektrivõrgu nulljuhtmega, jälgides maanduse saavutamist.
+M3-149 Miks kasutatavad juhtmed ei või olla liiga väikese läbimõõduga?
+A*. Nad kuumenevad liialt.
+B. Nad on silmaga halvasti nähtavad.
+C. Nad raiskavad liiga palju materjali.
+Moodul M4D Raadiovastuvõtuseadmed (2/11)
+M4-150  Raadiolainete vastuvõtmiseks saab kasutada:
+A. Raadiovastuvõtjat.
+B. Transiiverit.
+C*. Mõlemat.
+M4-151  Raadiovastuvõtja võtab vastu:
+A. Helilaineid.
+B*. Raadiolaineid.
+C. Nii heli- kui raadiolaineid.
+M4-152  Kuidas jõuab antenni juurde saabunud helisignaal vastuvõtjasse?
+A. Mööda antennikaablit.
+B. Mööda maanduskaablit.
+C*. Ei jõuagi.
+M4-153  Raadiolainete vastuvõtul on vajalik:
+A. Antenn.
+B. Raadiovastuvõtja.
+C*. Nii antenn kui raadiovastuvõtja.
+M4-154  Vastuvõtja häälestamiseks soovitavale jaamale:
+A*. Kasutatakse laineala häälestusnuppu.
+B. Keeratakse helitugevuse regulaatori nuppu soovitud sageduse saavutamiseni.
+C. Helistatakse teise jaama operaatorile ja palutakse tal end häälestada Teie vastuvõtusagedusele.
+M4-155  Operaatori poolt kuuldav signaal:
+A*. Tekib raadiovastuvõtja poolt vastuvõetud ja töödeldud raadiosignaalist.
+B. Tekib raadiovastuvõtja poolt vastuvõetud helisignaalist.
+C. Tekib iseenesest.
+M4-156  Kõrvaklappidest kuuleb operaator:
+A. Raadiolaineid.
+B*. Helilaineid.
+C. Seisulaineid.
+M4-157  Transiiveri helivaljusregulaatori nupu keeramisel:
+A. Muudetakse transiiveri poolt vastuvõetava raadiosignaali sagedust.
+B*. Muudetakse kõrvaklappidesse või valjuhääldisse jõudva heli tugevust.
+C. Muudetakse raadiosaatja poolt kiiratava signaali tugevust.
+M4-158  Transiiveri S-meeter näitab:
+A*. Vastuvõetava signaali tugevust.
+B. Vastuvõetava signaali loetavust.
+C. Transiiveri S-teguri suurust.
+M4-159 Kui vastuvõtjal pole S-meetrit, saab operaator signaali tugevust hinnata:
+A. Spektrianalüsaatoriga.
+B. Testriga.
+C*. Kuulmise järgi.
+M4-160 Mis on kõrvaklappide kasutamise eeliseks vastuvõtul võrreldes valjuhääldiga?:
+A*. Vastuvõetav signaal segab vähem ruumisviibijaid ja nemad segavad vähem kuulamist.
+B. Kõrvaklapid tarbivad oluliselt vähem energiat.
+C. Valjuhääldist tulev signaal on kõrgsageduslik.
+Moodul M5D Raadiosaateseadmed (2/10)
+M5-161  Raadiosignaali saatmiseks saab kasutada:
+A. Ostsillograafi.
+B*. Transiiverit.
+C. Spektrianalüsaatorit.
+M5-162  Mida on vaja omada telefonitööks ettenähtud raadiojaamas?
+A. Telegraafivõtit.
+B*. Mikrofoni.
+C. Madalpääsfiltrit.
+M5-163  Mikrofoni otstarbeks on:
+A*. Hääle muundamine elektriliseks signaaliks.
+B. Hääle edastamine otse antenni.
+C. Helisignaali täielik summutamine.
+M5-164  Käsitelegraafivõtme otstarbeks on:
+A*. Telegraafirežiimis raadiosaatja lülitamine saatele ja saate katkestamine.
+B. Automaatne telegraafikoodi genereerimine.
+C. Edastatava signaali toonikõrguse tagamine.
+M5-165  Transiiveri laineala häälestusnupu keeramisel:
+A. Muudetakse mikrofoni kaudu edastatava madalsagedussignaali sagedust.
+B*. Muudetakse transiiveri poolt saadetava ja vastuvõetava raadiosignaali sagedust.
+C. Muudetakse kõrsvaklappidesse edastatava madalsagedussignaali sagedust.
+M5-166  Raadiosaatja võimsuseks nimetatakse:
+A. Raadiosaatja suurust.
+B*. Saatja poolt ajaühikus kiiratavat energiahulka.
+C. Vastuvõetava korrespodendi signaali tugevust.
+M5-167  Mis on saatjas kasutatavate ekraanide otstarve?
+A. Korrespondendi signaali parem summutamine.
+B*. Kaitse ebasoovitava kõrgsagedusliku kiirguse eest.
+C. Filmi vaatamiseks töö vaheajal.
+M5-168  Kui raadiosaatja võimsust suurendada, siis korrespondendi poolt vastuvõetav signaal:
+A. Muutub loetavamaks.
+B*. Muutub tugevamaks.
+C. Jääb samaks.
+M5-169  Kui Teile öeldakse, et Teie signaal on moonutatud, siis Te:
+A. Suurendate võimsust, et signaali kvaliteeti parandada.
+B. Palute korrespondendil Teid mitte solvata.
+C*. Kontrollite saatja korrasolekut.
+M5-170 Naabermajas oleva amatööriga jutuajamiseks Te:
+A. Kasutate nii palju võimsust kui võimalik, et naaber paremini kuuleks.
+B*. Kasutate nii vähe võimsust kui võimalik, et naabri vastuvõtuseadmeid mitte kahjustada.
+C. Helistate side pidamiseks naabri telefonile.
+Moodul M6D Antennid ja fiidrid (2/10)
+M6-171  Miks on transiiverile vaja antenni?
+A*. Ilma antennita pole vastuvõtt ja saatmine võimalik.
+B. Antenn kaitseb välgulöögi eest.
+C. Antenn maandab aparatuuri ja välistab elektrilöögi ohu.
+M6-172  Miks on antenni ja transiiveri vahel antennikaabel?
+A*. Kõrgsagedussignaalide edastamiseks transiiveri ja antenni vahel.
+B. Transiiveri täielikumaks maandamiseks.
+C. Mikrofonist pärineva helisagedussignaali antenni juhtimiseks.
+M6-173  Miks antenn lahutatakse äikese ajaks transiiverist?
+A. Vihma ajal võib vesi antennikaablit pidi transiiverisse tungida.
+B. Korrespondent kuuleb elektrilaengutest mõjutatud signaali moonutatuna.
+C*. Äikese ajal tekkivad elektrilaengud võivad transiiverit ja operaatorit kahjustada.
+M6-174  Milline allpooltoodud teguritest on antenni juures oluline?
+A. Antenn peab olema valmistatud tsingi ja vase sulamist.
+B*. Antenn peab olema õigete mõõtmetega.
+C. Antenni peab saama pöörata.
+M6-175  Millised on üldjuhul lühilaineantenni mõõtmed?
+A. Tunduvalt väiksemad lainepikkusest.
+B*. Umbes sama suur kui lainepikkus.
+C. Antenni mõõtmed ei sõltu lainepikkusest.
+M6-176  Mida nimetatakse suundantenniks?
+A*. Antenni, mis teatud suundadesse kiirgab paremini või võtab teatud suundadest paremini vastu.
+B. Antenni, mis suunab end Maa magnetjõujoonte sihis magnetpooluse suunda.
+C. Antenni, mida saab pöörata.
+M6-177  Miks suundantenne tavaliselt pööratakse?
+A. Antenni paigutamiseks transiiverist võimalikult kaugele.
+B*. Antenni orienteerimiseks suunda, kust võib oodata maksimaalset vastuvõetava ja saadetava signaali tugevust.
+C. Antenni keeramiseks Maa magnetväljaga risti ja demagneetimiseks.
+M6-178  Miks on raske valmistada antenni 160 meetri lainealale?
+A*. Antenni mõõtmed on väga suured.
+B. 160 meetri lainealal ei suuda signaal antennist kiirguda.
+C. Antenni suunatoime ei lase teda põhjasuunast mujale keerata.
+M6-179  Miks on raske valmistada ultralühilaineantenni?
+A*. Ultralühilaineantenni valmistamisel on vaja suurt täpsust.
+B. Ultralühilaineantennide tegemisel on kasutatud alumiiniumi.
+C. Maa magnetväli ei suuda ultralühilaineantenni enda sihis orienteerida.
+M6-180 Miks ultralühilaineantenni ei saa kasutada lühilainealal?
+A*. Lühilaineantenni mõõtmed peavad olema ultralühilaineantenni mõõtmetest tunduvalt suuremad.
+B. Lühilaineantennide tegemisel on kasutatud vaske.
+C. Pööraja ei suuda ultralühilaineantenni õigesse suunda keerata.
+Moodul M7D Raadiolevi (1/10)
+M7-181  Mis on raadiolevi?
+A. Võimalus kuulata avalikus kohas asuva raadiovastuvõtjat.
+B. Raadiokaupluste võrk raadioamatööride varustamiseks.
+C*. Raadiolainete võime levida tekkimiskohast kaugemale.
+M7-182  Ionosfääri seisundit ja raadiolainete levi mõjutab kõige rohkem:
+A*. Päike.
+B. Kuu.
+C. Veenus.
+M7-183  Ionosfäär on raadiosides oluline, kuna ta:
+A*. Mõjutab raadiolainete levi.
+B. Ümbritseb raadiojaama vahetut ümbrust.
+C. Teeb võimalikuks raadiolainete tekkimise.
+M7-184  Lühilainete kauglevi on võimalik tänu:
+A*. Lühilainete peegeldumisele ionosfäärilt ja maapinnalt.
+B. Otsese nähtavuse piirkonna laienemisele lühilainete toimel.
+C. Maa ja Päikese kerakujulisusele.
+M7-185  Raadiolainete otsenähtavuse leviala on võimalik suurendada, kui:
+A. Vähendada oluliselt Maakera kumerust.
+B*. Tõsta antenn võimalikult kõrgele.
+C. Kasutada jämedamat antennikaablit.
+M7-186  Päikeselt saabuvate osakeste tõttu tekkinud magnettormid:
+A. Aitavad raadiolainete abil avastada teisi universumi tsivilisatsioone.
+B*. Halvendavad oluliselt raadiolainete levi lühilainetel.
+C. Ei mõjuta raadiolainete levi.
+M7-187  Päevasel ajal saate Te 160 m ja 80 m lainealal tõenäoliselt kuulda:
+A*. Ainult kohalikke jaamu, mis asuvad otsese nähtavuse piirkonnas.
+B. Kõiki jaamu üle maailma.
+C. Ainult DX-jaamu.
+M7-188  Öisel ajal saate Te 10 m lainealal tõenäoliselt kuulda:
+A*. Ainult kohalikke jaamu, mis asuvad otsese nähtavuse piirkonnas.
+B. Kõiki jaamu üle maailma.
+C. Ainult DX-jaamu.
+M7-189  Kui Te soovite ühel ja samal lainealal ööpäev läbi kaugsidesid teha, peaksite valima:
+A. 160 meetri lainela.
+B*. 20 meetri laineala.
+C. 10 meetri laineala.
+M7-190 Kauglevi ultralühilainetel on võimalik juhul, kui:
+A*. Ionosfäär on piisavalt tihe, et ultralühilaineid peegeldada.
+B. Ionosfäär on piisavalt hõre, et ultralühilaineid maailmaruumi läbi lasta.
+C. Kauglevi ultralühilainetel pole mingil juhul võimalik.
+Moodul M8D Mõõtetehnika ja selle kasutamine (1/10)
+M8-191  Mõõteriista kasutamisel:
+A. Peate jägima, et mõõteriista hoitakse hoolikalt ja kasutatakse ainult ettenähtud otstarbel.
+B. Peate jälgima, et mõõteriista näidu õigsust oleks perioodiliselt kontrollitud.
+C*. Mõlemad eespool toodud tingimused on olulised.
+M8-192  Kuidas mõõteriistu kontrollitakse?
+A*. Mõõdetakse tuntud suurusega parameetrit ja vaadatakse, kas mõõteriista näit läheb oodatava näiduga kokku.
+B. Mõõteriist on korras, kui näidu lugemisega pole probleeme.
+C. Mõõteriistu pole vaja kontrollida, kuna tootja on neile andnud piisava garantii.
+M8-193  Digitaalnäiduga mõõteriista eeliseks osutiga mõõteriista ees on:
+A. Suurem täpsus.
+B. Suurem töökindlus.
+C*. Eespool toodud asjaolud ei sõltu mõõteriista näidu lugemise viisist.
+M8-194  Kas digitaalnäiduga mõõteriista näidu õigsust on vaja kontrollida?
+A. Kontroll pole vajalik, kuna sellise mõõteriista näit on alati stabiilne ja kergesti loetav.
+B. Kontroll on vajalik iga mõõtmise ees ja järel, kuna selline mõõteriist võib näidata mida iganes.
+C*. Kontroll on vajalik, kui tekib kahtlus näidu õigsuses, või kui mõõteriista pole pikka aega kontrollitud.
+M8-195  Te tahate veenduda, et elektrivõrgust saadav pinge on 220 volti. Selleks Te saate kasutada:
+A. Kahte suure takistusega takistit.
+B*. Testrit.
+C. Sagedusanalüsaatorit.
+M8-196  Testri kasutamise põhieeliseks on:
+A*. Kasutamismugavus, kuna üks seade võimaldab mõõta mitut parameetrit ja erinevaid mõõtepiirkondi.
+B. Suurem täpsus ja töökindlus võrreldes kõigi teiste mõõteriistadega.
+C. Seadme kergus.
+M8-197  Testriga elektrivõrgust saadava pinge mõõtmisel:
+A. Tuleb välja lülitada kõik elektriseadmed.
+B*. On vaja jälgida, et on valitud sobiv mõõtepiirkond.
+C. Tuleb kaks nädalat varem teatada Eesti Energiasse, et nad saaksid voolu katkestada.
+M8-198  Testriga takistuse mõõtmisel tuleb jälgida järgmist:
+A. Mõõdetav takistus ei tohi olla liiga suur, kuna mõõteseade võib läbi põleda.
+B. Mõõdetav takistus ei tohi olla liiga väike, kuna mõõteseadme näitu ei õnnestu fikseerida.
+C*. Mõõdetav takistus ei tohi olla pinge all.
+M8-199  Antennielemendi pikkuse mõõtmiseks kasutatakse:
+A. Testrit.
+B*. Mõõdulinti.
+C. Seisulainekoefitsienti.
+M8-200 Kas saatja poolt kiiratava raadiolainete pikkuse mõõtmiseks saab kasutada joonlauda?
+A. Ei saa ainult siis, kui joonlaua mõõtmed erinevad tunduvalt lainepikkusest.
+B. Saab, kui mõõtja piisavalt kiiresti tegutseb.
+C*. Ei saa, tuleb kasutada spektrianalüsaatorit.
+Moodul M9D Raadiohäired ja elektromagnetiline ühildatavus (1/10)
+M9-201 Milliseid raadiohäireid võib sidepidamine põhjustada?
+A. Televiisorite vilkumist ja häireid elektroonikaseadmete töös.
+B. Helivõimendusseadmetele vahelesegamist.
+C*. Kõiki ülaltoodud häireid.
+M9-202 Mis võib olla häirete põhjuseks amatöörsides?
+A. Lähedalasuvad elektriseadmed.
+B. Atmosfäärihäired või teised raadiojaamad.
+C*. Kõik ülalloetletud asjaolud.
+M9-203 Kas Päike võib põhjustada atmosfäärihäireid?
+A. Ei, sest Päike asub väga kaugel.
+B*. Jah, sest Päikeselt jõuavad Maale ionosfääri seisundit mõjutavad osakesed.
+C. Päike suudab atmosfäärihäireid tekitada ainult päevasel ajal.
+M9-204 Kui Teie naabrid kaebavad raadiojaama poolt põjustatud raadiohäireid, siis:
+A. Viite raadiojaama viivitamatult mujale.
+B*. Katsute selgusele jõuda, kas ja kuidas on häired Teie raadiojaama tööga seotud.
+C. Ostate naabritele paremad seadmed.
+M9-205 Kui Teie naabrid kaebavad raadiojaama poolt põhjustatud liiga suure võrgupinge üle, siis:
+A. Viite raadiojaama viivitamatult mujale.
+B. Teete kõik endast oleneva, et võrgupinge normaliseerida.
+C*. Soovitate neil pöörduda Eesti Energiasse, kuna liiga suur võrgupinge ei sõltu kuidagi Teie raadiojaamast.
+M9-206 Kui raadiojaam asub suures linnas, siis sidepidamisel:
+A*. Esineb rohkem häireid kui maal, kuna linnas on rohkem elektriseadmeid.
+B. Esineb vähem häireid kui maal, kuna linnamajad on kõrgemad.
+C. Häirete tugevus ei sõltu raadiojaama asukohast.
+M9-207 Äikese ajal töötades tuleb silmas pidada, et:
+A. Äikesest tingitud häired segavad raadiosidet oluliselt.
+B. Tuleb vältida vee sattumist mööda kaablit transiiverisse.
+C*. Äikese ajal ei tohi töötada.
+M9-208 Teiste raadiojaamade poolt põhjustatud häirete kõrvaldamiseks:
+A. Saadetakse kaebus Tarbijakaitse ja Tehnilise Järelevalve Ametisse.
+B*. Proovitakse muuta antenni suunda või segavalt jaamalt kõrvale häälestada.
+C. Kõik ülalloetletud teguviisid võivad aidata.
+M9-209 Mida tuleb silmas, kui soovite reisilennukis amatöörsidet pidada?
+A. Transiiveri võimsus peab olema piisavalt väike, et mitte lennuki seadmetes häireid põhjustada.
+B. Suurtel kõrgustel esinevad atmosfäärihäired segavad sidepidamist oluliselt.
+C*. Reisilennukis ei tohi sidet pidada.
+M9-210 Kui ultralühilainel hakkavad Teid segama kauged jaamad, siis:
+A. Lõpetate viivitamatult töö.
+B. Ei pane neid lihtsalt tähele.
+C*. Katsute nende jaamadega sidet saada, kuna levi on väga hea.
+Moodul M10D Ohutustehnika (1/10)
+M10-211 Miks antenn ei tohi olla elektriliinide vahetus läheduses?
+A. Elektriliinid neelavad antennist kiirgunud elektromagnetlained ja signaali tugevus langeb järsult.
+B. Elektriliinidest kiirguvad madalsageduslikud elektromagnetlained segavad vastuvõttu.
+C*. Antenni ja elektriliiniga kokkupuutel juhtub õnnetus.
+M10-212 Mida tuleb silmas pidada, kui paigaldate antenni järsu kaldega jäätunud plekk-katusele?
+A. Antenn peab läbilöögi vältimiseks jääma katusest vähemalt 3,5 meetri kõrgusele.
+B. Antenni paigaldamisel tohib vigastada jääkihti, kuid lubamatu on pleki kahjustamine.
+C*. Jäätunud katusel ei tohi antennitöid teha.
+M10-213 Kui katusele antenni pannes hakkab antenn kukkuma, siis Te:
+A. Hüppate antennile järele ja ei lase seda mingil juhul lahti, kuna antenni purunemisel on kahju suur.
+B*. Lasete antennil kukkuda ja hoiatate teisi.
+C. Palute allolijatel antenn vastu võtta.
+M10-214 Antennimasti ronides tuleb kindlasti kasutada:
+A*. Julgestusvööd.
+B. Vähemalt üht kaasaskantavat välgukaitset iga kolme ronija kohta.
+C. Antennianalüsaatorit.
+M10-215 Miks on vaja aparatuur maandada?
+A. Maandus tagab toitepingeahela katkematuse.
+B*. Maandus kaitseb elektrilöögi ja aparatuuri riknemise eest.
+C. Maa peal olev aparatuuriga juhtub vähem õnnetusi kukkumise tõttu.
+M10-216 Miks hoitakse töötades üks käsi selja taga, kui võib karta elektrilöögi saamist?
+A. Pole näha, et käed hirmust värisevad.
+B*. Elektrilöögi saamisel ei moodusta käed südant läbivat vooluahelat.
+C. Tööriistade kasutamine ühe käega näitab osavust.
+M10-217 Miks pinge all olevatest juhtmetest haaranud inimene ei suuda neist lahti lasta:
+A*. Käelihastes tekib elektrivoolu mõjul kramp ja käed tõmbuvad rusikasse.
+B. Elektrivool tekitab sõltuvuse.
+C. Ilmselt on ta vähe trenni teinud ja nõrk.
+M10-218 Miks on oluline, et kogu raadiojaama elektrivarustust saaks välja lülitada ühekorraga ja kiiresti?
+A. Seadmete ühekorraga väljalülitamine pikendab oluliselt nende tööiga.
+B. Raadiohäirete peale vihastele naabritele näitamiseks, et jaam ei tööta.
+C*. Elektriõnnetuste puhul saab kõige kiiremini asuda kannatanu abistamisele või tulekahju kustutamisele.
+M10-219 Kui Teie kaaslane saab elektrilöögi ja kaotab teadvuse:
+A. Veendute, et kaaslane pole voolu all ja hakkate viivitamatult tegema kunstlikku hingamist ja südamememassaaži.
+B. Hüüate appi või helistate mobiiltelefonilt numbril 112.
+C*. Teete mõlemaid tegevusi samaaegselt.
+Moodul M11D Amatöörjaama opereerimise reeglid ja protseduurid (2/13)
+M11-220 Te kuulete Soome jaama kutsumas “CQ DX”. Pärast kutsumise lõppu Te:
+A. Edastate viivitamatult 3 korda oma kutsungi.
+B. Kuna leviolud on soodsad, hakkate ise sellel sagedusel kutsuma.
+C*. Kuulate, kas keegi vastab, et saada aimu levitingimustest.
+M11-221 Teie CQ-le vastanud jaam edastas oma kutsungi liiga kiiresti, nii et Te ei suutnud seda vastu võtta. Mida teete?
+A*. Palute kutsungit aeglasemalt korrata.
+B. Vahetate laineala.
+C. Hakkate uuesti kutsuma, nagu poleks midagi kuulnud.
+M11-222 Töötate sagedusel, kui keegi küsib: “Kas sagedus on hõivatud?”. Mida teete?
+A. Vahetate viivitamatult sagedust, et teine amatöör sagedusel töötada saaks.
+B*. Teavitate küsijat, et sagedus on hõivatud.
+C. Lülitate transiiveri häälestusrežiimi näitamaks, et olete sagedusel.
+M11-223 Töötate sagedusel, kui Saksa jaam hakkab küsimata kutsuma “CQ DX”. Mida teete?
+A. Lahkute viivitamatult sageduselt, kuna DX-sidet pidavad jaamad on eelisolukorras.
+B. Alustate kutsujaga sidet.
+C*. Teavitate kutsujat, et sagedus on hõivatud, ja palute tal lahkuda.
+M11-224 Küsite sagedusel: “Kas sagedus on hõivatud?” ja saate jaatava vastuse. Mida teete?
+A*. Otsite uue vaba sageduse.
+B. Suurendate võimsust, et sagedusel olevast jaamast tugevam olla.
+C. Käsite sagedusel oleval jaamal viivitamatult lahkuda.
+M11-225 Töötate sagedusel, kui keegi ütleb: “Oled loll”. Mida teete?
+A*. Ei pööra segajale mingit tähelepanu.
+B. Tõestate segajale, et Te pole loll ja ta on eksiarvamusel.
+C. Tõestate segajale, et hoopis tema on loll.
+M11-226 Algaja amatöör on Teiega side pidamisel hädas. Mida teete?
+A. Palute tal viivitamatult eetri risustamine lõpetada ja side katkestada.
+B. Katkestate ise side ja vahetate sagedust.
+C*. Katsute teda igati julgustada ja soovite edu.
+M11-227 Kolm sidet järjest on korrespondendid andnud raportiks 39. Mida teete?
+A. Palute anda raportiks 59.
+B. Suurendate võimsust.
+C*. Katsute selgusele jõuda, kas transiiver on korras.
+M11-228 Teile on kolm Jaapani korrespondenti järjest andnud raportiks 59. See tähendab, et:
+A*. Jaapanisse on hea levi.
+B. Tuleb transiiveri korrasolekut kontrollida.
+C. Tuleb võimsust suurendada.
+M11-229 Kuulete, kuidas sagedusel kutsuv jaam edastab oma kutsungit “EchoSierra-one-Alfa-Charlie”. Milline järeldus on õige?
+A. Tegemist on Ford Sierral töötava autojaamaga.
+B. Operaatori nimi on Charlie.
+C*. Sidet saab pidada eesti keeles.
+Moodul M12D Amatöörraadioside siseriiklik ja rahvusvaheline õiguslik regulatsioon (2/20)
+M12-230 Millistele alltoodud tingimustele peab vastama raadioamatöör?
+A. Ta peab olema vähemalt 12 aastat vana.
+B. Ta peab oskama käsivõtmega telegraafisignaali edastada.
+C*. Ükski eeltoodud tingimustest pole oluline.
+M12-231 Miks raadioamatöörid sooritavad kvalifikatsioonieksami?
+A*. Eksami edukas sooritamine tõendab nende oskusi amatöörside pidamiseks ja võimaldab taotleda raadiojaama tööluba.
+B. Eksami tegemine vabastab nad riigilõivu tasumisest tööloa taotlemisel.
+C. Kvalifikatsioonieksami sooritavad ainult inimesed, kellel pole kõrgharidust.
+M12-232 Mida peab raadioamatöör tegema kutsungi saamiseks?
+A. Ostma raadiojaama ja alustama vabalt valitud kutsungiga tööd.
+B. Läbima arstliku kontrolli.
+C*. Esitama tööloa saamise avalduse ja kvalifikatsioonieksami sooritamise tõendi Tarbijakaitse ja Tehnilise Järelevalve Ametisse.
+M12-233 Mida tähendab lühend ERAÜ?
+A. Viisakusväljend telefonisides.
+B. Eesti Raadiotööliste Ametiühing.
+C*. Eesti Raadioamatööride Ühing.
+M12-234 Kes saavad olla ERAÜ liikmeteks?
+A*. Kõik raadioamatöörid.
+B. Vähemalt 18-aastased raadioamatöörid.
+C. Vähemalt B-kvalifikatsiooniklassi omavad raadioamatöörid.
+M12-235 Kes annab välja raadiojaama tööloa ja kutsungi?
+A*. Tarbijakaitse ja Tehnilise Järelevalve Amet.
+B. ERAÜ.
+C. Riiklik eksamikomisjon.
+M12-236 Miks D-klassi amatöörid ei tohi töötada amatöörlainealast väljaspool?
+A. Signaali tugevus ja loetavus langeb järsult.
+B*. Segatakse kommerts- ja teenistusjaamade tööd.
+C. Nendel lainealadel töötamine on lubatud ainult A-klassi amatööridele.
+M12-237 Milleks amatöörsidet ei tohi kasutada?
+A. Isiklikust elust rääkimiseks.
+B. Vabadel teemadel rääkimiseks.
+C*. Äri- ja tööasjade ajamiseks.
+M12-238 Mida peab rasadioamatöör silmas pidama, kui ta soovib eetris edastada muusikat?
+A*. Muusika edastamine on keelatud.
+B. Ta peab tagama muusika piisavalt hea kvaliteedi.
+C. Muusika edastamiseks tuleb maksta autoritasu teose avaliku esitamise eest.
+M12-239 Kuulete telefonilainealal morsesignaali. Milline alljärgnevatest tegevustest on õige?
+A. Selgitate viisakalt, et telegraafitöö pole sellel lainealal lubatud.
+B. Katsute tema signaali kõigi vahenditega summutada.
+C*. Ei tee midagi.
+M12-240 Kuulete telegraafialal jaama, kes telefoni teel edastab CQ. Milline alljärgnevatest tegevustest on õige?
+A. Pärast kutsumise lõppu vastate ja sooritate side.
+B*. Selgitate viisakalt, et telefonitöö pole sellel lainealal lubatud.
+C. Katsute tema signaali kõigi vahenditega summutada.
+M12-241 Kuidas ära tunda eetris töötavat Eesti D-klassi amatööri?
+A. Tema kutsungi prefiks on “ES0”.
+B. Ta oskab töötada ainult eesti keeles ja telefonirežiimis.
+C*. Tema kutsungi prefiksiks on “ES” ja kutsungi lõpp koosneb neljast tähest.
+M12-242 Kuidas ära tunda eetris töötavat Eesti A-klassi amatööri?
+A. Tema kutsungi prefiks on “ES1”.
+B. Tema telegraafisaatekiirus on üle 30 sõna minutis.
+C*. Tema kutsungi prefiksiks on “ES” ja kutsungi lõpp koosneb kahest tähest.
+M12-243 Kui D-klassi amatöör töötab klubijaamast, siis:
+A. Ta saab töötamiseks kasutada ainult D-kvalifikatsiooniklassi amatööridele ette nähtud lainealasid ja saatevõimsust.
+B*. Ta saab töötamiseks kasutada A- kvalifikatsiooniklassi amatööridele ettenähtud lainealasid ja saatevõimsust.
+C. Ta lisab oma kutsungile klubijaama kutsungi, eraldades need kaldkriipsuga.
+M12-244 Kui suurt saatevõimsust võib kasutada raadioamatöör?
+A*. Saatevõimsus ei tohi ületada tema kvalifikatsiooniklassile ettenähtut.
+B. Raadioamatöörid võivad kasutada piiramatut võimsust.
+C. Üle 10 kW võimsusega jaamaga töötamiseks tuleb hankida Tarbijakaitse ja Tehnilise Järelevalve Ameti luba.
+M12-245 Mis näitab, et eetris töötab alaealine?
+A. Tal ei saa olla A- või B- kvalifikatsiooniklassi.
+B. Ta oskab töötada ainult telefonirežiimis.
+C*. Eelpooltoodu põhjal pole seda võimalik öelda.
+M12-246 Mida näitab raadioamatööri poolt kasutav kutsung ES9B?
+A. Tal on B-klassi amatööri tööluba.
+B. Jaam töötab Saaremaal.
+C*. Raadiojaam kuulub ERAÜ-le.
+M12-247 Te kuulete kutsumas jaama kutsungiga ES5/DJ0IB. See tähendab, et:
+A. Eesti amatöör töötab Saksamaalt.
+B*. Saksa amatöör töötab Eestis.
+C. Eesti ja Saksamaa kutsungipiirkonnad on ühendatud.
+M12-248 Te kuulete kutsumas jaama kutsungiga ES5JR/6. See tähendab, et:
+A. ES5JR kuulab sagedusel, mis on 6 korda väiksem kui saatesagedus.
+B. ES5JR on kuueaastane raadioamatöör.
+C*. ES5JR töötab Võru-, Põlva- või Valgamaal.
+M12-249 Te kuulete kutsumas jaama kutsungiga ES5YL/M. See tähendab, et:
+A*. ES5YL töötab autost.
+B. ES5YL on meesterahvas.
+C. ES5YL töötab Inglismaa territooriumilt.
