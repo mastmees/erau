@@ -1,0 +1,761 @@
+# Raadioamatööri õppematerjal
+# A-kategooria
+Madis Kaal <mast@nomad.ee> 2025
+
+Käesolev dokument on kogu erinevatest allikatest kokku korjatud
+materjalidest ning ERAÜ raadioamatööri kvalifikatsioonieksamil
+esitatavatest küsimustest. Dokument on programselt kokku pandud
+andmekogust mis sisaldab nii õppematerjali kui küsimusi.
+
+Sellise uue andmekogu loomise eesmärke on mitu:
+
+1. Küsimuste süstematisserimine, korrastamine ja sünkroniseerimine erinevate
+allikate vahel.
+2. Eksamiks õppimise lihtsamaks tegemine, koondades kõik eksami
+sooritamiseks vajalikud teadmised ühte kohta ja jättes välja kõik
+mis ei ole selleks vajalik.
+3. Võimaldada sisse viidud muudatuste järel automaatselt uuendada
+erinevates keskkondades kasutatavaid küsimustikke ja õppematerjale.
+4. Tagada, et kvalifikatsiooniklassi küsimused puudutaksid ainult sellele
+kvalifikatsiooniklassile vajalikku materjali (näiteks B-klassi küsimustes ei
+peaks olema morsekoodi puudutavaid küsimusi).
+5. Luua üks koherentne algallikas mille baasil saab olemasolevaid
+eksamiküsimusi üle vaadata, muuta ja täiendada.
+
+Suur osa selle andmekogu sisust pärineb järgmistest allikatest:
+
+Eksamiküsimused
+
+* ERAÜ koduleht https://erau.ee/
+* ES2ICE kodulehelt https://es2ice.era.ee/
+
+Õppematerjal
+ * Jüri Ruudu (ES5JR) Algaja raadioamatööri teatmik http://www.bumpclub.ee/~jyri_r/Teatmik
+ * Wikipedia https://et.wikipedia.org/
+
+
+
+
+# C01 Raadio- ja elektrotehnika teooria
+
+## S01 Mõõtühikud
+Elektrivoolu tugevus ehk voolutugevus ***I*** on füüsikaline suurus, mis
+võrdub ajaühikus elektrijuhi ristlõike pinda läbinud elektrilaenguga, selle
+mõõtühik on Amper (***A***). Voolutugevust mõõdetakse ampermeetriga,
+kusjuures ampermeeter ühendatakse vooluringi jadamisi.
+
+Pinge (***U***) on füüsikaline suurus, mis iseloomustab kahe punkti vahelist
+elektrivälja potentsiaalide erinevust. Eristatakse alalispinget (püsiva polaarsusega)
+ja vahelduvpinget (vahelduvasuunalise polaarsusega). Pinge mõõtühik on Volt
+(***V***). Pinget mõõdetakse voltmeetriga.
+
+Takistus ***R*** iseloomustab elektrijuhi omadust avaldada elektrilaengute
+liikumisele takistavat mõju. Takistuse mõõtühik on oom (***Ω***).
+
+Sagedus ***f*** on võrdsete ajavahemike tagant korduvate sündmuste (nt. võngete, impulsside) arv ajaühikus.
+Sageduse ühik on herts (***Hz***), 1 sündmus sekundis on 1 Hz.
+
+Periood ehk võnkeperiood ***T*** on korduva muutuse tsükli kestus. Periood
+on sagedusega pöördvõrdelises seoses, T=1/f. Perioodi ühik on sekund
+(***s***).
+
+Lainepikkus ***λ*** on kaugus kahe teineteisele lähima samas faasis võnkuva punkti vahel.
+Siinuslaines on lainepikkuseks näiteks vahemaa kahe lähima laineharja või lainenõo
+vahel. Lainepikkuse mõõtühik on meeter (m).
+
+Lainepikkus on võrdne laine levimiskiiruse ***v*** ja laine sageduse ***f*** jagatisega:
+
+λ=v/f
+
+Helilainete puhul on levimiskiiruseks helikiirus (õhus umbes 330 m/s).
+Elektromagnetlaine levib vaakumis valguse kiirusega c=299792458m/s.
+
+Elektrimahtuvus ***C*** (lühemalt mahtuvus) iseloomustab elektrit juhtiva keha või kondensaatori
+võimet salvestada elektrilaengut. Mahtuvuse mõõtühik on farad (***F***).
+
+Induktiivsus ***L*** on elektromagnetilist induktsiooni iseloomustav füüsikaline suurus.
+Induktiivsuse mõõtühik on henri (***H***).
+
+Igal elektrijuhil (nt juhtmekeerul, poolil jm juhtival kontuuril) on teatav
+induktiivsus, sest juhti läbiva
+vooluga kaasneb alati magnetväli. Induktiivsus avaldub võimena takistada eneseinduktsiooni tõttu
+voolu muutumist. Näiteks mida suurem on pooli induktiivsus, seda aeglasemalt alalisvool
+sisselülitamise järel poolis tugevneb. Vahelduvvooluahelas suureneb koos induktiivsuse
+ja sagedusega pooli induktiivtakistus.
+
+Juhul kui voolu muutus ühes kontuuris (näiteks trafo mähises) indutseerib vastastikuse
+induktsiooni teel elektromotoorjõu ka teises kontuuris (teises mähises), on tegemist
+vastastikuse induktiivsusega. Vastastikuse induktiivsuse tähis on M või, mõõtühik
+ikka henri.
+
+Näivtakistus ehk impedants ***Z*** on elektriahela kahe punkti vahel perioodilisele siinuselisele
+vahelduvasuunalisele elektrivoolule ehk vahelduvvoolule avalduv takistus, mis koosneb kahest
+põhikomponendist:
+
+* aktiivtakistus ehk resistants ***R***  ‒ iseloomustab elektrienergia muundumist teist liiki energiaks, näiteks soojuseks;
+* reaktiivtakistus ehk reaktants ***X*** - iseloomustab elektrienergia perioodilist kadudeta toimuvat muutumist magnetvälja või elektrivälja energiaks.
+
+Induktiivsete ahelaelementide reaktiivtakistus on induktiivtakistus ja mahtuvuslike elementide
+reaktiivtakistus on mahtuvustakistus. Impedants on sagedusest on sõltuv
+suurus. Induktiivtakistus suureneb sageduse suurenemisel, mahtuvustakistus
+väheneb sageduse suurenemisel. Induktiivtakistust loetakse positiivseks ja
+mahtuvustakistust negatiivseks.
+
+Impedantsi mõõtühik on oom (***Ω***).
+
+Elektrotehnikas eristatakse hetk-, aktiiv-, reaktiiv- ja näivvõimsust.
+Elektriseade kas muundab mingit liiki energiat elektrienergiaks
+(näiteks elektrigeneraator) või elektrienergiat teist liiki energiaks
+(näiteks elektripliit soojuseks). Seadme elektrivõimsus väljendab
+ajaühikus toodetava või tarbitava elektrienergia hulka.
+Tarbiva elektriseadme ehk elektritarviti võimsust nimetatakse ka
+võimsustarbeks.
+
+* Hetkvõimsuseks ***p*** nimetatakse pinge ja voolutugevuse hetkväärtuse korrutist.
+* Aktiivvõimsus ***P*** on vahelduvvoolu hetkvõimsuse keskväärtus ühe perioodi kestel.
+* Reaktiivvõimsus ***Q*** iseloomustab kiirust, millega energia salvestub reaktiivtakistusega elektriahelaelementidesse, näiteks kondensaatorisse ja induktiivpooli, samuti energiavahetust ahelaosade vahel.
+* Näivvõimsus ***S*** on aktiiv- ja reaktiivõimsuse geomeetriline summa.
+
+Aktiivtakistusega R elektritarviti võimsus P on arvutatav pinge U ja voolu I kaudu järgmiselt:
+
+P = U * I = I * I * R = U * U * R 
+
+Aktiivvõimsuse mõõtühik on vatt (***W***), reaktiivvõimsuse ühik varr
+(***var***) ja näivvõimsuse ühik voltamper (***V•A***).
+
+
+---
+***Kordamisküsimused***
+* Mida tähendab termin impedants?
+* Milline on reaktiivtakistuse mõõtühik?
+* Milline on impedantsi mõõtühik?
+## S03 Oomi seadus
+Oomi seadus määrab kindlaks pinge U, voolutugevuse I ja takistuse R vahelise seose:
+
+U=I*R või I=U/R või R=U*I
+
+I on ahelaosa läbiva voolu tugevus, mida mõõdetakse amprites (A);
+U on pinge, mida mõõdetakse voltides (V);
+R on vooluahela lõigu takistus, mida mõõdetakse oomides (Ω).
+
+Vahelduvvoolu korral kehtib seos
+
+I=U/Z
+
+kus Z on vahelduvvooluahela näivtakistus.
+
+Oomi seadusega on lähedalt seotud võimsus, mida saab arvutada:
+
+P = U * I = I * I * R = U * U * R
+
+---
+***Kordamisküsimused***
+* Kui suur on kasutatav võimsus kui 400 V pingega vooluallikas ühendatakse 800 oomise koormusega ?
+* Kui suur on 12 V 0,2 A vooluga indikaatorlambi võimsus?
+* Kui suur võimsus eraldub 100 oomisel takistil, kui tema jalgadel mõõdetud pinge on 5 V?
+## S04 Detsibellid
+Detsibell (tähis dB) on kümnendlogaritmiline mõõtühik, mis väljendab kahe füüsikalise
+suuruse (sageli võimsuse või pinge) suhet või ühe suuruse taset võrreldes mingi
+võrdlus- ehk baassuurusega. Detsibell on Belli osaühik, 1B = 10 dB.
+
+Kuna väljendatakse kahe suuruse suhet, mille ühikud on samad, siis on detsibell
+dimensioonita suurus. Detsibellides mõõdetakse näiteks helirõhutaset, elektrisignaali
+võimendust või nõrgendust jms.
+
+Selle ühiku eeliseks on väga suurte ja väga väikeste suhtarvude lihtne esitamine,
+mille tingib logaritmiline skaala. See lubab meil näiteks väga suurt ja väga väikest
+signaalitasemete suhet kergesti ja arusaadavalt kirjeldada tülikalt pikki arve kasutamata.
+
+Bellide arvutusvalemid on erisugused olenevalt sellest, kas on tegemist energiasuurustega
+näiteks energia, võimsus, heliintensiivsus, või väljasuurustega
+(amplituudidega), näiteks elektrivälja tugevus, elektripinge, voolutugevus, helirõhk.
+
+Energiaühikute korral korral on N (dB) = 10 * lg ( P1/P2) ja väljaühikute
+korral on N (dB) = 20 * lg (F1/F2) kus P1 või F1 on ette määratud
+baasväärtus.
+
+Mõned sagedasti kasutatavad dB väärtused:
+
+| dB | Võimsuste suhe | Amplituudide suhe |
+|----|----------------|-------------------|
+| 60 | 1000000 | 1000 |
+| 40 | 10000 | 100 |
+| 20 | 100 | 10 |
+| 10 | 10  | 3,162 |
+| 6 | 3.981 ≈ 4 | 1,995 ≈ 2 |
+| 0 | 1 | 1 |
+| -3 | 0,501 ≈ 1⁄2 | 0,708 |
+| −6 | 0,251 ≈ 1⁄4 | 0,501 ≈ 1⁄2 |
+| −10 |	0,1 | 0,3162 |
+| −20| 0,01 | 0,1 |
+| −40 |	0,0001| 0,01 |
+|−60 | 0,000001|0,001 |
+
+Näiteks -3 dB signaalikadu koaksiaalkaablis tähendab, et pool saatja
+väljundvõimsusest läheb kaablis kaduma. Saatevõimsuse kümnekordistamine
+tähendab +10dB muutust, aga +20dB muutus tähendab juba saatevõimsuse
+sajakordistamist. 
+
+Vastuvõtjate S-meetri skaalal tähendab üldiselt iga samm 6dB muutust,
+ehk siis S8-lt S9-le minek tähendab võimsuse neljakordistumist või antennist
+tulev signaali pinge kahekordistumist.
+
+1 dB on väikseim helitugevuse muutus, mida kõrv eristada suudab. See on võimalik
+ainult ideaalsetes tingimustes, kui inimene kuulab keskmisel muutumatul
+sagedusel "puhast" tooni ja tema ümber ei ole teisi mürasid. On kokku lepitud,
+et normaalsetes tingimustes saab terve kõrv vaevu aru 3-detsibellisest helimuutusest.
+
+Detsibelli tähisele lisatakse sufikseid (järelliiteid), selleks et viidata baastasemele,
+millega mõõdetud väärtust võrreldakse.
+
+Elektrotehnikas kasutatav dBm (dBmW) väljendab signaali võimendust või nõrgendust
+1millivati suhtes, mis on baasväärtus ehk nullnivoo (0 dB). Seega kui öeldakse, et
+signaali tugevus on ‒63 dBm, siis on see sama, kui öelda, et see signaal on 63 detsibelli
+võrra nõrgem kui 1-millivatine signaal. Kui öeldakse, et saatja
+väljundvõimsus on 40 dBm siis see tähendab, et väljundvõimsus on 10000 mW
+ehk 10W.
+
+Stuudiotehnikas on tuntud tähis dBu – signaalipinge suhe 0,775 voldi suhtes,
+koduses audiotehnikas on kasutusel dBV - signaalipinge suhe 1 voldi suhtes.
+
+---
+***Kordamisküsimused***
+* Mis on Bell?
+* Mis on detsibell?
+* Ligikaudu mitu detsibelli on vaevaltmärgatav helitugevuse muutus?
+* Kui suur on Võimsuse suurenemine kaks korda detsibellides?
+* Mitu korda suureneb võimsus 6 dB puhul?
+* Mitu korda suureneb võimsus 3 dB puhul?
+* Signaali raport on ”10 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 150 vatini kui suur on uus signaali tugevuse raport?
+* Signaali raport on “20 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 15 vatini kui suur on uus signaali tugevuse raport?
+
+# C02 Raadio- ja elektrotehnika komponendid
+
+## S01 Passiivkomponendid
+
+---
+***Kordamisküsimused***
+* Kuidas mõjub ümbruskonna temperatuur süsiniktakisti takistusele?
+* Mis tüüpi kondensaatorit kasutatakse tihti võrgutoitealaldi silumisfiltris?
+* Millised kondensaatorid lülitatakse rööbiti transformaatori sekundaarmähisega pingeimpulsside vähendamiseks?
+* Mis tekitab poolide omaresonantsi?
+## S02 Aktiivkomponendid
+
+---
+***Kordamisküsimused***
+* Mis on toiteseadme alalduselemendi vastupinge?
+* Millist dioodi parameetrit ei tohi ületada?
+* Miks peavad alaldi dioodid olema termaalselt kaitstud?
+* Mis on Zener dioodi (stabilitroni) peamine omadus?
+* Mis tüüpi diood on võimeline ostsilleerima ja ka võimendama?
+* Mis on varikapi peamine omadus?
+* Milleks kasutatakse PIN dioodi?
+## S03 Transformaatorid
+
+---
+***Kordamisküsimused***
+* Milline vooluringi komponent võimaldab suurendada vahelduvvoolu pinget 100 voldilt 1000 voldini?
+* Kuidas nimetatakse transformaatori primaarmähises voolavat voolu, kui sekundaarmähise külge pole koormust lülitatud?
+* Mis suurustega iseloomustatakse tavaliselt jõutransformaatori primaar- ja sekundaarmähiseid?
+* Kui suur on pinge transformaatori 500 keerust koosneva sekundaarmähise klemmidel, kui 2200 keerust koosnev primaarmähis on lülitatud 220 V vahelduvvooluvõrku?
+## S05 Raadiolambid
+
+---
+***Kordamisküsimused***
+* Miks on mõningates lampvõimendites vajalik neutralisatsioon?
+
+# C03 Raadio- ja elektrotehnika ahelad
+
+## S01 Alalis- ja vahelduvpinge
+
+---
+***Kordamisküsimused***
+* Kuidas nimetatakse mahtuvust ja induktiivsust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust?
+* Kuidas nimetatakse induktiivsuse poolt vahelduvvoolule osutatavat takistust?
+* Kuidas nimetatakse mahtuvuse poolt vahelduvvoolule osutatavat takistust?
+* Kuidas reageerib induktiivsus vahelduvvoolule?
+* Kuidas reageerib mahtuvus vahelduvvoolule?
+## S02 Paralleel- ja jadaühendused
+
+---
+***Kordamisküsimused***
+* Kui 1 amprilise vooluallikaga on ühendatud kaks paralleelselt lülitatud 10 oomist takistit kui suur vool läbib kumbagi takistit?
+* Kui suur on mitmest takistist koosneva jadalülituse kogutakistus?
+* Kui suur on kahe võrdse paralleelselt lülitatud takistist koosneva ahela kogutakistus?
+* Kui suur on kahe paralleelselt ühendatud induktiivsuse koguväärtus?
+* Kui suur on kahe paralleelselt lülitatud kondensaatori kogumahtuvus?
+## S03 Toiteahelad
+
+---
+***Kordamisküsimused***
+* Miks ühendatakse toitealaldi dioodidega paralleelselt kondensaator ja takisti?
+* Milline on täislaine alaldi väljundpinge filtreerimata kuju?
+* Millised komponendid moodustavad toitealaldi filtri?
+* Milline peab olema ühefaasilise sildalaldi alaldusdioodi vastupinge suurus?
+* Milline peab olema silumiskondensaatoriga poolperioodalaldi alaldusdioodi väikseim vastupinge?
+* Kuhu ühendatakse toitealaldi šunttakisti?
+* Mitu kraadi siinuslainest kasutab poolperioodalaldi?
+* Mitu kraadi siinuslainest kasutab täisperioodalaldi?
+* Mis funktsiooni täidavad kõrgepingealaldis dioodidega paralleelselt lülitatud kondensaatorid ja takistid?
+* Miks kasutatakse raadiosaatja kõrgepingealaldis šunttakistit.
+## S05 Sobitusahelad
+
+---
+***Kordamisküsimused***
+* Milline peab olema transmissiooniliiniga ühendatud madalpääsfiltri impedants liini impedantsiga võrreldes?
+* Millal annab toiteallikas maksimaalse väljundenergia?
+* Mida tähendab termin impedantside sobitamine?
+* Mis juhtub kui elektrilise koormuse impedants on võrdne toiteallika impedantsiga?
+* Miks on impedantside sobitamine raadiotehnikas väga oluline?
+* Kui suur on 200 oomise väljundtakistusega helisagedusvõimendi sobitamiseks 10 oomise valjuhääldiga vajaliku transformaatori mähiste keerdude suhe?
+
+# C04 Raadiovastuvõtuseadmed
+
+## S01 Raadiovastuvõtja ehitus
+
+---
+***Kordamisküsimused***
+* Mida nimetatakse segustusprotsessiks?
+* Mis eelised on sagedusmuundusprotsessil?
+* Millised kaks faktorit määratlevad vastuvõtja tundlikkuse?
+## S02 Kõrgsagedusvõimendi
+
+---
+***Kordamisküsimused***
+* Miks on kasulik omada vastuvõtja sisendis attenuaatorit?
+* Mis on vastuvõtja kõrgsagedusvõimendi esmane ülesanne?
+## S03 Seguaste
+
+---
+***Kordamisküsimused***
+* Millised on põhilised seguastme väljundis esinevad sagedused?
+* Mis vastuvõtjas juhtub kui väga tugev signaal jõuab seguastmeni?
+## S04 Vahesagedus
+
+---
+***Kordamisküsimused***
+* Mis on vahesagedusvõimendi?
+* Kui suur on SSB telefonitööks vajaliku hea kvartsfiltri pääsuriba laius?
+## S05 Detektor
+
+---
+***Kordamisküsimused***
+* Mis on produkt-detektor?
+* Mida nimetatakse detekteerimiseks?
+* Mis on sagedusdiskriminaator?
+* Mida kasutatakse FM signaali detekteerimiseks?
+## S06 S-meeter
+
+---
+***Kordamisküsimused***
+* Kui palju tuleb suurendada saatja väljundvõimsusust, et saatja läheduses asuva vastuvõtja S-meetri näit suureneks S8-lt S9-ni ?
+
+# C05 Raadiosaateseadmed
+
+## S01 Raadiosaatja ehitus
+
+---
+***Kordamisküsimused***
+* Mida on vaja omada telefonitööks ettenähtud amatöörraadiojaamas?
+## S05 Raadiohäired
+
+---
+***Kordamisküsimused***
+* Mis tüüpi filter tuleb installeerida amatöörsaatjasse harmooniliste sageduste kiirguse vältimiseks?
+* Monteerisite oma autosse VHF või UHF FM raadiojaama. Milline on antenni jaoks parim koht vältimaks juhi ja reisijate ülikõrgsagedusliku kiirituse ohtu?
+* Mis on saatjas kasutatavate ekraanide otstarve?
+* Miks kasutatakse nn. pii-filtrit saatja väljundis?
+## S06 Saatja kontrollimine
+
+---
+***Kordamisküsimused***
+* Mis tüüpi sisendsignaali kasutatakse SSB saatja lineaarsuse kontrollimiseks?
+* Mida saab kontrollida kahe tooni testi abil?
+* Milliseid kaht helisagedust võib kasutada SSB telefonisaatja lineaarsuse kontrollimiseks?
+* Kuidas saab raadiojaama häälestamisel eetrisoleku aega viia miinimumini?
+
+# C06 Antennid ja fiidrid
+
+## S01 Antennide omadused
+
+---
+***Kordamisküsimused***
+* Miks kasutatakse sagedasti Yagi antenni 50 MHz sagedusalal?
+* Kuidas saab suurendada parasiitelementidega suundantenni sagedusriba laiust?
+* Kui suur on dipoolantenni võimendus võrreldes isotroopse kiirgajaga?
+* Mida tähendab termin ette-taha suhe?
+## S02 Antenni ühendamine ja sobitamine
+
+---
+***Kordamisküsimused***
+* Milline meetod on parim ebasümmeetrilise koaksiaalkaabli sobitamiseks Yagi antenniga?
+* Kui suur on sobitatud ja resonantsis oleva poollaine dipoolantenni toitepunkti impedants vabas ruumis?
+* Miks vahel mähitakse antenni koaksiaalkaabel umbes 10-keeruliseks pooliks?
+* Mis ühikutes väljendatakse kõrgsagedusliku toiteliini kadusid?
+* Mis juhtub dielektrikus kadudega toiteliinis töösageduse suurenemisel?
+* Kuidas mõjutab koaksiaalkaablit läbiva signaali sageduse suurenemine sumbuvust?
+
+# C07 Raadiolevi
+
+## S02 Ionosfäär
+
+---
+***Kordamisküsimused***
+* Milline raadiolainete levimehhanism võimaldab saadet vastu võtta pinnalaine ulatusest kaugemal kuid lähemal ionosfäärist peegeldunud lainest?
+* Mis on raadiolainete levi kriitiline nurk?
+* Soovite suvise päeva õhtupoolikul sidet saada amatööriga, kes asub teist ligikaudu 2000 km eemal. Milline laineala sobiks edukaks sidepidamiseks kõige rohkem?
+## S03 Levihäired
+
+---
+***Kordamisküsimused***
+* Mis iseloomustab nn. “backscatter” signaale?
+* Mis on päikesevoog (solar flux)?
+* Mida nimetatakse geomagnetiliseks häireks?
+* Kui kiiresti jõuab Päikeselt kiirguv laetud osakeste vool Maale?
+* Millises ionosfääri kihis kutsuvad äkilised ionosfääri häired esile raadiolainete suurenenud sumbuvuse?
+* Kuidas mõjutab geomagnetiline torm raadiolainete levi?
+* Kui kaua tavaliselt kestavad ootamatud ionosfääri häired?
+* Millistel laiuskraadidel esineb tavaliselt rohkem geomagnetilisi häireid?
+
+# C08 Mõõtetehnika ja selle kasutamine
+
+## S03 Ostsilloskoop
+
+---
+***Kordamisküsimused***
+* Milline mõõteriist sisaldab horisontaal- ja vertikaalkanali võimendi?
+* Mis tüüpi signaale on võimalik ostsilloskoobi abil vaadelda?
+* Mis seade on ostsilloskoop?
+* Mis võib põhjustada ostsilloskoobi kineskoobi luminofoori riknemise?
+## S04 Väljatugevuse mõõtja
+
+---
+***Kordamisküsimused***
+* Mis seade on väljatugevuse mõõtja?
+* Milline on kõige sobivam lihtne instrument antenni kiirguse suunadiagrammi määramiseks horisontaaltasapinnas?
+## S05 Mürasild
+
+---
+***Kordamisküsimused***
+* Mis seade on antenni mürasild?
+* Kuhu ühendatakse antenni mürasild?
+## S06 Spektrianalüsaator
+
+---
+***Kordamisküsimused***
+* Millist seadet saab kasutada saatja väljundsignaalis esinevate intermodulatsioonimoonutustes tekitatud parasiitsignaalide uurimiseks?
+
+# C09 Raadiohäired ja elektromagnetiline ühildatavus (EMC)
+
+## S01 Raadiohäirete tekkepõhjused
+
+---
+***Kordamisküsimused***
+* Mis on atmosfääriliste raadiohäirete peamine tekkepõhjus?
+* Mis tüüpi interferentshäireid võib kiirata mitmebandi antenn, mis on ühendatud valesti häälestatud raadiojaama väljundisse?
+* Mida tähendab väljend "harmooniliste kiirgus" ?
+## S02 Raadiohäirete vähendamine
+
+---
+***Kordamisküsimused***
+* Kuidas on võimalik kindlaks teha, kas raadiohäireid tekitav elektriliin asub teie majas?
+* Kuidas on võimalik vähendada auto elektrigeneraatori poolt tekitatavaid raadiohäireid?
+* Kuidas saab vähendada väga tugeva signaali toimel vastuvõtjas tekkivaid intermodulatsioonihäireid?
+* Teie naaber teatab, et tekitate häireid televisioonivastuvõtule. Teie olete aga kindel, et teie aparatuur töötab korralikult. Mida peate tegema?
+* Mis tüüpi filter tuleb kõigepealt paigaldada amatöörraadiojaama harmooniliste sageduste kiirguse vältimiseks?
+* Milline filter tuleb paigutada televiisori sisendisse esmase abinõuna amatöörraadiojaama poolt tekitatud kõrgsagedusliku ülekoormuse vähendamiseks?
+
+# C10 Ohutustehnika
+
+## S01 Elektriohutus
+
+---
+***Kordamisküsimused***
+* Kui suur võib maksimaalselt olla inimkeha läbiv vahelduvvool, mis endast ei kujuta veel ohtu?
+* Mida tuleb teha kõigepealt kui näed voolujuhtmetesse kinnijäänud inimest?
+* Mida tuleb silmas pidada antennimasti püstitamisel või antenni vedamisel majade vahele?
+## S02 Raadiokiirgus
+
+---
+***Kordamisküsimused***
+* Milline inimese keha organ on kõige tundlikum kõrgsagedusliku energia poolt põhjustatud kudede kuumenemise suhtes?
+* Tugev kõrgsagedusenergia kiirgus võib olenevalt lainepikkusest, kõrgsagedusvälja intensiivsusest ja muudest teguritest rikkuda inimkeha kudesid. Kuidas mõjub kiirgus keha kudedele?
+* Kui tahad teha mõningaid häälestusoperatsioone oma VHF/UHF raadiojaama juures, mida peab tegema enne jaama sisselülitamist?
+## S04 Ohutus välitöödel
+
+---
+***Kordamisküsimused***
+* Mida peab silmas pidama, kui taod antennimasti tõmmitsate kinnitusvaiu maasse?
+* Mida tuleb jälgida raiudes puid välipäeva või kokkutuleku lõkke jaoks?
+* Tehes tööd kõrgel antennimasti otsas tuleb jälgida et....
+* Kui oled autoga sõitnud välipäevale peab silmas pidama .....
+
+# C11 Amatöörraadiojaama opereerimise reeglid ja protseduurid
+* Säilitage alati viisakus, rahu ja hea tuju, sõltumata olukorrast. Kui see pole võimalik, siis ärge mine eetrisse.
+* Ärge kunagi töötage amatööridele ettenähtud sagedusalast väljaspool.
+* Ärge kunagi hõivake teistele tööliikidele ettenähtud sagedusi.
+* Ärge segage kedagi meelega, ja ära pange tähele meelega segajaid: tähelepanu püüdmine ongi nende eesmärk.
+* Saateaparatuuri häälestades kasutage fiktiivkoormust (dummy load). Kui see pole võimalik, siis veenduge, et sagedusel pole kedagi teist.
+* Kutsumist alustades veenduge alati, et sagedusel kedagi poleks.
+* Kui kaks jaama peavad omavahel sidet, siis oota kutsumisega seni, kuni side on lõppenud.
+* Ärge kutsuge saatesagedusest erineval sagedusel kuulavat jaama tema saatesagedusel: ta ei kuule seda, niimoodi segate ainult teisi amatööre. Jälgige, et see sagedus, mille kutsumiseks valite, oleks vaba.
+* Oluline info: raport, nimi ja QTH edastage esimese saatekorraga.
+* Side jooksul edastage oma jaama ja korrespondendi kutsungit vähemalt iga 10 minuti tagant, kindlasti edastage kutsungid side lõpus.
+* Saatmiste vahel katsuge võimalikult palju kuulata, seda eriti pile-up-is: sageli juhtub, et ihaldatav jaam kutsub ja kutsub jaama, kes ei kuule, kuna on pidevalt hõivatud oma kutsungi saatmisega.
+* Vastates “lühikesi sidesid” pidavale korrespondendile, andke sama hulk infot, mis Teile antakse.
+* Ärge mängige “eetripolitseinikku”, kes kõikvõimalikel põhjustel teisi amatööre hurjutab. Segage vahele ainult siis, kui seda on hädasti vaja, ja säilitage seejuures viisakus.
+* Ärge rääkige liiga pikalt: korrespondent tahab ka midagi öelda. Halvemal juhul võib ta Teie monoloogi peale lahkunud olla.
+* Proovige korrespondendiga rääkida ka millestki muust kui raadioamatörismist: niimoodi saate üksteist rohkem tundma.
+* Aidake teisi amatööre, eriti uustulnukaid. Ärge naeruvääristage neid ja ärge virisege.
+
+## S01 Veerimistabel
+Telefoniside pidamisel ei piisa informatsiooni korrektseks edastamiseks
+lihtsalt selle ette lugemisest. Indiast pärit korrespondent ei pruugi
+näiteks nimest “Jaan” üldse aru saada, sama raske on eestlasel
+aru saada nimest “Vishvanathan”. 
+
+Seetõttu tuleb kutsungid, nimed ja muu teave tähthaaval edastada.
+Üksikute häälikute edastamine, eriti kui sagedusel on häired,
+on samuti problemaatiline, näiteks ei tee korrespondent SSB-side
+puhul vahet, kas talle öeldi “ess” või “eff”.
+
+Seetõttu on telefonisides kasutusele võetud veerimistabel, kus igale
+tähele vastab teatud sõna, millest eetris on kergem aru saada kui
+üksikust tähest. Nimi “Jaan” edastatakse niimoodi: “Juliet, Alfa, Alfa, November”.
+
+Kasutusel on mitmed veerimistabelid. Inglise keele, aga ka teiste
+keelte puhul on raadioamatööridele soovitatav rahvusvaheline veerimistabel.
+
+Numbrid edastatakse nagu tavaliselt. Erandiks on “9”, mida võidakse hääldada
+“niner”, et eristada teda “5”-st (five). “0” vasteks on “zero”, kirjapildis
+tõmmatakse nullist läbi kriips (Ø), et teda eristada “o”-st.
+
+Tuleks meeles pidada, et kõige kiiremini saab vajaliku info edastatud paraja
+veerimiskiiruse korral: ülemäära kiirustades suudab saatja küll mõnevõrra
+kiiremini info ettelugemisega hakkama saada, ajavõidu võib aga nullida
+korrespondent, kes palub kõik otsast peale üle korrata.
+
+Rahvusvaheline veerimistabel:
+|Täht|Sõna|
+|----|----|
+|A| Alfa |
+|B| Bravo |
+|C| Charlie |
+|D| Delta |
+|E| Echo |
+|F| Foxtrot |
+|G| Golf |
+|H| Hotel |
+|I| India |
+|J| Juliet |
+|K| Kilo |
+|L| Lima |
+|M| Mike |
+|N| November |
+|O| Oscar |
+|P| Papa |
+|Q| Quebec |
+|R| Romeo |
+|S| Sierra|
+|T| Tango |
+|U| Uniform |
+|V| Victor |
+|W| Whisky |
+|X| X-ray |
+|Y| Yankee |
+|Z| Zulu |
+
+---
+***Kordamisküsimused***
+* Kuidas tuleb veerimistabeli abil saata kutsung ES9A ?
+* Kuidas veeritakse kutsungit AE0LQY ?
+## S02 Q-kood
+Q-koodil on veerimistabelile vastupidine eesmärk: see on välja töötatud selleks,
+et mõne tähe abil edastada teavet, mis sõnades väljaöelduna läheks liiga pikaks,
+seda eriti telegraafiside puhul. Tunduvalt lihtsam on telegraafis edastada
+"PSE QSY 14250" kui "PSE CHANGE UR FREQ TO 14250" 
+
+Samas ei tasu harvaesinevaid Q-koode pruukida telefonisides: ajavõidu asemel
+Te hoopis kaotate aega, kuna korrespondent peab mõistatama, mida öelda taheti.
+Q-koodi saab esitada nii küsimusena kui ka vastusena. Esimesel juhul lisatakse
+lõppu küsimärk, telefonisides tõstetakse hääletooni.
+
+|Lühend|Küsimus (selgitus)|Vastus (selgitus)|
+|------|------------------|-----------------|
+| QRL  | Kas olete hõivatud? (või) Kas sagedus on hõivatud? | Olen hõivatud. (või) Sagedus on hõivatud, palun ärge segage. |
+| QRM  | Kas teid segatakse? Kas esineb häireid? | Mind segatakse. |
+| QRN  | Kas teil esineb staatilisi häireid ? | Siin on staatilisi häireid.  |
+| QRO  | Kas ma peaksin suurendama saatevõimsust? | Suurendage saatevõimsust. |
+| QRP  | Kas ma peaksin vähendama saatevõimsust? | Vähendage saatevõimsust. |
+| QRQ  | Kas ma peaksin edastama kiiremini (telegraaf)? | Edastage kiiremini. |
+| QRS  | Kas ma peaksin edastama aeglasemalt ? | Edastage aeglasemalt |
+| QRT  | Kas ma peaksin saate lõpetama ? | Lõpetage saade. |
+| QRX  | Millal te mind uuesti kutsute ? (kasutatakse ka lühikese pausi alguses) | Kutsun teid hiljem uuesti.|
+| QRZ  | Kas keegi kutsub mind ? | Teid kutsub ... (kutsung) sagedusel ... kHz (MHz).|
+| QSB  | Kas minu (jaama) signaali tugevus kõigub ? | Teie (jaama) signaali tugevus kõigub. |
+| QSL  | Kas kinnitate info vastuvõttu ? (kasutatakse ka sidet kinnitava kaardi nimetusena) | Kinnitan info vastuvõttu. |
+| QSO  | Kas teil on otseühendus ... (kutsung) jaamaga või saate temaga ühendust läbi vahendusjaama ? | Mul on otseühendus ... (kutsung) jaamaga - kasutan vahendusjaama. (kasutatakse ka sõnade "side" ja "ühendus" asemel) |
+| QSY  | Kas ma peaksin vahetama töösagedust ? | Vahetage töösagedust. |
+| QTH  | Milline on teie asukoht ? | Minu asukoht on ... (asukoht või muud asukohta määravad andmed). |
+
+Täielik Q-koodide nimekiri http://www.kloth.net/radio/qcodes.php
+
+
+---
+***Kordamisküsimused***
+* Mida tähendab "CQ" ?
+* Mida tähendab lühend QRS ?
+* Mida tähendab lühend QTH ?
+* Mida tähendab lühend QSL?
+## S03 Morse
+
+
+### Telegraafiside seanss:
+
+* Lülitage transiiver sisse ja veenduge, et vastuvõtt toimib häireteta.
+* Kontrollige, et asute lubatud sagedusalas. Ehkki telegraafitöö on lubatud kogu laineala ulatuses, on vaikiv kokkulepe, et jäädakse laineala alumisse ossa, esimese 50-60 kHz ulatusse.
+* Pidage silmas, et sagedusala esimesed 10 kHz jäetakse vabaks DX-sidede jaoks. Kui Te seal töötate, pidage sidet ainult DX-jaamadega.
+* Kui hakkate kutsuma:
+ - Valige vaba sagedus ja kuulake seda mõnda aega, veendudes, et keegi seal ei tööta.
+ - Edastage mõned korrad: “QRL?”, küsimuste vahel kuulates. Kui vastuseks on “R”, “YES” või “QRL” vms, otsige teine sagedus.
+ - Kui sagedus on vaba, hakake kutsuma CQ. Jälgige et Te ei kutsuks liiga kaua: piisab, kui edastada 3 korda CQ ja 3 korda oma kutsungit, korrates seda veel ühe korra.
+* Kui leiate kutsuva jaama:
+ - kui jaam kuulab teisel sagedusel kui saadab, häälestage oma saatesagedus vastavaks;
+ - oodake, kuni jaam on kutsumise lõpetanud; edastage oma kutsungit 1..2 korda
+* Valige korrespondendi saatekiirus, kui see on Teie saatmiskiirusest aeglasem. Ärge saatke kiiremini kui suudate vastu võtta.
+* Saatmisel jälgige, et saatja ja antenn toimiksid häireteta.
+* Vahetage korrespondendiga rutiinne teave: raport, nimi, QTH. “Lühikese side” puhul edastage ainult raport.
+* Hoidke saateseansid lühidad ja asjalikud. Viisakused on telegraafisides lühemad kui telefoni teel.
+* Pärast side lõppu ärge hakake kohe saatma, vaid kuulatage, kas keegi Teid kutsub.
+
+Telegraafis võidakse RST raportis aja kokkuhoiuks saata “9” asemel “N” ja “0” asemel “T”. (Raport “599” = “5NN”)
+
+---
+***Kordamisküsimused***
+* Milline on morsekoodis antud standardse väljakutse "CQ" formaat?
+* Kuidas te vastate morsekoodis "CQ" väljakutsele?
+* Millise kiirusega tuleb morsekoodis saata "CQ"?
+* Mis tähendus on Morsekoodi liittähtedel AR ?
+* Mida tähendavad Morsekoodis saadetud liittähed SK ?
+* Mida tähendavad Morsekoodis saadetud liittähed KN ?
+* Mida tähendab lühend AS ?
+## S04 Sidepidamise reeglid
+Telefonisidele minnes:
+
+* Lülitage transiiver sisse ja veenduge, et vastuvõtt toimib häireteta.
+* Kui telefonisignaalid on loetamatud, kontrollige, kas olete õigel töörežiimil.
+* Kontrollige, et asute lubatud sagedusalas.
+* Kui hakkate kutsuma:
+ - Valige vaba sagedus ja kuulake seda mõnda aega, veendudes, et keegi seal ei tööta.
+ - Küsige mõned korrad: “Is this frequency in use?”, küsimuste vahel kuulates. Kui öeldakse, et sagedus on kasutusel, otsige teine sagedus.
+ - Kui sagedus on vaba, hakake kutsuma CQ. Jälgige et Te ei kutsuks liiga kaua: piisab, kui edastada 3 korda CQ ja 3 korda oma kutsungit, korrates seda kõike veel ühe korra.
+* Kui leiate kutsuva jaama:
+ - kui jaam kuulab teisel sagedusel kui saadab, häälestage oma saatesagedus vastavaks;
+ - oodake, kuni jaam on kutsumise lõpetanud; edastage oma kutsungit 1..2 korda.
+* Vahetage korrespondendiga rutiinne teave: raport, nimi, QTH. “Lühikese side” puhul edastage ainult raport.
+* Rääkige selgesti ja mõõduka kiirusega, eriti kui korrespondent on tundmatu. 
+* Kiirustamisega võidetud aeg läheb kaduma, kui korrespondent edastatud infot korrata palub.
+* Ärge kasutage telefonisides amatöörižargooni ja Q-koode üleliia: lihtsam on väljenduda “inimese moodi”.
+* Katsuge aevastada ja köhida nii, et see ei satuks eetrisse.
+* Edastage vähemalt iga 10 minuti tagant enese ja korrespondendi kutsungit.
+* Kindlasti andke need edasi side alguses ja lõpus.
+* Kui jututeema otsa saab, lõpetage viisakalt side. Ärge hüvastijättu liiga pikaks venitage.
+* Pärast side lõppu ärge hakake kohe saatma, vaid kuulatage, kas keegi kutsub.
+
+---
+***Kordamisküsimused***
+* Mis on kõige olulisem tegur kutsesageduse valikul teil kasutada lubatud sagedusalal?
+* Kuulete oma sagedusel Haiitis toimunud maavärina päästjate teabevahetust. Mida teete?
+* Milline on standardse telefoniväljakutse formaat?
+* Kuidas te vastate raadiotelefoni väljakutsele?
+## S05 Side ajal edastatav info
+Selleks, et side toimuks, on korrespondentidel vaja vahetada kutsungid ja RST-raport.
+Viimane on numbrikombinatsioon, mis iseloomustab vastuvõetud signaali loetavust
+(R=readability, 5-palli skaala), tugevust (S=strength, 9-palli skaala) ja
+tooni (T=tone, 9-palli skaala).
+
+Telefoniside puhul jäetakse raporti T-osa ära ja raport on kahekohaline.
+
+DX-peditsioonidel ja võistlustel kasutatakse aja kokkuhoiuks raportina tavaliselt
+ainult 599 või 59, vaatamata tegelikule signaalile. Kui saadud raporti R- või 
+T-osa on korduvalt maksimaalsest väiksemad, tuleks kontrollida aparatuuri
+korrasolekut, sest tavaliselt kipuvad raportid olema paremad kui tegelik
+signaal, loetavuse ja tooni  hinde alandamiseks peab olema tõsisem põhjus.
+
+### RST skaala
+
+R (loetavus)
+1. Loetamatu
+2. Vaevalt loetav
+3. Raskesti loetav
+4. Raskusteta loetav
+5. Selgesti loetav
+
+S (tugevus):
+1. Vaevalt kuuldav
+2. Väga nõrk signaal
+3. Nõrk signaal
+4. Pingutusega kuuldav signaal
+5. Rahuldava kuuldetugevusega signaal
+6. Mugava kuuldetugevusega signaal
+7. Mõõdukalt tugev signaal
+8. Tugev signaal
+9. Väga tugev signaal
+
+T (toon):
+1. Väga toorelt urisev
+2. Ebamusikaalne vahelduvvoolutoon
+3. Vahelduvvoolutoon
+4. Keskmiselt musikaalne vahelduvvoolutoon
+5. Musikaalne vahelduvvoolutoon
+6. Vahelduvvooluga märgatavalt moduleeritud toon
+7. Nõrga vahelduvvoolumodulatsiooniga toon
+8. Peaaegu modulatsioonita toon
+9. Eeskujulik moduleerimata toon
+                                                    
+Iga tugevuse aste vastab kahekordsele signaali intensiivsuse suurenemisele.
+Signaali tugevuseks võib olla ka üle 9 palli: sellisel juhul väljendatakse
+seda “9+” või S-meetrilt üheksat palli ületava detsibellide arvuna (“9+20”).
+
+Lisaks kohustuslikule edastatakse ka täiendavat teavet:
+Operaatori nimi; Jaama QTH (asukoht); Kasutatav aparatuur; Ilm; QSL-info.
+---
+***Kordamisküsimused***
+* Mida tähendab R RST signaali raportis?
+
+# C12 Amatöörraadioside siseriiklik ja rahvusvaheline õiguslik regulatsioon
+
+## S01 Raadioamatörism
+
+---
+***Kordamisküsimused***
+* Mida loetakse amatöörraadiojaamaks?
+* Amatöörraadiojaama tehniliste seadmete kogumikku kuuluvad:
+* Amatöör-vahendusraadiojaamaks loetakse:
+* Amatöörraadiomajakaks loetakse:
+* Ühiskasutusega amatöörraadiojaamaks loetakse:
+* Amatöörraadiojaama registreeritud asukohaks loetakse:
+* Amatöörraadiosideks loetakse:
+* Amatöörraadiosidet tohib kasutada:
+* Raadioamatööriks loetakse isikut:
+* Amatöörraadiojaama tohib kasutada:
+## S02 Raadioamatööride kutsungid
+
+---
+***Kordamisküsimused***
+* Millist varianti saab kasutada Eesti amatöörjaama kutsungi moodustamiseks?
+* Haapsalus registreeritud amatöörraadiojaama kutsung algab:
+* Kutsung ES9Z kuulub piirkondlikult:
+* Kutsung ES2XX võib kuuluda millise klassi Eesti amatöörraadiojaamale?
+* Ühiskasutusega (raadioklubi) amatöörraadiojaamale omistatakse kutsungi järelliide:
+## S03 Seadusandlus
+
+---
+***Kordamisküsimused***
+* Amatöörraadiosides tohib edastada sihituseta või korrespondendita saateid:
+* Ühiskasutusega (raadioklubi) amatöörraadiojaama vastutavaks järelevaatajaks võib olla ainult:
+* Amatöörraadiojaama luba väljastatakse Tarbijakaitse ja Tehnilise Järelevalve Ameti poolt kestvusega:
+* Amatöörraadiojaama tööluba kuulub hoidmisele:
+* Mida tuleb teha tööloale kantud andmete muutumisel.
+* Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta on lubatud:
+
