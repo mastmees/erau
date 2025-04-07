@@ -1,5 +1,8 @@
 # Raadioamatööri õppematerjalide andmekogu
 
+## Üldist
+
+Kasuta UTF8-t ja unix-i stiilis reavahetusi. 
 
 ## Miks selline formaat?
 
