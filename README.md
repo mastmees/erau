@@ -14,15 +14,16 @@ Tulevikus tõlkimise huvides.
 
 ## meta faili formaat
 
-T title
-A author
+>T title  
+>A author  
+
 
 ## qxxx faili formaat
 
-? Küsimus
-A. vale vastusevariant
-B*. õige vastusevariant
-. AB
+>? Küsimus  
+>A. vale vastusevariant  
+>B*. õige vastusevariant  
+>. AB  
 
 punktiga real on kirjas millise klassi eksami küsimuseks see sobib
 
