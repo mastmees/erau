@@ -43,6 +43,7 @@ Tulevikus tõlkimise huvides. Tõlked lähevad paraleelselt eksisteerivatesse
 >A. vale vastusevariant  
 >B*. õige vastusevariant  
 >. AB  
+>\# kommentaar toimetajatele
 
 punktiga real on kirjas millise klassi eksami küsimuseks see sobib
 
