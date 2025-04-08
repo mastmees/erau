@@ -33,8 +33,10 @@ def get_questions(dir,klass):
   for fn in sorted(filter(lambda x: re.search("^q[0-9]*."+lang,x),os.listdir(dir) ) ):
     q={}
     for l in open(os.path.join(dir,fn),"rt").readlines():
-      e=l.split(" ",1)
-      q[e[0][0]]=e[1].strip()
+      if not l.startswith("#"):
+        e=l.split(" ",1)
+        if len(e)>1:
+          q[e[0][0]]=e[1].strip()
     if "." in q and klass in q["."]:
       result.append(q)
   return result
@@ -60,7 +62,7 @@ for chapter in sorted(chapters):
     if chapterquestions:
       print("---")
       print("***Kordamisküsimused***")
-      for question in chapterquestsions:
+      for question in chapterquestions:
         print("* "+question["?"])
       
     for section in sorted(allquestions.keys()):

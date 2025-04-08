@@ -150,7 +150,7 @@ P = U * I = I * I * R = U * U * R
 
 ---
 ***Kordamisküsimused***
-* Kui suur on kasutatav võimsus kui 400 V pingega vooluallikas ühendatakse 800 oomise koormusega ?
+* Kui suur on kasutatav võimsus kui 400 V pingega vooluallikas ühendatakse 800 oomise koormusega?
 * Kui suur on 12 V 0,2 A vooluga indikaatorlambi võimsus?
 * Kui suur võimsus eraldub 100 oomisel takistil, kui tema jalgadel mõõdetud pinge on 5 V?
 ## S04 Detsibellid
@@ -297,7 +297,7 @@ koduses audiotehnikas on kasutusel dBV - signaalipinge suhe 1 voldi suhtes.
 * Mitu kraadi siinuslainest kasutab poolperioodalaldi?
 * Mitu kraadi siinuslainest kasutab täisperioodalaldi?
 * Mis funktsiooni täidavad kõrgepingealaldis dioodidega paralleelselt lülitatud kondensaatorid ja takistid?
-* Miks kasutatakse raadiosaatja kõrgepingealaldis šunttakistit.
+* Miks kasutatakse raadiosaatja kõrgepingealaldis šunttakistit?
 ## S05 Sobitusahelad
 
 ---
@@ -423,7 +423,7 @@ koduses audiotehnikas on kasutusel dBV - signaalipinge suhe 1 voldi suhtes.
 
 ---
 ***Kordamisküsimused***
-* Milline mõõteriist sisaldab horisontaal- ja vertikaalkanali võimendi?
+* Milline mõõteriist sisaldab horisontaal- ja vertikaalkanali võimendit?
 * Mis tüüpi signaale on võimalik ostsilloskoobi abil vaadelda?
 * Mis seade on ostsilloskoop?
 * Mis võib põhjustada ostsilloskoobi kineskoobi luminofoori riknemise?
@@ -487,8 +487,8 @@ koduses audiotehnikas on kasutusel dBV - signaalipinge suhe 1 voldi suhtes.
 ***Kordamisküsimused***
 * Mida peab silmas pidama, kui taod antennimasti tõmmitsate kinnitusvaiu maasse?
 * Mida tuleb jälgida raiudes puid välipäeva või kokkutuleku lõkke jaoks?
-* Tehes tööd kõrgel antennimasti otsas tuleb jälgida et....
-* Kui oled autoga sõitnud välipäevale peab silmas pidama .....
+* Mida tuleb jälgida tehes tööd kõrgel antennimasti otsas?
+* Mida peab silmas pidama kui oled autoga sõitnud välipäevale?
 
 # C11 Amatöörraadiojaama opereerimise reeglid ja protseduurid
 * Säilitage alati viisakus, rahu ja hea tuju, sõltumata olukorrast. Kui see pole võimalik, siis ärge mine eetrisse.
@@ -638,7 +638,7 @@ Telegraafis võidakse RST raportis aja kokkuhoiuks saata “9” asemel “N” 
 * Mis tähendus on Morsekoodi liittähtedel AR ?
 * Mida tähendavad Morsekoodis saadetud liittähed SK ?
 * Mida tähendavad Morsekoodis saadetud liittähed KN ?
-* Mida tähendab lühend AS ?
+* Mida tähendab morsekoodis lühend AS ?
 ## S04 Sidepidamise reeglid
 Telefonisidele minnes:
 
@@ -730,32 +730,32 @@ Operaatori nimi; Jaama QTH (asukoht); Kasutatav aparatuur; Ilm; QSL-info.
 ---
 ***Kordamisküsimused***
 * Mida loetakse amatöörraadiojaamaks?
-* Amatöörraadiojaama tehniliste seadmete kogumikku kuuluvad:
-* Amatöör-vahendusraadiojaamaks loetakse:
-* Amatöörraadiomajakaks loetakse:
-* Ühiskasutusega amatöörraadiojaamaks loetakse:
-* Amatöörraadiojaama registreeritud asukohaks loetakse:
-* Amatöörraadiosideks loetakse:
-* Amatöörraadiosidet tohib kasutada:
-* Raadioamatööriks loetakse isikut:
-* Amatöörraadiojaama tohib kasutada:
+* Mis kuulub Amatöörraadiojaama tehniliste seadmete kogumikku?
+* Mida loetakse Amatöör-vahendusraadiojaamaks?
+* Mida loetakse Amatöörraadiomajakaks?
+* Mida loetakse Ühiskasutusega amatöörraadiojaamaks?
+* Mida loetakse Amatöörraadiojaama registreeritud asukohaks?
+* Mida loetakse Amatöörraadiosideks?
+* Kuidas tohib kasutada Amatöörraadiosidet?
+* Keda loetakse Raadioamatööriks?
+* Mille alusel tohib Amatöörraadiojaama kasutada?
 ## S02 Raadioamatööride kutsungid
 
 ---
 ***Kordamisküsimused***
 * Millist varianti saab kasutada Eesti amatöörjaama kutsungi moodustamiseks?
-* Haapsalus registreeritud amatöörraadiojaama kutsung algab:
-* Kutsung ES9Z kuulub piirkondlikult:
-* Kutsung ES2XX võib kuuluda millise klassi Eesti amatöörraadiojaamale?
-* Ühiskasutusega (raadioklubi) amatöörraadiojaamale omistatakse kutsungi järelliide:
+* Kuidas algab Haapsalus registreeritud amatöörraadiojaama kutsung?
+* Kuhu kuulub piirkondlikult Kutsung ES9Z?
+* Millise klassi Eesti amatöörraadiojaamale võib kuuluda Kutsung ES2XX ?
+* Milline järelliide omistatakse Ühiskasutusega (raadioklubi) amatöörraadiojaamale?
 ## S03 Seadusandlus
 
 ---
 ***Kordamisküsimused***
-* Amatöörraadiosides tohib edastada sihituseta või korrespondendita saateid:
-* Ühiskasutusega (raadioklubi) amatöörraadiojaama vastutavaks järelevaatajaks võib olla ainult:
-* Amatöörraadiojaama luba väljastatakse Tarbijakaitse ja Tehnilise Järelevalve Ameti poolt kestvusega:
-* Amatöörraadiojaama tööluba kuulub hoidmisele:
-* Mida tuleb teha tööloale kantud andmete muutumisel.
-* Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta on lubatud:
+* Mis tingimustel tohib Amatöörraadiosides edastada sihituseta või korrespondendita saateid?
+* Kes võib olla ühiskasutusega (raadioklubi) amatöörraadiojaama vastutavaks järelevaatajaks?
+* Millise maksimaalse kestvusega võib olla Tarbijakaitse ja Tehnilise Järelevalve Ameti poolt väljastatav Amatöörjaama luba?
+* Kus tuleb hoida Amatöörraadiojaama tööluba?
+* Mida tuleb teha tööloale kantud andmete muutumisel?
+* Kui pikalt on lubatud Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta?
 

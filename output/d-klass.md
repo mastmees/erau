@@ -126,15 +126,15 @@ Aktiivvõimsuse mõõtühik on vatt (***W***), reaktiivvõimsuse ühik varr
 
 ---
 ***Kordamisküsimused***
-* Raadiolaine pikkust mõõdetakse:
-* Raadiolaine sagedust mõõdetakse:
+* Mis ühikutes mõõdetakse raadiolaine pikkust?
+* Mis ühikutes mõõdetakse raadiolaine sagedust?
 * Mida mõõdetakse vattides?
 * Mida mõõdetakse voltides?
 * Mida mõõdetakse oomides?
 * Mida mõõdetakse amprites?
 * Mida mõõdetakse hertsides?
 * Mida mõõdetakse meetrites?
-* Lainepikkust mõõdetakse meetrites, kuna:
+* Miks mõõdetakse lainepikkust meetrites?
 ## S02 Mõõtühikute eesliidetest
 Raadioamatörismis, nagu teistelgi tehnikaaladel, on vajalik nii väga suurte
 kui ka väga väikeste arvude väljendamine.
@@ -168,26 +168,26 @@ Väikeste arvude väljendamine eesliidete abil:
 * Kuidas on seotud sagedused 5 000 000 hertsi ja 5 megahertsi?
 * Kuidas on seotud sagedused 5 000 hertsi ja 5 megahertsi?
 * Kuidas on seotud sagedused 5 mHz ja 5 MHz?
-* 1 kilovatt on:
-* Te töötate sagedusel 14250 kHz ja tahate sagedust muuta 5 kHz ülespoole. Te valite uueks töösageduseks:
+* Mis on võrdne 1 kilovatiga?
+* Te töötate sagedusel 14250 kHz ja tahate sagedust muuta 5 kHz ülespoole. Mis on teie uueks töösageduseks?
 * Kuidas on seotud suurused 10 kilohertsi ja 10 millivolti?
 ## S05 Elektromagnetlained ja raadiolained
 
 ---
 ***Kordamisküsimused***
 * Milliseid laineid kasutatakse raadiosides?
-* Raadiolained läbivad 300 000 kilomeetrit
+* Millise ajaga läbivad raadiolained 300 000 kilomeetrit?
 * Mis vahe on elektromagnetlainetel ja raadiolainetel?
 * Mida ühist on elektromagnetlainetel ja raadiolainetel?
 * Mida ühist on valgusel ja raadiolainetel?
 * Mis vahe on raadiolainetel ja helilainetel?
-* Raadiolaine on:
+* Kui kiire on raadiolaine?
 * Mille poolest sarnanevad pikklained, kesklained, lühilained ja ultralühilained?
 * Mis vahe on pikklainetel, kesklainetel, lühilainetel ja ultralühilainetel?
 * Mis on lainepikkus?
 * Mis on sagedus?
 * Kuidas on seotud elektromagnetlaine lainepikkus ja sagedus?
-* Kui saadetava raadiolaine sagedus suureneb 2 korda, siis tema lainepikkus:
+* Kui saadetava raadiolaine sagedus suureneb 2 korda, kuidas muutub lainepikkus?
 
 # C02 Raadio- ja elektrotehnika komponendid
 
@@ -195,21 +195,21 @@ Väikeste arvude väljendamine eesliidete abil:
 
 ---
 ***Kordamisküsimused***
-* Takisteid kasutatakse:
+* Milleks kasutatakse takisteid?
 ## S02 Aktiivkomponendid
 
 ---
 ***Kordamisküsimused***
-* Pooljuhi põhiomaduseks on:
-* Raadiolampide kohta saab öelda:
+* Mis on pooljuhi põhiomadus?
+* Mida saab öelda raadiolampide kohta?
 ## S04 Ühendused
 
 ---
 ***Kordamisküsimused***
-* Vaske kasutatakse raadiotehnikas seetõttu, et sellest valmistatud detailid:
-* Kaablite ja juhtmete ümber oleva plastmassikihi ülesanne on:
+* Mispärast kasutatakse raadiotehnika detailide valmistamiseks vaske?
+* Mis on kaablite ja juhtmete ümber oleva plastmassikihi ülesanne?
 * Miks kasutatakse isolaatorite valmistamiseks portselani?
-* Antennikaabli ühendamiseks transiiveriga kasutatakse:
+* Mida kasutatakse antennikaabli ühendamiseks transiiveriga?
 * Miks kasutatakse raadiodetailide monteerimisel jootmist?
 * Kuidas ühendaksite omavahel kaks vasktraati?
 * Miks kasutatavad juhtmed ei või olla liiga väikese läbimõõduga?
@@ -220,28 +220,28 @@ Väikeste arvude väljendamine eesliidete abil:
 
 ---
 ***Kordamisküsimused***
-* Alalisvooluahela kohta võib öelda:
-* Vahelduvooluahela kohta võib öelda:
+* Mida võib öelda alalisvooluahela pinge kohta?
+* Mida võib öelda vahelduvooluahela pinge kohta?
 ## S03 Toiteahelad
 
 ---
 ***Kordamisküsimused***
-* Transiiver vajab toiteks 12-voldilist alalispinget. Selle saamiseks Te:
-* Toiteploki ülesandeks on:
-* Akude laadimiseks Te:
+* Mida teete kui transiiver vajab toiteks 12-voldilist alalispinget?
+* Mis on toiteploki ülesandeks?
+* Mida teete akude laadimiseks?
 ## S04 Maandus
 
 ---
 ***Kordamisküsimused***
-* Teil on vaja valmistada maanduskontuur. Selleks Te kasutate:
-* Maandusjuhe on vajalik selleks, et:
-* Maandusjuhtme paigaldamisel on kõige olulisem:
+* Mis materjali kasutate kui teil on vaja valmistada maanduskontuur?
+* Milleks on vajalik maandusjuhe?
+* Mis on Maandusjuhtme paigaldamisel kõige olulisem?
 ## S06 Kaitseahelad
 
 ---
 ***Kordamisküsimused***
-* Kui sulavkaitse läbi põleb, Te:
-* Raadioseadmetes kasutatakse sulavkaitsmeid järgmisel otstarbel:
+* Mida teete kui sulavkaitse läbi põleb?
+* Milleks kasutatakse raadioseadmetes sulavkaitsmeid?
 
 # C04 Raadiovastuvõtuseadmed
 
@@ -249,21 +249,21 @@ Väikeste arvude väljendamine eesliidete abil:
 
 ---
 ***Kordamisküsimused***
-* Raadiolainete vastuvõtmiseks saab kasutada:
-* Raadiovastuvõtja võtab vastu:
+* Millist seadet saab kasutada raadiolainete vastu võtmiseks?
+* Milliseid laineid võtab vastu raadiovastuvõtja?
 * Kuidas jõuab antenni juurde saabunud helisignaal vastuvõtjasse?
-* Raadiolainete vastuvõtul on vajalik:
-* Vastuvõtja häälestamiseks soovitavale jaamale:
-* Operaatori poolt kuuldav signaal:
-* Kõrvaklappidest kuuleb operaator:
-* Transiiveri helivaljusregulaatori nupu keeramisel:
-* Mis on kõrvaklappide kasutamise eeliseks vastuvõtul võrreldes valjuhääldiga?:
+* Mis on vajalik raadiolainete vastuvõtuks?
+* Mida kasutatakse vastuvõtja häälestamiseks soovitavale jaamale?
+* Kuidas tekib operaatori poolt kuuldav signaal?
+* Milliseid laineid kuuleb operaator kõrvaklappidest?
+* Mida muudetakse transiiveri helivaljusregulaatori nupu keeramisel?
+* Mis on kõrvaklappide kasutamise eeliseks vastuvõtul võrreldes valjuhääldiga?
 ## S06 S-meeter
 
 ---
 ***Kordamisküsimused***
-* Transiiveri S-meeter näitab:
-* Kui vastuvõtjal pole S-meetrit, saab operaator signaali tugevust hinnata:
+* Mida näitab transiiveri S-meeter?
+* Kuidas saab operaator hinnata signaali tugevust kui vastuvõtjal pole S-meetrit?
 
 # C05 Raadiosaateseadmed
 
@@ -271,18 +271,18 @@ Väikeste arvude väljendamine eesliidete abil:
 
 ---
 ***Kordamisküsimused***
-* Raadiosignaali saatmiseks saab kasutada:
+* Millist seadet saab kasutada raadiosignaali saatmiseks?
 * Mida on vaja omada telefonitööks ettenähtud raadiojaamas?
-* Mikrofoni otstarbeks on:
-* Käsitelegraafivõtme otstarbeks on:
-* Transiiveri laineala häälestusnupu keeramisel:
+* Mis on mikrofoni otstarve?
+* Mis on käsitelegraafivõtme otstarve?
+* Mis juhtub transiiveri laineala häälestusnupu keeramisel?
 ## S02 Saatevõimsus
 
 ---
 ***Kordamisküsimused***
-* Raadiosaatja võimsuseks nimetatakse:
-* Kui raadiosaatja võimsust suurendada, siis korrespondendi poolt vastuvõetav signaal:
-* Naabermajas oleva amatööriga jutuajamiseks Te:
+* Mida nimetatakse raadiosaatja võimsuseks?
+* Kuidas muutub korrespondedi poolt vastu võetav signaal Kui raadiosaatja võimsust suurendada?
+* Mida teete naabermajas oleva amatööriga jutu ajamiseks?
 ## S05 Raadiohäired
 
 ---
@@ -292,7 +292,7 @@ Väikeste arvude väljendamine eesliidete abil:
 
 ---
 ***Kordamisküsimused***
-* Kui Teile öeldakse, et Teie signaal on moonutatud, siis Te:
+* Mida teete Kui teile öeldakse, et Teie signaal on moonutatud?
 
 # C06 Antennid ja fiidrid
 
@@ -322,23 +322,23 @@ Väikeste arvude väljendamine eesliidete abil:
 ---
 ***Kordamisküsimused***
 * Mis on raadiolevi?
-* Lühilainete kauglevi on võimalik tänu:
-* Raadiolainete otsenähtavuse leviala on võimalik suurendada, kui:
+* Mis teeb võimalikus lühilainete kauglevi?
+* Kuidas on võimalik suurendada raadiolainete otsenähtavuse leviala?
 ## S02 Ionosfäär
 
 ---
 ***Kordamisküsimused***
-* Ionosfääri seisundit ja raadiolainete levi mõjutab kõige rohkem:
-* Ionosfäär on raadiosides oluline, kuna ta:
-* Päevasel ajal saate Te 160 m ja 80 m lainealal tõenäoliselt kuulda:
-* Öisel ajal saate Te 10 m lainealal tõenäoliselt kuulda:
-* Kui Te soovite ühel ja samal lainealal ööpäev läbi kaugsidesid teha, peaksite valima:
-* Kauglevi ultralühilainetel on võimalik juhul, kui:
+* Mis mõjutab kõige rohkem Ionosfääri seisundit ja raadiolainete levi?
+* Mille poolest on Ionosfäär raadiosides oluline?
+* Milliseid jaamu saate saate 160 m ja 80 m lainealal päevasel ajal tõenäoliselt kuulda?
+* Milliseid jaamu saate öisel ajal 10 m lainealal tõenäoliselt kuulda?
+* Millise laineala peaksite valima kui soovite sellel ööpäev läbi kaugsidesid teha?
+* Mis tingumustel on kauglevi ultralühilainetel võimalik?
 ## S03 Levihäired
 
 ---
 ***Kordamisküsimused***
-* Päikeselt saabuvate osakeste tõttu tekkinud magnettormid:
+* Milline mõju on päikeselt saabuvate osakeste tõttu tekkivatel magnettormidel?
 
 # C08 Mõõtetehnika ja selle kasutamine
 
@@ -346,19 +346,19 @@ Väikeste arvude väljendamine eesliidete abil:
 
 ---
 ***Kordamisküsimused***
-* Mõõteriista kasutamisel:
+* Mida tuleb jälgida mõõteriista kasutamisel?
 * Kuidas mõõteriistu kontrollitakse?
-* Digitaalnäiduga mõõteriista eeliseks osutiga mõõteriista ees on:
+* Mis on digitaalnäiduga mõõteriista eeliseks osutiga mõõteriista ees?
 * Kas digitaalnäiduga mõõteriista näidu õigsust on vaja kontrollida?
-* Antennielemendi pikkuse mõõtmiseks kasutatakse:
+* Millist tööriista kasutatakse antennielemendi pikkuse mõõtmiseks?
 ## S02 Tester
 
 ---
 ***Kordamisküsimused***
-* Te tahate veenduda, et elektrivõrgust saadav pinge on 220 volti. Selleks Te saate kasutada:
-* Testri kasutamise põhieeliseks on:
-* Testriga elektrivõrgust saadava pinge mõõtmisel:
-* Testriga takistuse mõõtmisel tuleb jälgida järgmist:
+* Mida kasutate, et kontrollida kas elektrivõrgust saadav pinge on 230 volti?
+* Mis on testri kasutamise põhieeliseks?
+* Mida tuleb jälgida testriga elektrivõrgust saadava pinge mõõtmisel?
+* Mida tuleb meeles pidada Testriga takistuse mõõtmisel?
 ## S06 Spektrianalüsaator
 
 ---
@@ -373,16 +373,16 @@ Väikeste arvude väljendamine eesliidete abil:
 ***Kordamisküsimused***
 * Milliseid raadiohäireid võib sidepidamine põhjustada?
 * Mis võib olla häirete põhjuseks amatöörsides?
-* Kas Päike võib põhjustada atmosfäärihäireid?
-* Kui raadiojaam asub suures linnas, siis sidepidamisel:
+* Kas päike võib põhjustada atmosfäärihäireid?
+* Kui raadiojaam asub suures linnas, siis kas see muudab olukorda raadiohäirete osas?
 ## S02 Raadiohäirete vähendamine
 
 ---
 ***Kordamisküsimused***
-* Kui Teie naabrid kaebavad raadiojaama poolt põjustatud raadiohäireid, siis:
-* Kui Teie naabrid kaebavad raadiojaama poolt põhjustatud liiga suure võrgupinge üle, siis:
-* Teiste raadiojaamade poolt põhjustatud häirete kõrvaldamiseks:
-* Kui ultralühilainel hakkavad Teid segama kauged jaamad, siis:
+* Mida teete kui Teie naabrid kaebavad raadiojaama poolt põjustatud raadiohäireid?
+* Mida teete kui Teie naabrid kaebavad raadiojaama poolt põhjustatud liiga suure võrgupinge üle?
+* Mida tehakse teiste raadiojaamade poolt põhjustatud häirete kõrvaldamiseks?
+* Mida teete kui Kui ultralühilainel hakkavad Teid segama kauged jaamad?
 
 # C10 Ohutustehnika
 
@@ -393,22 +393,22 @@ Väikeste arvude väljendamine eesliidete abil:
 * Miks antenn ei tohi olla elektriliinide vahetus läheduses?
 * Miks on vaja aparatuur maandada?
 * Miks hoitakse töötades üks käsi selja taga, kui võib karta elektrilöögi saamist?
-* Miks pinge all olevatest juhtmetest haaranud inimene ei suuda neist lahti lasta:
+* Miks pinge all olevatest juhtmetest haaranud inimene ei suuda neist lahti lasta?
 * Miks on oluline, et kogu raadiojaama elektrivarustust saaks välja lülitada ühekorraga ja kiiresti?
-* Kui Teie kaaslane saab elektrilöögi ja kaotab teadvuse:
+* Mida teete kui Teie kaaslane saab elektrilöögi ja kaotab teadvuse?
 ## S03 Jaama kasutamine
 
 ---
 ***Kordamisküsimused***
-* Äikese ajal töötades tuleb silmas pidada, et:
-* Mida tuleb silmas, kui soovite reisilennukis amatöörsidet pidada?
+* Mida tuleb silmas pidada äikese ajal töötades?
+* Mida tuleb silmas pidada, kui soovite reisilennukis amatöörsidet pidada?
 ## S04 Ohutus välitöödel
 
 ---
 ***Kordamisküsimused***
 * Mida tuleb silmas pidada, kui paigaldate antenni järsu kaldega jäätunud plekk-katusele?
-* Kui katusele antenni pannes hakkab antenn kukkuma, siis Te:
-* Antennimasti ronides tuleb kindlasti kasutada:
+* Mida teete kui katusele antenni paigaldades hakkab antenn kukkuma?
+* Mida tuleb kindlasti kasutada antennimasti ronides?
 
 # C11 Amatöörraadiojaama opereerimise reeglid ja protseduurid
 * Säilitage alati viisakus, rahu ja hea tuju, sõltumata olukorrast. Kui see pole võimalik, siis ärge mine eetrisse.
@@ -428,6 +428,12 @@ Väikeste arvude väljendamine eesliidete abil:
 * Proovige korrespondendiga rääkida ka millestki muust kui raadioamatörismist: niimoodi saate üksteist rohkem tundma.
 * Aidake teisi amatööre, eriti uustulnukaid. Ärge naeruvääristage neid ja ärge virisege.
 
+---
+***Kordamisküsimused***
+* Töötate sagedusel, kui keegi ütleb: “Oled loll”. Mida teete?
+* Algaja amatöör on Teiega side pidamisel hädas. Mida teete?
+* Kuulete telefonilainealal morsesignaali. Milline alljärgnevatest tegevustest on õige?
+* Kuulete telegraafialal jaama, kes telefoni teel edastab CQ. Milline alljärgnevatest tegevustest on õige?
 ## S01 Veerimistabel
 Telefoniside pidamisel ei piisa informatsiooni korrektseks edastamiseks
 lihtsalt selle ette lugemisest. Indiast pärit korrespondent ei pruugi
@@ -487,7 +493,7 @@ Rahvusvaheline veerimistabel:
 
 ---
 ***Kordamisküsimused***
-* Kuulete, kuidas sagedusel kutsuv jaam edastab oma kutsungit “EchoSierra-one-Alfa-Charlie”. Milline järeldus on õige?
+* Kuulete, kuidas sagedusel kutsuv jaam edastab oma kutsungit “EchoSierra-one-Alfa-Charlie”. Mida see teile ütleb?
 ## S04 Sidepidamise reeglid
 Telefonisidele minnes:
 
@@ -513,15 +519,11 @@ Telefonisidele minnes:
 
 ---
 ***Kordamisküsimused***
-* Te kuulete Soome jaama kutsumas “CQ DX”. Pärast kutsumise lõppu Te:
+* Te kuulete Soome jaama kutsumas “CQ DX”. Mida teete pärast kutsumise lõppu?
 * Teie CQ-le vastanud jaam edastas oma kutsungi liiga kiiresti, nii et Te ei suutnud seda vastu võtta. Mida teete?
 * Töötate sagedusel, kui keegi küsib: “Kas sagedus on hõivatud?”. Mida teete?
 * Töötate sagedusel, kui Saksa jaam hakkab küsimata kutsuma “CQ DX”. Mida teete?
 * Küsite sagedusel: “Kas sagedus on hõivatud?” ja saate jaatava vastuse. Mida teete?
-* Töötate sagedusel, kui keegi ütleb: “Oled loll”. Mida teete?
-* Algaja amatöör on Teiega side pidamisel hädas. Mida teete?
-* Kuulete telefonilainealal morsesignaali. Milline alljärgnevatest tegevustest on õige?
-* Kuulete telegraafialal jaama, kes telefoni teel edastab CQ. Milline alljärgnevatest tegevustest on õige?
 ## S05 Side ajal edastatav info
 Selleks, et side toimuks, on korrespondentidel vaja vahetada kutsungid ja RST-raport.
 Viimane on numbrikombinatsioon, mis iseloomustab vastuvõetud signaali loetavust
@@ -594,20 +596,20 @@ Operaatori nimi; Jaama QTH (asukoht); Kasutatav aparatuur; Ilm; QSL-info.
 * Kuidas ära tunda eetris töötavat Eesti A-klassi amatööri?
 * Mis näitab, et eetris töötab alaealine?
 * Mida näitab raadioamatööri poolt kasutav kutsung ES9B?
-* Te kuulete kutsumas jaama kutsungiga ES5/DJ0IB. See tähendab, et:
-* Te kuulete kutsumas jaama kutsungiga ES5JR/6. See tähendab, et:
-* Te kuulete kutsumas jaama kutsungiga ES5YL/M. See tähendab, et:
+* Te kuulete kutsumas jaama kutsungiga ES5/DJ0IB. Mid see tähendab?
+* Te kuulete kutsumas jaama kutsungiga ES5JR/6. Mida see tähendab?
+* Te kuulete kutsumas jaama kutsungiga ES5YL/M. Mida see tähendab?
 ## S03 Seadusandlus
 
 ---
 ***Kordamisküsimused***
-* Millistele alltoodud tingimustele peab vastama raadioamatöör?
+* Millistele tingimustele peab vastama raadioamatöör?
 * Miks raadioamatöörid sooritavad kvalifikatsioonieksami?
 * Mida peab raadioamatöör tegema kutsungi saamiseks?
 * Kes annab välja raadiojaama tööloa ja kutsungi?
 * Miks D-klassi amatöörid ei tohi töötada amatöörlainealast väljaspool?
 * Milleks amatöörsidet ei tohi kasutada?
-* Mida peab rasadioamatöör silmas pidama, kui ta soovib eetris edastada muusikat?
-* Kui D-klassi amatöör töötab klubijaamast, siis:
+* Mida peab raadioamatöör silmas pidama, kui ta soovib eetris edastada muusikat?
+* Mida saab D-klassi amatöör teha töötades klubijaamast?
 * Kui suurt saatevõimsust võib kasutada raadioamatöör?
 
