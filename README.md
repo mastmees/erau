@@ -4,6 +4,21 @@
 
 Kasuta UTF8-t ja unix-i stiilis reavahetusi. 
 
+## Miks on muutunud peatükkide ja küsimuste numbrid?
+
+Kuna eesmärgiks on andmestikust genereerida nii sisu kui küsimused kõigi
+amatöörklasside jaoks siis tuleb nagunii nii peatükid kui küsimused iga
+jaoks uuesti nummerdada, sõltuvalt sellest milline materjal ja millisted
+küsimused vastava klassi jaoks olulised on. Seepärast pole peatüki ja
+küsimuste numbritel mingit tähtust peale anmestiku struktuuri loomise ja
+küsimuste failinimede unikaalsuse tagamise igas peatükis või sektsioonis.
+
+## C01? S01?
+
+Chapters/Sections. Lõpptulemuse genereerimisel pole plaanis neid üldse
+sellisel kujul näidata, sisu toimetamise ajal on kasulik näha, et küsimused
+või tekst üles leida.
+
 ## Miks selline formaat?
 
 Selleks, et sisu toimetamine oleks võimalikult lihtne ja tavalise
@@ -13,7 +28,8 @@ pythonis võimalik lihtsalt PDF-i ja/või HTML-i teha.
 
 ## Miks .et failid?
 
-Tulevikus tõlkimise huvides.
+Tulevikus tõlkimise huvides. Tõlked lähevad paraleelselt eksisteerivatesse
+.en, .ru jne. failidesse.
 
 ## meta faili formaat
 
@@ -29,12 +45,4 @@ Tulevikus tõlkimise huvides.
 >. AB  
 
 punktiga real on kirjas millise klassi eksami küsimuseks see sobib
-
-
-## C01? S01?
-
-Chapters/Sections. Lõpptulemuse genereerimisel pole plaanis neid üldse
-sellisel kujul näidata, sisu toimetamise ajal on kasulik näha, et küsimused
-või tekst üles leida.
-
 
