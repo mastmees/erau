@@ -232,6 +232,83 @@ koduses audiotehnikas on kasutusel dBV - signaalipinge suhe 1 voldi suhtes.
 # C02 Raadio- ja elektrotehnika komponendid
 
 ## S01 Passiivkomponendid
+Passiivkomponentideks loetakse takistid, kondensaatorid ja induktiivkomponendid, sealhulgas ka transformaatorid.
+
+### Takistid
+
+Takistite abil saab anda elektriahelale vajaliku takistuse.
+
+Takisteid on palju erinevaid, kõige tavalisem neist on aktiivtakisti mida
+nimetatakse ka lihtsalt takistiks. Takisti kõige olulistemateks parameetriteks on
+nominaalväärtus, võimsustaluvus ja materjal, sest sellest sõltuvad veel
+mõned olulised parameetrid. Takistite takistus ei vasta pea kunagi
+täpselt nominaalväärtusele, tootmisvigade ja takistitele omase takistuse
+muutumise temperatuuri kõikumisel tüüpiliselt takistite takistus kasvab
+temperatuuri tõustes. Takistuse muutumise suuruse määrab takisti
+materjalist sõltuv temperatuuritegur.
+
+Muuttakistite takistust saab sujuvalt muuta, kõige tuttavam on kõigile
+potentsiomeeter, seda kasutatakse näiteks raadiovastuvõtja helitugevuse
+reguleerimiseks.
+
+Oluline takistite rühm on termotaksitid ehk termistorid, need on ehitatud
+selliselt, et nende takistus muutub temperatuuri kõikumisel väga suurtes
+piirides. Sealjuures on olemas nii sellised mille takistus temperatuuri
+tõustes kasvab kui sellised, mille takistus temperatuuri tõustes langeb.
+Neid saab kasutada temperatuuri mõõtmiseks aga ka näiteks
+jahutusventilaatori kiiruse reguleerimiseks sõltuvalt seadme temperatuurist.
+
+### Kondensaatorid
+
+Kondensaatorite põhiomadus on mahtuvus, ehk võime salvestada elektrilaengut.
+Põhimõtteliselt koosnevad nad kõik kahest elektroodist ja neid eraldavast
+elektrit mitte juhtivast kihist. Kondensaatori mahtuvuse määrab elektroodide
+pindala ja neid eraldava dielektriku paksus, seepärast teakse nii
+elektroodid kui dielektrik võimalikult õhukesed. Sõltuvalt vajalikest
+omadustest valmisatakse kondensaatoreid erinevatest materjalidest.
+
+Ka kondensaatoreid on püsiva väärtusega ja muudetava väärtusega, sagedamini
+leiavad kasutust püsiva väärtusega kondensaatorid. Kondensaatorite
+olulisimad parameetrid on mahtuvus ja pingetaluvus. Nagu takistid, ei ole ka
+kondensaatorid ideaalsed ja erinevad nominaalväärtusest, nende mahtuvus võib
+ajas või näiteks temperatuuri kõikumisel oluliselt muutuja ja nad võivad
+omada ka arvestatavat aktiivtakistust. Tänapäeval on õpitud väga väikeseid
+ja suhteliselt suure mahtuvusega keraamilisi kondensaatoreid tegema, nende
+headeks omaduseks on ka vähene sisetakistus ja induktiivsus, seepärast
+sobivad nad hästi igasuguste järskude impulsside ja muude mürade filtreerimiseks
+ning kõrgsagedusahelates kasutamiseks.
+
+Eraldi mainimist väärivad elektrolüütkondensaatorid, sest neile saab
+suhteliselt väikese ruumala juures anda väga suure mahtuvuse. Dielektrikuks
+on nende sees imeõhuke oksiidikiht mille tekitamiseks ja püsimiseks on
+kondensaatori sisu immutatud elektrolüüdiga. Aja jooksul võib elektrolüüt
+neist välja lekkida, selle tulemusena rikneb kondensaator aga korrosiivne
+elektrolüüt võib kergesti rikkuda ka teised läheduses olevad komponendid või
+trükkplaadi millel komponendid paiknevad. Suure mahtuvuse tõttu kasutatakse
+neid sageli toiteahelates pinge silumiseks.
+ 
+Muutkondensaatorid võimaldavad elektroode teineteise suhtes nihutada, muutes
+niiviisi kondensaatori mahtuvust. Vanades raadiotes kasutati pea alati suurt
+pöördkondensaatorit mis koosnes üksteisega vaheliti metall-lehtedest.
+
+### Indiktiivelemendid
+
+Kõige lihtsam induktiivelement on induktiivpool, selle põhiline tunnus on
+elektriline induktiivsus. Pool koosneb mingist hulgas traadikeerdudest mis
+võivad olla mähitud poolialusele. Poolide induktiivsuse suurendamiseks
+kasutatakse ferromagnetilisi poolisüdamikke, kõrgsageduspoolid on sageli
+ilma aluseta ja südamikuta traadikeerud. Ka poolide induktiivuse saab
+muudetavaks teha, selleks tehakse poolisüdamik pooli sees liigutatavaks.
+
+Ka induktiivelemendid ei ole ideaalsed, nende mähisetraat omab aktiivtakistust
+mis tekitab poolis energiakadu, lisaks sellele moodustavad mähisekeerud ja
+kondensaatori mille tõttu on poolidel soovimatu omaresonantsisagedus.
+
+Kui ühele südamikule mähkida mitu induktiivpooli siis moodustub
+transformaator, kus südamik moodustab mähiseid omavahel siduva magnetahela.
+Ühele mähisele antav vahelduvpinge tekitab südamikus muutuva magnetvoo mis
+indutseerib teises mähiseks vahelduva elektromotoorjõu, kui mähisega
+ühendada elektriahel siis läbib seda eletrivool.
 
 ---
 ***Kordamisküsimused***
@@ -740,6 +817,46 @@ Operaatori nimi; Jaama QTH (asukoht); Kasutatav aparatuur; Ilm; QSL-info.
 * Keda loetakse Raadioamatööriks?
 * Mille alusel tohib Amatöörraadiojaama kasutada?
 ## S02 Raadioamatööride kutsungid
+Igal raadioamatööril on tähtedest ja numbri(te)st koosnev kutsung, mis on maailmas ainuke ja on talle teise nime eest.
+
+Tõsi, riikides, kus amatööre on palju, lastakse juba kasutusel olnud kutsungid mõne aja pärast uuesti käiku.
+
+Iga kutsungi esimene osa ehk prefiks näitab, millisest riigist amatöör töötab. Eesti amatööride kutsungid
+algavad tähekombinatsiooniga “ES”, sellele järgnev number näitab, millisest Eesti piirkonnaga on tegemist.
+
+* ES1 Tallinn
+* ES2 Harjumaa
+* ES3 Rapla- ja Läänemaa
+* ES4 Ida-Virumaa ja Lääne-Virumaa
+* ES5 Tartu- ja Jõgevamaa
+* ES6 Põlva-, Võru- ja Valgamaa
+* ES7 Viljandimaa
+* ES8 Pärnumaa
+* ES9 ERAÜ erikutsung
+* ES0 Saare ja Hiiu maakond
+
+Viimane osa ehk sufiks annab Eesti jaamade puhul informatsiooni raadioamatööri kvalifikatsioonist ja jaama otstarbest.
+
+Üldreegliks on: mida lühem kutsung, seda parem operaator. Kutsungi lühenemisega kahaneb
+ka võimalike kutsungite arv, ka kõige parema tahtmise juures pole võimalik kõigile Eesti
+amatööridele väljastada ühetähelise sufiksiga kutsungeid.
+
+Päris algajate, D-klassi amatööride kutsungi sufiksis on neli tähte. Edasijõudnute, B-klassi amatööride kutsungis
+on pärast numbrit kolm tähte. Kaks tähte on sufiksis A-klassi amatööridel ja klubijaamadel. 
+Viimastel on võimalik TTJA-lt taotleda ka ühetähelist sufiksit.
+
+Kui amatöör ei tööta oma tavalises asukohas, saab seda näidata kaldjoonega (ingl. k. “stroke” või “slash”)
+eraldatud kutsungi lisa abil:
+
+* ES4LB/6 jaam töötab ajutisest asukohast teises kutsungipiirkonnas
+* ES5RY/p jaam töötab ajutisest asukohast samas kutsungipiirkonnas (“portable”)
+* ES5MG/m jaam töötab autolt (“mobile”)
+* ES0IC/mm jaam töötab merelt (“maritime mobile”)
+* ES5PC/am jaam töötab lennukilt (“aeroplane mobile”)
+
+Kui välismaa amatöör tuleb lühiajaliselt Eestisse, lisatakse tema kutsungi ette “ES”+kutsungipiirkond + “/”. 
+Näiteks Timo, OH1NOA, töötades Lõuna-Eestist, võtab kutsungiks ES6/OH1NOA. Pikemaajalisel peatumisel
+(üle kuue kuu) peab amatöör taotlema Eesti kutsungit.
 
 ---
 ***Kordamisküsimused***
