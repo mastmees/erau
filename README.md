@@ -33,11 +33,15 @@ Tulevikus tõlkimise huvides. Tõlked lähevad paraleelselt eksisteerivatesse
 
 ## meta faili formaat
 
+Parserid peaks ridu mida nad ei tunne lihtsalt ignoreerima, sest erinevat infor võib aja jooksul juurde tulla.
+
 >T title  
 >A author  
 
 
 ## qxxx faili formaat
+
+Parserid peaks ridu mida nad ei tunne lihtsalt ignoreerima, sest erinevat infor võib aja jooksul juurde tulla.
 
 >? Küsimus  
 >A. vale vastusevariant  
