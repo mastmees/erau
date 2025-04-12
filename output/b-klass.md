@@ -545,13 +545,83 @@ indutseerib teises mähiseks vahelduva elektromotoorjõu, kui mähisega
 # C10 Ohutustehnika
 
 ## S01 Elektriohutus
+Inimese keha juhib elektrivoolu. Kui inimene puudutab elektriseadme pinge all olevat osa
+või isolatsioonirikke tõttu pinge alla sattunud osa, läbib tema keha vool. Seda voolu nimetatakse
+rikkevooluks. Rikkevoolu suurus sõltub keha elektritakistusest ja voolu kulgemise teest läbi keha. 
+
+Üldiselt loetakse inimesele ohutuks 10…20 mA voolu. Suurem vool kutsub esile lihaste krampe,
+hingamishäireid ja halvemal juhul ka südamelihaste värelemise ehk fibrillatsiooni, mille tagajärjel võib
+lakata vereringe ning aju verevarustus. Kui aju ei saa umbes 5 minutit verd, võib järgneda surm. 
+
+Ohtlikkus sõltub voolu suurusest ja kestusest. Kõige ohtlikumaks peetakse voolu läbi parema käe ja
+vasaku jala, sest see läbib südame piirkonda. Alla 10 mA voolu loetakse igal juhul ohutuks,
+ükskõik kui kaua ta kestab. 50 mA vool loetakse juba ohtlikuks kui see
+kestab kauem kui 1 sekund.
+
+Tänapäeval on elektrikiplides rikkevoolukaitsed mis rakenduvad 10..30 mA
+rikkevoolu juures mõnekümne millisekundiga, kaitstes suure tõenäosusega
+inimest.
+
+Vahelduvpinget alla 50 V sagedusel 50 Hz ja alalispinget alla 120 V loetakse
+üldiselt ohutuks, sest keha läbiv vool ei kasva eluohtliku tasemeni.
+
+Elektritöödel:
+
+* Mõelge eelnevalt tehtavad tööd hoolega läbi. Kui Te täpselt ei tea, mida peate tegema, ärge kiirustage, vaid võtke järelemõtlemisaega või küsige nõu kelleltki teiselt.
+* Varustage oma tööruum pealülitiga, mis võimaldab ühekorraga kõikjalt elektri välja lülitada. Andke sellest teada ka teistele, et nad oskaksid võimaliku õnnetuse korral reageerida.
+* Kaitske elektrijuhtmeid ja –kaableid vigastuste eest: ärge pange nende peale asju või mööblit, ärge sikutage pistikut pesast juhetpidi välja. Juhtmed paigutage nii, et keegi neisse neile peale astuda, takerduda või komistada ei saaks. Kahjustatud kaabel asendage uuega.
+* Maandage metallkastides olevad raadioseadmed, et vältida seadme korpuse pinge alla sattumist, kasutades selleks suure juhtmeristlõikega maanduskontuuri. Ärge ühendage maandusjuhet keskküteradiaatori või veetoru külge: see ei taga maandust, vaid teised inimesed võivad saada löögi!
+* Ärge asendage sulanud kaitsmeid seadmetes või elektrikilbis traadi, naela või muu metallesemega: niimoodi võite ühel hetkel avastada, et kaitsme asemel sulab või läheb põlema midagi hoopis hinnalisemat.
+* Eeldage alati, et vooluring on pinge all, kui kindlalt vastupidist ei saa tõestada. Pingetust kontrollige proovilambiga.
+* Parandus- ja hooldustööde tegemisel lülitage aparatuur vooluvõrgust välja. Seejuures tühjendage ka alaldi filterkondensaatorid, sillates toiteallika mõnesaja-oomise takistiga.
+* Kui mõõtetöid tuleb siiski teha pingestatud seadmeil, pidage meeles järgmist:
+ - Enne mõõtma asumist kontrollige, et olete valinud õige mõõtepiirkonna.
+ - Esmalt ühendage mõõteriista üldjuhe.
+ - Seiske kuival alusel.
+ - Kuivatage hoolikalt käed.
+ - Ärge töötage üleskääritud käistega;
+ - Sooritage ohtlikud operatsioonid ainult ühe käega. Nii on väiksem tõenäosus, et kätest moodustub vooluring läbi südame. Ärge lubage tööpaika kõrvalisi isikuid.
+
+Seadmete akud või patareid:
+ 
+* Hoidke töövalmis seade eemal lastest või ettevalmistuseta isikutest.
+* Seadme puhastamisel või detailide vahetamisel eemaldage akud või patareid.
+* Kõik patareid tuleb vahetada ühel ajal. Ärge kasutage segamini eritüübilisi või värskeid ja tühje patareisid.
+* Jälgige, et akude ja patareide vahetamisel ühendate nad õigesti.
+* Ärge kunagi lühistage akusid: see võib tekitada kõrge temperatuuri, lekke või plahvatuse;
+* Ärge lammutage akusid lahti: elektrolüüt võib Teid söövitada.
+* Kasutage ainult soovitatud tüüpi akulaadijat;
+* Laadige akusid kuivas paigas, eemal radiaatoritest, puhuritest, ahjudest jms.
+* Kasutage ainult soovitatud tüüpi akusid, et tagada nende ja laadimisseadme ühilduvus.
+* Ärge kunagi proovige laadida primaarelemente: see võib lõppeda lekke või plahvatusega.
+
 
 ---
 ***Kordamisküsimused***
 * Kui suur võib maksimaalselt olla inimkeha läbiv vahelduvvool, mis endast ei kujuta veel ohtu?
 * Mida tuleb teha kõigepealt kui näed voolujuhtmetesse kinnijäänud inimest?
-* Mida tuleb silmas pidada antennimasti püstitamisel või antenni vedamisel majade vahele?
 ## S02 Raadiokiirgus
+
+
+Elektromagnetkiirguse energia neeldumisel eluskoes tekib soojus. Kui organismi soojusregulatsioon
+ei suuda enam kompenseerida kiirguse neeldumisel kehas tekitatavat soojust, hakkab keha
+temperatuur tõusma ja põhjustada vigastusi rakkudes. Silmad võivad muudest kudedest kergemini
+kahjustada saada, sest silmade vereringe ei võimalda organismil temperatuuri reguleerimist.
+Sageduse tõusuga suureneb ka energia neeldumine koes ja soojusteke, seesama mehhanism
+võimaldab mikrolaineahjude toimimise.
+
+Kõrgendatud elektromagnetväljas viibimine võib pikema aja möödudes mõjutada inimese organismi
+ka muul moel, on märgatud üleväsimust, iiveldust, peavalu. Väga suurte
+väljatugevuste korral on võimalikud südame- ja ajuhäired, samuti ka kesknärvisüsteemi
+häired. Pikaajaline kiirgus võib mõjutada inimese psüühikat.
+
+Selleks, et end kiirguse eest kaitsta on kõige lihtsam mitte olla pikalt
+seal kus kiirgustase on kõige suurem, näiteks saateantenni juures mida
+kasutatakse suure võimsusega saatja küljes. Kindlasti tasub hoolitseda
+selle eest, et kasutatavates seadmetes oleks kõik varjestusekraanid paigas
+ja korralikult kinnitatud. Autos paikneva saatja küljes olevast antennist
+lähtuva kiirguse eest saab end varjestada paigutades antenni auto
+katusele, sellisel juhul töötab katus mingil määral varjestusekraanina.
 
 ---
 ***Kordamisküsimused***
@@ -559,11 +629,60 @@ indutseerib teises mähiseks vahelduva elektromotoorjõu, kui mähisega
 * Tugev kõrgsagedusenergia kiirgus võib olenevalt lainepikkusest, kõrgsagedusvälja intensiivsusest ja muudest teguritest rikkuda inimkeha kudesid. Kuidas mõjub kiirgus keha kudedele?
 * Kui tahad teha mõningaid häälestusoperatsioone oma VHF/UHF raadiojaama juures, mida peab tegema enne jaama sisselülitamist?
 ## S04 Ohutus välitöödel
+Kui töötate elektritööriistadega välitingimustes:
+
+* Võrgutoite korral kasutage ainult topeltisolatsiooniga tööriistu, mis on märgistatud kahe teineteise sees asuva ruuduga:
+* Kasutage lekkevoolukaitset;
+* Lülitage nad sisse ainult vajaduse korral;
+* Lülitage seade välja ja pange kaitseriivi, kui vahetate lõiketeri vms;
+* Kasutage neid ainult siis, kui kõik kaitsevahendid on paigas. Lõiketerad või kiiresti liikuvad osad võivad sõrmed maha lõigata.
+* Ärge jätke seadmeid järelevalveta, isegi kui lahkute ainult lühikeseks ajaks.
+* Jälgige, et lapsed neid omapäi kasutada ei saaks.
+* Ärge kasutage seadmeid märja ilmaga. Kui tööriist kukub vette, ärge hakake seda välja õngitsema, vaid kõigepealt eemaldage toitejuhe vooluallikast.
+* Ärge kandke tööriistu juhtmeidpidi.
+* Jälgige, et toitejuhe ei saaks viga, minnes vastu teravaid servi.
+
+Lukksepatöödel:
+
+* Veenduge enne töö alustamist, et tööriistad oleksid korras ja kindlalt pidemes;
+* Kontrollige, et haamer oleks varrele kiilutud.
+* Ärge kasutage “krooniga” meislit.
+* Käia või ketaslõikurit kasutades kandke kaitseprille. Ärge käiake kinnastes.
+* Puurimisel hoidke puuritavat eset mitte näppudega, vaid tangidega.
+* Puurige lehtmaterjale erikujulise lõiketeraga vineeripuuridega.
+* Ärge eemaldage pöörlevalt puurilt laastu.
+
+Antennitöödel:
+
+* Enne antennitöödele asumist mõelge hästi läbi, mida tegema hakkate. Kontrollige, kas vajalikud tööriistad ja materjalid on olemas. Kui Teile tundub, et midagi jääb arusaamatuks, ärge häbenege teistelt nõu küsida.
+* Kui vähegi võimalik, ärge tehke antennitöid üksi. Kõik töötegijad peavad teadma, mis on nende ülesandeks. Valige endi seast töödejuhataja, kes jagab korraldusi ja leppige kokku märguannetes.
+* Kasutage haarduva tallaga jalatseid. Riietus peaks olema mugav ja katma ka jäsemeid. Jälgige, et saapapaelad oleksid korralikult seotud ja et midagi teie küljest ei tolkneks.
+* Külma ilmaga pange end võimalikult soojalt riidesse. Tuleb arvestada, et sageli tuleb pikka aega paigal püsida. Kontrollige, et Teil oleksid olemas kindad ja müts, pikk aluspesu ei tee ka paha.
+* Vältige töötamist pimedas.
+* Ärge tehke antennitöid, kui sajab lund või vihma ning on tugev tuul. Tööde tegemise ajal ärge mingil juhul kasutage antenni saatmiseks.
+* Ärge kunagi töötage märjal või jäätunud katusel või tornis: sel juhul on isegi lamedal plekk-katusel raske püsti püsida.
+* Trossiga töötamisel kasutage alati kindaid, et trossi kiud kätt ei vigastaks. Kindad olgu käes ka nööriga töötamisel, kui on oht, et nöör võib käes libisema hakata ja nahka põletada.
+* Traadi, nööri või trossiga töötades ärge astuge selle keerdude sisse: Teid võidakse nende liikumahakkamisel kaasa haarata.
+* Õppige selgeks enamkasutatavamad sõlmed: “umbsõlm” ei sobi enese julgestamiseks ja raskuste tõstmiseks
+* Ärge kunagi paigutage antenni elektriliinide vahetusse lähedusse. Ärge kinnitage antenni elektripostide külge.
+* Jälgige, et antenn jääks piisavale kõrgusele, et inimesed sinna otsa ei jookseks.
+* Kui antenn hakkab kukkuma, siis laske tal minna, hoidke võimalikult kaugele ja hoiatage teisi. Kui Te üritate langevat antenni pidurdada, siis lisaks antenni purunemisele võite ka ise raskesti viga saada.
+
+Töö mastis:
+
+* Ärge minge masti tööle, kui sajab lund või vihma, või kui ligineb äike. Ärge töötage märjas või jäätunud tornis.
+* Jälgige, et riietusel ei lotendaks ega ripuks.
+* Kui temperatuur on alla –10 C, siis on parem masti otsa mitte minna. Alajahtunud ja külmast kangete liikmetega võib enese kinnihoidmine, rääkimata ronimisest, võimatu olla.
+* Ronides kasutage alati julgestusvööd, isegi siis, kui ohtu ei tundu olevat. Enne ronimahakkamist katsetage julgestuse vastupidavust end poole meetri kõrguselt kukutades. Vöö ümberhaakimisel jälgige, et te oleksite kogu aeg masti külge kinnitatud.
+* Ronimisel jälgige, et oleks alati vähemalt 3 toetuspunkti: kas 2 kätt ja üks jalg või 2 jalga ja üks käsi.
+* Veenduge, et kõik tööriistad oleksid kaasas ja paigutatud nii, et ronimist ei segaks ega alla kukuks. Ärge hoidke ronimise ajal midagi käes.
+* Mast all olijad peavad hoiduma väljapoole ala, kuhu ülevalt võivad kukkuda tööriistad või antenn ise. Juba meetri kõrguselt pähe kukkunud väike mutrivõti põhjustab suurt valu, kui ta tabab teid mitmekümne meetri kõrguselt, on tõenäosus üliraske trauma saamiseks väga suur.
 
 ---
 ***Kordamisküsimused***
 * Mida peab silmas pidama, kui taod antennimasti tõmmitsate kinnitusvaiu maasse?
 * Mida tuleb jälgida raiudes puid välipäeva või kokkutuleku lõkke jaoks?
+* Mida tuleb silmas pidada antennimasti püstitamisel või antenni vedamisel majade vahele?
 * Mida tuleb jälgida tehes tööd kõrgel antennimasti otsas?
 * Mida peab silmas pidama kui oled autoga sõitnud välipäevale?
 
