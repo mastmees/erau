@@ -9,7 +9,7 @@ andmekogust mis sisaldab nii õppematerjali kui küsimusi.
 
 Sellise uue andmekogu loomise eesmärke on mitu:
 
-1. Küsimuste süstematisserimine, korrastamine ja sünkroniseerimine erinevate
+1. Küsimuste süstematiseerimine, korrastamine ja sünkroniseerimine erinevate
 allikate vahel.
 2. Eksamiks õppimise lihtsamaks tegemine, koondades kõik eksami
 sooritamiseks vajalikud teadmised ühte kohta ja jättes välja kõik
