@@ -299,7 +299,7 @@ palju, kõrgsageduslikes elementides kasutatakse palju galliumarseniidi
 keemilistele lisanditele. Aluskristalli struktuuri teisi elemente lisades
 moodustatakse pooljuhtsiirded mis on aktiivkomponentide ehitusplokid.
 
-Dioodid
+## Dioodid
 
 Diood on kõige lihtsam, ühe siirde ja kahe kontaktiga pooljuhtseade.
 Tavaline alaldusdiood juhib elektrit ainult ühes suunas ja blokeerib
@@ -341,7 +341,7 @@ Sõltumata toiteallika pinge kõikumisest jääb stabilitronile stabiilne
 vastupinge eeldusel, et toiteallika pinge ületab alati stabilitroni
 vastupinget.
 
-Transistorid
+## Transistorid
 
 Transistorid on mitme, tavaliselt kahe siirdega pooljuhtelemendid. Nad
 jagunevad kaheks suureks perekonnaks - bipolaartransistorid ja
@@ -373,7 +373,7 @@ mida saab paisule antava pingega juhtida. Neid kasutatakse sageli suurte
 pingete ja voolude puhul, näiteks elektrimootoreid juhtivates
 sagedusmuundurites.
 
-Türistor
+## Türistor
 
 Türistor pooljuhtseade mis käitub nagu juhtav diood mis on vaikimisi mõlemas
 suunas suletud aga mida saab pärisuunas avada tüürelektroodile rakendatava
