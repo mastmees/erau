@@ -15,7 +15,12 @@ elektrivoolu vastassuunas. Dioodid ei ole ideaalsed, juhtivas suunas tekib
 dioodil pingelang (päripinge) mis on tavalistel ränidioodidel 0.7-1.7V
 vahemikus, see tõuseb tavaliselt voolu kasvades. Dioodidel on piir kui suurt
 vastusuunalist pinget (vastupinget) nad on võimelised taluma. Selle
-ületamisel tekib dioodis pinge läbilöök.
+ületamisel tekib dioodis pinge läbilöök ja diood läheb rikki. Lisaks
+maksimaalsele vastupingele tuleb jälgida veel, et dioodi pärisuunaline vool
+ei ületaks lubatut ja suuremate voolude puhul ka seda, et dioodil hajuv
+võimsus ei ületaks lubatud väärtust. Võimsamad dioodid on korpuses mille
+saab kinnitada jahutuselemendi külge ja sellega võimsustaluvust oluliselt
+suurendada.
 
 Lisaks on dioodidel ka sisemine mahtuvus mille tõttu voolu suuna
 vahetumisel pärisuunalisest vastusuunaliseks voolab ahelas lühikese
@@ -34,11 +39,13 @@ Leiutatud on ka mitmeid eriotstarbelisi dioode, neist kõige silmahakkavamad
 on valgusdioodid ja laserdioodid mis päripinge all olles helendavad.
 Mahtuvusdiood ehk varikap on selline diood mille sisemine mahtuvus on sõltuv
 dioodile rakendatud vastupingest, see teeb neist omamoodi muutkondensaatorid.
-Tunneldioodid omavad mingis päripinge vahemikus negatiivset takistust,
-see võimaldab neid kasutada signaalide lülitamiseks, võimendamiseks ja
-genereerimiseks. Suurte pingeimpulsside summutamiseks kasutatakse
-suppressordioode (TVS) mille põhiomaduseks on taluda suuri impulssvoole
-vastupinge piiri ületamisel.
+Omapärane komponent on PIN-diood, see käitub madalatel sagedustel tavalise
+dioodina aga kõrgetel sagedustel pigem takistina mille väärtus sõltub
+dioodil olevast pingest. Tunneldioodid omavad mingis päripinge vahemikus
+negatiivset takistust, see võimaldab neid kasutada signaalide lülitamiseks,
+võimendamiseks ja genereerimiseks. Suurte pingeimpulsside summutamiseks
+kasutatakse suppressordioode (TVS) mille põhiomaduseks on taluda suuri
+impulssvoole vastupinge piiri ületamisel.
 
 Väga oluline diooditüüp on stabilitron ehk Zeneri diood. Stabilitronidel on
 täpselt ette antud vastupinge mille juures diood hakkab vastassuunas voolu
@@ -96,3 +103,19 @@ lülitamiseks.
 Türistoriga väga sarnane komponent on dioodtüristor ehk diiak, sellel pole
 juhtimiseks tüürelektroodi vaid ta avaneb mingist kindlast talle rakendatud
 pingest.
+
+## Aktiivkomponentide jahutusest
+
+Kuna kõigile pooljuhtsiiretele jääb neid läbiva voolu juures mingi pinge
+neeldub neis sellest pingest ja voolust sõltuv kogus energiat. Suuremate
+voolude puhul vajavad komponendid lisajahutust, selleks kinnitatakse nad
+jahutuselementide külge, tavaliselt on need metallist radiaatorid kas
+trükkplaadil või korpuse küljes aga tänapäeval kasutatakse võimalusel ka
+trükkplaadi enda vasekihte radiaatorina. Kui on vajadus naid komponente
+asendada tuleb kindlasti jälgida, et uus komponent oleks jahutuselemendiga
+korralikus mehaanilises ühenduses aga kui vahetatav komponent on
+jahutuselemendist elektriliselt isoleeritud tuleb kindlasti ka isoleerivad
+detailid tagasi paigutada. Tavaliselt on radiaatorid elektriliselt korpusega
+ühenduses aga komponentidel võib korpusel olla mingi muu potentsiaal. Eriti
+hoolikalt tuleb seda muidugi jälgida toiteplokkides ja mujal kus on tegemist
+kõrgete pingete ja suurte vooludega.
