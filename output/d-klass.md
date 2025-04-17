@@ -291,10 +291,107 @@ indutseerib teises mähiseks vahelduva elektromotoorjõu, kui mähisega
 * Milleks kasutatakse takisteid?
 ## S02 Aktiivkomponendid
 
+Tänapäevased aktiivkomponendid põhinevad pooljuht-tehnoloogial. Pooljuht on
+aine mille elektrijuhtivus on halvem kui elektrijuhil ja parem kui dielektrikul.
+Tuntimad pooljuhid on räni ja germaanium aga tegelikult on neid materjale
+palju, kõrgsageduslikes elementides kasutatakse palju galliumarseniidi
+(GaAs). Pooljuhtide oluline omadus on nende suur tundlikkus välismõjudele ja
+keemilistele lisanditele. Aluskristalli struktuuri teisi elemente lisades
+moodustatakse pooljuhtsiirded mis on aktiivkomponentide ehitusplokid.
+
+Dioodid
+
+Diood on kõige lihtsam, ühe siirde ja kahe kontaktiga pooljuhtseade.
+Tavaline alaldusdiood juhib elektrit ainult ühes suunas ja blokeerib
+elektrivoolu vastassuunas. Dioodid ei ole ideaalsed, juhtivas suunas tekib
+dioodil pingelang (päripinge) mis on tavalistel ränidioodidel 0.7-1.7V
+vahemikus, see tõuseb tavaliselt voolu kasvades. Dioodidel on piir kui suurt
+vastusuunalist pinget (vastupinget) nad on võimelised taluma. Selle
+ületamisel tekib dioodis pinge läbilöök.
+
+Lisaks on dioodidel ka sisemine mahtuvus mille tõttu voolu suuna
+vahetumisel pärisuunalisest vastusuunaliseks voolab ahelas lühikese
+aja (taastumisaja) jooksul vastassuunaline vool. Selle tõttu
+tekib alaldites impulssmüra ja kõrgepingealaldis kus on mitu dioodi
+järjestiklülituses võib teistes varem sulguvale dioodile tekkida
+ülemäära suur vastupinge. Nende impulsside silumiseks ühendatakse dioodidega
+paralleelselt väikese mahtuvusega kondensaatorid. 
+
+Väikese sisemise mahtuvusega dioode millel on hästi lühike taastumisaeg nimetatakse
+impulssdioodideks. Schottky dioodid on väikese päripingega ja oluliselt
+kiiremad kui tavalised ränidioodid aga nende lubatud vastupinge on
+suhteliselt madal.
+
+Leiutatud on ka mitmeid eriotstarbelisi dioode, neist kõige silmahakkavamad
+on valgusdioodid ja laserdioodid mis päripinge all olles helendavad.
+Mahtuvusdiood ehk varikap on selline diood mille sisemine mahtuvus on sõltuv
+dioodile rakendatud vastupingest, see teeb neist omamoodi muutkondensaatorid.
+Tunneldioodid omavad mingis päripinge vahemikus negatiivset takistust,
+see võimaldab neid kasutada signaalide lülitamiseks, võimendamiseks ja
+genereerimiseks. Suurte pingeimpulsside summutamiseks kasutatakse
+suppressordioode (TVS) mille põhiomaduseks on taluda suuri impulssvoole
+vastupinge piiri ületamisel.
+
+Väga oluline diooditüüp on stabilitron ehk Zeneri diood. Stabilitronidel on
+täpselt ette antud vastupinge mille juures diood hakkab vastassuunas voolu
+läbi laskma, selle juures jääb vastupinge üsna muutumatuks. See teeb
+stabilitronist pinget stabiliseeriva komponendi, voolu piiramiseks lubatud
+piiridesse ühendatakse stabilitroni ja toiteallika vahele tavaliselt takisti.
+Sõltumata toiteallika pinge kõikumisest jääb stabilitronile stabiilne
+vastupinge eeldusel, et toiteallika pinge ületab alati stabilitroni
+vastupinget.
+
+Transistorid
+
+Transistorid on mitme, tavaliselt kahe siirdega pooljuhtelemendid. Nad
+jagunevad kaheks suureks perekonnaks - bipolaartransistorid ja
+väljatransistorid.
+
+Bipolaartransistoril on kolm väljaviiku (kollektor, baas, emitter) ja nende
+vahel kaks siiret, emittersiire ja kollektorsiire. Transistori juhtakse
+baasi ja emitteri vahel voolava vooluga, kollektori ja emitteri vaheline
+vool on juhtvool korrutatud transistori võimendusteguriga eeldusel, et
+transistor töötab oma aktiivses tööpiirkonnas. Mingist hetkes alates
+kollektorvool enam ei suurene, transistor on sellisel juhul küllastunud
+seisus. Nagu dioodil on ka transistori siiretel päripingelang, sellest
+väiksem pinge emittersiirdel ei saa transistori juhtida ja ka küllastumiseni
+avanenud transistorile jääb päripinge. Transistore on kahtpidi polaarsusega,
+NPN transistor juhib voolu kollektori poolt emitteri poole, PNP transistor
+juhib voolu emitteri poolt kollektori poole.
+
+Väljatransistorid on pingega juhitavad transistorid millel on samuti
+tavaliselt kolm väljaviiku. Neid nimetatakse lätteks, neeluks ja
+paisuks (source, drain, gate). Paisule rakendatud pinge muudab lätte ja
+neelu vahelise voolu tugevust, kusjuures lätte ja neelu vaheline siire
+käitub rohkem takistina kui tavalise pooljuhtsiirdena, seepärast ei räägita
+nende puhul päripingest vaid täiesti avatud transistori takistusest.
+Väljatransistore on samuti kahtpidi polaarsusega, N-kanali ja P-kanali tüüpi. 
+
+On olemas ka nende kahe transistoritüübi hübriid, isoleeritud paisuga
+transistor, tavaliselt bipolaartransistori tüüpi emitter-kollektor siirdega
+mida saab paisule antava pingega juhtida. Neid kasutatakse sageli suurte
+pingete ja voolude puhul, näiteks elektrimootoreid juhtivates
+sagedusmuundurites.
+
+Türistor
+
+Türistor pooljuhtseade mis käitub nagu juhtav diood mis on vaikimisi mõlemas
+suunas suletud aga mida saab pärisuunas avada tüürelektroodile rakendatava
+pingeimpulsiga. Tavaline türistor jääb selle juures avatuks kuni pärisuunaline vool
+langeb alla piirväärtuse mille juures türistor uuesti sulgub, on olemas ka
+tüürelektroodi abil suletavad türistorid.
+
+Väga kasulik seade on sümmeetriline türistor ehk sümistor, mis avatuna juhib
+voolu mõlemas suunas. Selle omaduse tõttu on ta sobiv vahelduvpinge
+lülitamiseks.
+
+Türistoriga väga sarnane komponent on dioodtüristor ehk diiak, sellel pole
+juhtimiseks tüürelektroodi vaid ta avaneb mingist kindlast talle rakendatud
+pingest.
+
 ---
 ***Kordamisküsimused***
 * Mis on pooljuhi põhiomadus?
-* Mida saab öelda raadiolampide kohta?
 ## S04 Ühendused
 
 ---
@@ -306,6 +403,11 @@ indutseerib teises mähiseks vahelduva elektromotoorjõu, kui mähisega
 * Miks kasutatakse raadiodetailide monteerimisel jootmist?
 * Kuidas ühendaksite omavahel kaks vasktraati?
 * Miks kasutatavad juhtmed ei või olla liiga väikese läbimõõduga?
+## S05 Raadiolambid
+
+---
+***Kordamisküsimused***
+* Mida saab öelda raadiolampide kohta?
 
 # C03 Raadio- ja elektrotehnika ahelad
 
