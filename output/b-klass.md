@@ -667,7 +667,22 @@ signaali ja tekitab vähem moonutusi.
 * Mis on sagedusdiskriminaator?
 * Mida kasutatakse FM signaali detekteerimiseks?
 ## S06 S-meeter
+S-meeter on enamuse transiiverite sisse ehitatud signaalitugevuse mõõtja,
+selle skaala on märgitud S-ühikutes, S1-S9. 
 
+1981 standardiseeriti absoluutväärtus mida S-meeter mõõdab. HF
+sagedusaladel vastab S9-le -73 dBm signaalitugevus vastuvõtja 
+sisendis, VHF sagedusaladel -93 dBm. Mõlemal juhul on S-ühikute
+samm 6 dB, ehk siis neljakordne võimsuse (või kahekordne sisendpinge)
+erinevus. Suuremate kui S9 signaalitugevuste puhuks võib S-meeteri skaala
+omada lisasamme mis antakse detsibellides, neid loetakse kui S9 +10 dB või
+S9 +20 dB. Signaalitugevus RST raportis antakse sellisel juhul lihtsalt
+S9+10 või S9+20, inglise keeles "10 over S9", või isegi lihtsalt "20 over".
+
+S-meeter ei ole tavaliselt väga täpne või kalibreeritud instrument aga ta on
+piisavalt täpne, et selle järgi signaalitugevust hinnata. RST raportis on
+teine number S-meetri lugem.
+ 
 ---
 ***Kordamisküsimused***
 * Kui palju tuleb suurendada saatja väljundvõimsusust, et saatja läheduses asuva vastuvõtja S-meetri näit suureneks S8-lt S9-ni ?
