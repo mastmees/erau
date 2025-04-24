@@ -1,0 +1,51 @@
+Detektori ülesanne on edastatava signaali eraldamine vahesagedusega
+kandesignaalist. See millist detektorit tuleb kasutada sõltub
+signaali moduleerimise tüübist.
+
+Amplituudmodulatsiooni puhul kasutatakse amplituuddetektorit. Lihtsaim
+amplituuddetektor on diood mille järele on ühendatud paralleelselt
+kondensaator ja takisti. Kuna sisuliselt on tegu poolperioodalaldiga siis
+peab selle detektori sisendisse antav signaal olema filtreeritud,
+superheterodüünvastuvõtjas detekteeritakse vahesagedust mis on filtreeritud.
+Detektor ei tee vahet ka müral ja kasulikul signaalil, kui sisendsignaal on
+üle moduleeritud siis tekib väljundisse moonutatud signaal. Lisaks peab
+tavalise diood-detektori puhul sisendsignaal olema alati suurem kui
+detektordioodi päripinge. Parem detektor amplituudmoduleeritud
+signaali jaoks on produkt-detektor.
+
+Produkt-detektor on kasutatav amplituudmodulatsiooni ja ühe külgriba
+modulatsiooni puhul, sarnaselt sünkroondetektoriga segustatakse
+vahesagedussignaal kohaliku ostsillaatori signaaliga mis on samuti
+vahesagedusel, sageduste liitumisel saadakse audiosignaal kahe signaali
+vahena ja kahekordse vahesagedusega signaal signaalide summana.
+Kõrgsageduslikku signaali on lihtne välja filtreerida. Lihtsas
+produkt-detektoris ei kasutata faasilukustust, kohalik ostsillaator tuleb
+käsitsi õigele sagedusele häälestada. Ühe külriba modulatsiooni puhul tuleb
+seda nagunii teha aga amplituudmodulatsiooni puhul on parem kasutada
+faasilukustusega kohalikku ostsillaatorit, ehk sünkroondetektorit.
+
+Sagedusmodulatsiooni puhul tuleb kasutada sagedusdetektorit. Neidki on
+erinevaid.
+
+Sageli kasutatav suhtedetektor on ehitatud kahe dioodi baasil,
+sageduse muutused muudetakse lõpuks pinge muutusteks mida saab
+detekteerida tavalise amplituudmodulatsiooni detektoriga.
+
+Sagedusdiskriminaator koosneb põhimõtteliselt kahest erinevale sagedusele
+häälestatud võnkeringist mille resonantssagedused on ühel ja teisel pool
+kandesagedust. Sellel võnkeringil mille resonantssagedus on signaali
+sagedusele lähemal tekib suurem pinge, võnkeringide pingete vastandmärgiga
+liitmisel saadakse detektori väljundsignaal. Sagedusdiskriminaatoreid on
+leiutatud erinevad, erinevused on selles kuidas vajalikud võnkeringid
+organiseeritakse ja pingete erinevus kindlaks tehakse.
+
+Sünkroondetektor segustab vastuvõetud signaali moduleerimata
+kandesagedusega. Vajalik kandesagedus sünteesitakse vastuvõtjas ja peab
+olema signaali kandesagedusega samal sagedusel ja samas faasis, seepärast
+kasutatakse selle saamiseks faasilukustusega kohalikku ostsillaatorit.
+Sünkroondetektor on küll keeruline aga tal on mitu head omadust. Seda saab
+kasutada erinevate modulatsioonimeetoditega moduleeritud signaalide puhul,
+sealhulgas ka ühe külgriba amplituudmodulatsiooni puhul kus kandesagedust
+üldse ei saadeta. Sünkroondetektor suudab detekteerida ka väga nõrka
+signaali ja tekitab vähem moonutusi.
+ 

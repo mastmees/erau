@@ -1,0 +1,12 @@
+
+Tänapäeval on põhiline raadiovastuvõtja tüüp superheterodüünvastuvõtja.
+Selle tüübi põhiline omadus on see, et sisendsignaalist vajaliku sagedusega
+signaali kätte saamiseks teisendatakse see kõigepealt üheks kindlaks
+sageduseks - vahesageduseks. Kogu edasine signaaliga tegelemine toimub alati
+sellel ühel sagedusel mis teeb vastuvõtja ehitamise lihtsamaks ja parandab
+ka vastuvõtja omadusi.
+
+Raadiovastuvõtja koosneb reast plokkidest millel on erinevad ülesanded,
+põhilised neist on kõrgsagedusvõimendi, seguaste, vahesagedusaste või
+astmed, detektor ja helisagedusvõimendi.
+ 

@@ -360,11 +360,12 @@ Mahtuvusdiood ehk varikap on selline diood mille sisemine mahtuvus on sõltuv
 dioodile rakendatud vastupingest, see teeb neist omamoodi muutkondensaatorid.
 Omapärane komponent on PIN-diood, see käitub madalatel sagedustel tavalise
 dioodina aga kõrgetel sagedustel pigem takistina mille väärtus sõltub
-dioodil olevast pingest. Tunneldioodid omavad mingis päripinge vahemikus
-negatiivset takistust, see võimaldab neid kasutada signaalide lülitamiseks,
-võimendamiseks ja genereerimiseks. Suurte pingeimpulsside summutamiseks
-kasutatakse suppressordioode (TVS) mille põhiomaduseks on taluda suuri
-impulssvoole vastupinge piiri ületamisel.
+dioodil olevast pingest. PIN-dioode saab kasutada kõrgsagedusattenuaatorite
+ja kõrgsageduslülitite ehitamiseks. Tunneldioodid omavad mingis
+päripinge vahemikus negatiivset takistust, see võimaldab neid kasutada
+signaalide lülitamiseks, võimendamiseks ja genereerimiseks. Suurte
+pingeimpulsside summutamiseks kasutatakse suppressordioode (TVS) mille
+põhiomaduseks on taluda suuri impulssvoole vastupinge piiri ületamisel.
 
 Väga oluline diooditüüp on stabilitron ehk Zeneri diood. Stabilitronidel on
 täpselt ette antud vastupinge mille juures diood hakkab vastassuunas voolu
@@ -511,6 +512,17 @@ kõrgete pingete ja suurte vooludega.
 
 ## S01 Raadiovastuvõtja ehitus
 
+Tänapäeval on põhiline raadiovastuvõtja tüüp superheterodüünvastuvõtja.
+Selle tüübi põhiline omadus on see, et sisendsignaalist vajaliku sagedusega
+signaali kätte saamiseks teisendatakse see kõigepealt üheks kindlaks
+sageduseks - vahesageduseks. Kogu edasine signaaliga tegelemine toimub alati
+sellel ühel sagedusel mis teeb vastuvõtja ehitamise lihtsamaks ja parandab
+ka vastuvõtja omadusi.
+
+Raadiovastuvõtja koosneb reast plokkidest millel on erinevad ülesanded,
+põhilised neist on kõrgsagedusvõimendi, seguaste, vahesagedusaste või
+astmed, detektor ja helisagedusvõimendi.
+ 
 ---
 ***Kordamisküsimused***
 * Mida nimetatakse segustusprotsessiks?
@@ -518,23 +530,135 @@ kõrgete pingete ja suurte vooludega.
 * Millised kaks faktorit määratlevad vastuvõtja tundlikkuse?
 ## S02 Kõrgsagedusvõimendi
 
+Kõrgsagedusvõimendi peamisteks ülesanneteks on sobitada antenn vastuvõtjaga ja eelselekteerida
+soovitud sagedusega signaalid. Soovitud sageduste eelselekteerimiseks on
+kõrgsagedusvõimendis filter mis eemaldab signaalist väljapoole soovitavat
+vastuvõtusagedust jäävad signaalid, sest need segaksid hilisemat singaali
+töötlemist vahesagedusel. Kõrgsagedusvõimendi on mõeldud töötama
+väga nõrga antennist saabunud signaaliga, liiga tugev sisendsignaal võib
+tekitada vastuvõtjas moonutusi või koguni kõrgsagedusvõimendi rikkuda.
+
+Kõrgsagedusvõimendi müratase peab olema võimalikult madal,
+sest see ahel määrab peamiselt kogu vastuvõtja mürateguri.
+
 ---
 ***Kordamisküsimused***
 * Miks on kasulik omada vastuvõtja sisendis attenuaatorit?
 * Mis on vastuvõtja kõrgsagedusvõimendi esmane ülesanne?
 ## S03 Seguaste
 
+Seguaste koosneb kohalikust ostsillatorist ja segustist. Kohaliku ostsillaatori ülesandeks
+on genereerida stabiilset signaali, kusjuures oluline on genereeritavate võnkumiste sagedus.
+Kuna superheterodüünvastuvõtja üheks eeliseks on see, et suurem osa signaalitöötlusest
+toimub ühel sagedusel (vahesagedusel) peab genereeritav signaal olema valitud nii, et
+vahesagedus oleks sõltumatult vastuvõetava signaali sagedusest püsiv.
+
+Kuna üldiselt kasutatakse vastuvõtjat rohkem kui ühe sagedusega signaali vastuvõtmiseks,
+on tarvilik sisemise ostsillaatori sagedust muuta nii, et vastuvõtja oleks häälestatud
+soovitud raadiokanalile.
+
+Segusti sisenditeks on vastuvõetud signaal sagedusega Fs ja kohaliku ostsillaatori väljundsignaal
+sagedusega Fg. Segusti ahela väljundisse tegib signaalide kombinatsioon, mille spektris
+sisalduvad lisaks signaalidele sagedustega Fs ja Fg ka nende vahe (Fg-Fs või Fs-Fg)
+ning summa (Fg+Fs).
+
+
 ---
 ***Kordamisküsimused***
 * Millised on põhilised seguastme väljundis esinevad sagedused?
 * Mis vastuvõtjas juhtub kui väga tugev signaal jõuab seguastmeni?
 ## S04 Vahesagedus
+Kuna segusti väljundis olev signaal on kombinatsioon erinevate sagedustega signaalidest,
+on kõigepealt vaja eraldada kõigi erinevate signaalide segust soovitud signaal. Seda ülesannet
+täidab vahesagedusfilter. Vahesagedusfilter on hästi kitsast sageusvahemikku
+läbi laskev filter mis on häälestatud täpselt vahesagedusele.
+
+Igal kohaliku ostsillaatori sagedusel saab vahesageduse moodustada kaks
+signaalisagedust - signaal mille sagedus on kohaliku ostsillaatori
+sagedusest vahesageduse võrra väiksem või signaal mille sagedus on
+vahesageduse võrra suurem. Neid nimetatakse peegelsagesusteks.
+Kuna seguastmes teisenduvad mõlemad signaalid vahesageduseks siis ei saa
+vahesagedusfilter neid teineteisest eristada, mittevajalik signaal
+eemaldatakse tavaliselt kõrgsagedusvõimendis eelselektsiooni
+filtriga, eelselektsooni filtri sagedust tuleb reguleerida koos
+vastuvõetava signaali sagedusega. 
+
+Eelselektsiooni filtit aitab lihtsustada mitmekordne sagedusmuundus,
+esimene vahesagedus valitakse sellisel juhul vastuvõetavast signaalist
+nii palju kõrgem, et eelselektsioonifiltriga saab katta kogu vastuvõetava
+sageduspiirkonna. Seejärel teisendatakse esimene vahesagedus uuesti, 
+teiseks vahesageduseks ja kuna esimene vahesagedusfilter
+on nagunii kitsaribaline siis ei teki teise sagedusmuundusega enam
+peegelsageduste probleemi.
+
+Vahesagedusfiltri väljundis olevat signaali võimendatakse
+vahesagedusvõimendiga, selles plokis toimub põhiline vastuvõetava signaali
+võimendus. Vastuvõtja väljundis oleva signaali ühtlustamiseks, et see ei
+sõltuks vastuvõetuda signaali tugevusest, on tavaliselt vahesagedusvõimendi
+võimendus automaatselt reguleeritav (AVR). AVR lülitus reguleerib võimendi
+võimendust sõltuvalt sisendsignaali tasemest. Mida nõrgem sisendsignaal,
+seda rohkem seda vahesageduse võimendatakse. Korralikult töötav AVR on
+eriti oluline amplituudmoduleeritud signaali korral, sest selle puhul on
+lõpliku signaali tase otseses sõltuvuses vastuvõetava signaali võimsusest.
+
+Vahesagedusfiltreid ja võimendeid võib järjestikku olla rohkem kui kui üks.
 
 ---
 ***Kordamisküsimused***
 * Mis on vahesagedusvõimendi?
 * Kui suur on SSB telefonitööks vajaliku hea kvartsfiltri pääsuriba laius?
 ## S05 Detektor
+Detektori ülesanne on edastatava signaali eraldamine vahesagedusega
+kandesignaalist. See millist detektorit tuleb kasutada sõltub
+signaali moduleerimise tüübist.
+
+Amplituudmodulatsiooni puhul kasutatakse amplituuddetektorit. Lihtsaim
+amplituuddetektor on diood mille järele on ühendatud paralleelselt
+kondensaator ja takisti. Kuna sisuliselt on tegu poolperioodalaldiga siis
+peab selle detektori sisendisse antav signaal olema filtreeritud,
+superheterodüünvastuvõtjas detekteeritakse vahesagedust mis on filtreeritud.
+Detektor ei tee vahet ka müral ja kasulikul signaalil, kui sisendsignaal on
+üle moduleeritud siis tekib väljundisse moonutatud signaal. Lisaks peab
+tavalise diood-detektori puhul sisendsignaal olema alati suurem kui
+detektordioodi päripinge. Parem detektor amplituudmoduleeritud
+signaali jaoks on produkt-detektor.
+
+Produkt-detektor on kasutatav amplituudmodulatsiooni ja ühe külgriba
+modulatsiooni puhul, sarnaselt sünkroondetektoriga segustatakse
+vahesagedussignaal kohaliku ostsillaatori signaaliga mis on samuti
+vahesagedusel, sageduste liitumisel saadakse audiosignaal kahe signaali
+vahena ja kahekordse vahesagedusega signaal signaalide summana.
+Kõrgsageduslikku signaali on lihtne välja filtreerida. Lihtsas
+produkt-detektoris ei kasutata faasilukustust, kohalik ostsillaator tuleb
+käsitsi õigele sagedusele häälestada. Ühe külriba modulatsiooni puhul tuleb
+seda nagunii teha aga amplituudmodulatsiooni puhul on parem kasutada
+faasilukustusega kohalikku ostsillaatorit, ehk sünkroondetektorit.
+
+Sagedusmodulatsiooni puhul tuleb kasutada sagedusdetektorit. Neidki on
+erinevaid.
+
+Sageli kasutatav suhtedetektor on ehitatud kahe dioodi baasil,
+sageduse muutused muudetakse lõpuks pinge muutusteks mida saab
+detekteerida tavalise amplituudmodulatsiooni detektoriga.
+
+Sagedusdiskriminaator koosneb põhimõtteliselt kahest erinevale sagedusele
+häälestatud võnkeringist mille resonantssagedused on ühel ja teisel pool
+kandesagedust. Sellel võnkeringil mille resonantssagedus on signaali
+sagedusele lähemal tekib suurem pinge, võnkeringide pingete vastandmärgiga
+liitmisel saadakse detektori väljundsignaal. Sagedusdiskriminaatoreid on
+leiutatud erinevad, erinevused on selles kuidas vajalikud võnkeringid
+organiseeritakse ja pingete erinevus kindlaks tehakse.
+
+Sünkroondetektor segustab vastuvõetud signaali moduleerimata
+kandesagedusega. Vajalik kandesagedus sünteesitakse vastuvõtjas ja peab
+olema signaali kandesagedusega samal sagedusel ja samas faasis, seepärast
+kasutatakse selle saamiseks faasilukustusega kohalikku ostsillaatorit.
+Sünkroondetektor on küll keeruline aga tal on mitu head omadust. Seda saab
+kasutada erinevate modulatsioonimeetoditega moduleeritud signaalide puhul,
+sealhulgas ka ühe külgriba amplituudmodulatsiooni puhul kus kandesagedust
+üldse ei saadeta. Sünkroondetektor suudab detekteerida ka väga nõrka
+signaali ja tekitab vähem moonutusi.
+ 
 
 ---
 ***Kordamisküsimused***

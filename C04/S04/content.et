@@ -1,0 +1,34 @@
+Kuna segusti väljundis olev signaal on kombinatsioon erinevate sagedustega signaalidest,
+on kõigepealt vaja eraldada kõigi erinevate signaalide segust soovitud signaal. Seda ülesannet
+täidab vahesagedusfilter. Vahesagedusfilter on hästi kitsast sageusvahemikku
+läbi laskev filter mis on häälestatud täpselt vahesagedusele.
+
+Igal kohaliku ostsillaatori sagedusel saab vahesageduse moodustada kaks
+signaalisagedust - signaal mille sagedus on kohaliku ostsillaatori
+sagedusest vahesageduse võrra väiksem või signaal mille sagedus on
+vahesageduse võrra suurem. Neid nimetatakse peegelsagesusteks.
+Kuna seguastmes teisenduvad mõlemad signaalid vahesageduseks siis ei saa
+vahesagedusfilter neid teineteisest eristada, mittevajalik signaal
+eemaldatakse tavaliselt kõrgsagedusvõimendis eelselektsiooni
+filtriga, eelselektsooni filtri sagedust tuleb reguleerida koos
+vastuvõetava signaali sagedusega. 
+
+Eelselektsiooni filtit aitab lihtsustada mitmekordne sagedusmuundus,
+esimene vahesagedus valitakse sellisel juhul vastuvõetavast signaalist
+nii palju kõrgem, et eelselektsioonifiltriga saab katta kogu vastuvõetava
+sageduspiirkonna. Seejärel teisendatakse esimene vahesagedus uuesti, 
+teiseks vahesageduseks ja kuna esimene vahesagedusfilter
+on nagunii kitsaribaline siis ei teki teise sagedusmuundusega enam
+peegelsageduste probleemi.
+
+Vahesagedusfiltri väljundis olevat signaali võimendatakse
+vahesagedusvõimendiga, selles plokis toimub põhiline vastuvõetava signaali
+võimendus. Vastuvõtja väljundis oleva signaali ühtlustamiseks, et see ei
+sõltuks vastuvõetuda signaali tugevusest, on tavaliselt vahesagedusvõimendi
+võimendus automaatselt reguleeritav (AVR). AVR lülitus reguleerib võimendi
+võimendust sõltuvalt sisendsignaali tasemest. Mida nõrgem sisendsignaal,
+seda rohkem seda vahesageduse võimendatakse. Korralikult töötav AVR on
+eriti oluline amplituudmoduleeritud signaali korral, sest selle puhul on
+lõpliku signaali tase otseses sõltuvuses vastuvõetava signaali võimsusest.
+
+Vahesagedusfiltreid ja võimendeid võib järjestikku olla rohkem kui kui üks.

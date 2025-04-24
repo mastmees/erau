@@ -1,0 +1,11 @@
+
+Kõrgsagedusvõimendi peamisteks ülesanneteks on sobitada antenn vastuvõtjaga ja eelselekteerida
+soovitud sagedusega signaalid. Soovitud sageduste eelselekteerimiseks on
+kõrgsagedusvõimendis filter mis eemaldab signaalist väljapoole soovitavat
+vastuvõtusagedust jäävad signaalid, sest need segaksid hilisemat singaali
+töötlemist vahesagedusel. Kõrgsagedusvõimendi on mõeldud töötama
+väga nõrga antennist saabunud signaaliga, liiga tugev sisendsignaal võib
+tekitada vastuvõtjas moonutusi või koguni kõrgsagedusvõimendi rikkuda.
+
+Kõrgsagedusvõimendi müratase peab olema võimalikult madal,
+sest see ahel määrab peamiselt kogu vastuvõtja mürateguri.

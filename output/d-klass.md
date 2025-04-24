@@ -333,11 +333,12 @@ Mahtuvusdiood ehk varikap on selline diood mille sisemine mahtuvus on sõltuv
 dioodile rakendatud vastupingest, see teeb neist omamoodi muutkondensaatorid.
 Omapärane komponent on PIN-diood, see käitub madalatel sagedustel tavalise
 dioodina aga kõrgetel sagedustel pigem takistina mille väärtus sõltub
-dioodil olevast pingest. Tunneldioodid omavad mingis päripinge vahemikus
-negatiivset takistust, see võimaldab neid kasutada signaalide lülitamiseks,
-võimendamiseks ja genereerimiseks. Suurte pingeimpulsside summutamiseks
-kasutatakse suppressordioode (TVS) mille põhiomaduseks on taluda suuri
-impulssvoole vastupinge piiri ületamisel.
+dioodil olevast pingest. PIN-dioode saab kasutada kõrgsagedusattenuaatorite
+ja kõrgsageduslülitite ehitamiseks. Tunneldioodid omavad mingis
+päripinge vahemikus negatiivset takistust, see võimaldab neid kasutada
+signaalide lülitamiseks, võimendamiseks ja genereerimiseks. Suurte
+pingeimpulsside summutamiseks kasutatakse suppressordioode (TVS) mille
+põhiomaduseks on taluda suuri impulssvoole vastupinge piiri ületamisel.
 
 Väga oluline diooditüüp on stabilitron ehk Zeneri diood. Stabilitronidel on
 täpselt ette antud vastupinge mille juures diood hakkab vastassuunas voolu
@@ -465,6 +466,17 @@ kõrgete pingete ja suurte vooludega.
 
 ## S01 Raadiovastuvõtja ehitus
 
+Tänapäeval on põhiline raadiovastuvõtja tüüp superheterodüünvastuvõtja.
+Selle tüübi põhiline omadus on see, et sisendsignaalist vajaliku sagedusega
+signaali kätte saamiseks teisendatakse see kõigepealt üheks kindlaks
+sageduseks - vahesageduseks. Kogu edasine signaaliga tegelemine toimub alati
+sellel ühel sagedusel mis teeb vastuvõtja ehitamise lihtsamaks ja parandab
+ka vastuvõtja omadusi.
+
+Raadiovastuvõtja koosneb reast plokkidest millel on erinevad ülesanded,
+põhilised neist on kõrgsagedusvõimendi, seguaste, vahesagedusaste või
+astmed, detektor ja helisagedusvõimendi.
+ 
 ---
 ***Kordamisküsimused***
 * Millist seadet saab kasutada raadiolainete vastu võtmiseks?

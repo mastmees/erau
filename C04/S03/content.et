@@ -1,0 +1,16 @@
+
+Seguaste koosneb kohalikust ostsillatorist ja segustist. Kohaliku ostsillaatori ülesandeks
+on genereerida stabiilset signaali, kusjuures oluline on genereeritavate võnkumiste sagedus.
+Kuna superheterodüünvastuvõtja üheks eeliseks on see, et suurem osa signaalitöötlusest
+toimub ühel sagedusel (vahesagedusel) peab genereeritav signaal olema valitud nii, et
+vahesagedus oleks sõltumatult vastuvõetava signaali sagedusest püsiv.
+
+Kuna üldiselt kasutatakse vastuvõtjat rohkem kui ühe sagedusega signaali vastuvõtmiseks,
+on tarvilik sisemise ostsillaatori sagedust muuta nii, et vastuvõtja oleks häälestatud
+soovitud raadiokanalile.
+
+Segusti sisenditeks on vastuvõetud signaal sagedusega Fs ja kohaliku ostsillaatori väljundsignaal
+sagedusega Fg. Segusti ahela väljundisse tegib signaalide kombinatsioon, mille spektris
+sisalduvad lisaks signaalidele sagedustega Fs ja Fg ka nende vahe (Fg-Fs või Fs-Fg)
+ning summa (Fg+Fs).
+
