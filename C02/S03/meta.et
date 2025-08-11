@@ -1,1 +1,74 @@
 T Transformaatorid
+
+Transformaator ehk trafo on elektromagnetilisel induktsioonil põhinev energiamuundur, mis võimaldab
+muuta vahelduvpinget ja vastavalt vahelduvvoolu, seejuures ilma sagedust muutmata.
+
+Ehitus ja talitlus
+
+Trafo põhiosad on mähised ja südamik. Südamik moodustab magnetahela ja mähised elektriahelad.
+Lihtsaim trafo koosneb ferromagnetilisest südamikust ning kahest vasktraadist keritud
+mähisest - primaarmähisest ja sekundaarmähisest.
+
+Muundatava vahelduvvoolu energia antakse primaarmähisesse, millest see siirdub sekundaarmähisesse
+mähistevahelise vastastikuse induktsiooni vahendusel: primaarmähises kulgev vahelduvvool
+tekitab südamikus perioodiliselt muutuva magnetvoo, mis indutseerib sekundaarmähises
+vahelduva elektromotoorjõu. Kui sekundaarmähis ühendada energiat tarbiva elektriahelaga,
+läbib seda elektrivool.
+
+Sekundaarmähises kujuneva pinge ‒ sekundaarpinge ‒ suuruse määrab mähiste keerdude arvu suhe.
+Ideaalse (energiakadudeta) trafo korral võrdub primaarpinge ja sekundaarpinge suhe
+primaar- ja sekundaarmähise keerdude arvu suhtega mida nimetatakse ülekandesuhteks:
+Tulenevalt energia jäävuse seadusest on sellises ideaalses trafos primaar ja
+sekundaarmähises võimsused võrdsed.
+
+Ideaalsel transformaatoril puuduvad energiakaod mähistes ja südamikus. See tähendab, et
+mähiste takistus on võrdne nulliga ja südamiku magnetiline läbitavus on lõpmatu.
+Reaalses trafos tekivad võimsuskaod mähistes ja südamikus. Kaovõimsusest tingitud kaoenergia
+muundub trafos soojuseks.
+
+Kui sekundaarmähisest voolu ei tarbita siis on suurimad kaod südamikus ja voolu
+primaarmähises nimetatakse ka magneetimisvooluks.
+
+Kaod ei ole sobivate materjalide kasutamisel siiski väga suured, trafode kasutegur on
+tavaliselt 95...99%
+
+
+Südamik
+
+Südamiku põhiülesanne on tagada mähiste vahel hea induktiivne sidestus. Madalal
+sagedusel (näiteks elektrivõrgu sagedusel 50 Hz) töötav trafo südamik koosneb elektrotehnilise
+terase lehtedest või -lindist. Kõrgematel sagedustel (alates mõnest kilohertsist) kasutatakse
+peamiselt metallkeraamilist magnetmaterjali ferriiti.
+
+Magnetahela kuju järgi eristatakse sammas- ja mantelsüdamikke, mis on ristkülikukujulised.
+Kasutatakse ka rõngakujulisi südamikke ehk toroidsüdamikke, mille eeliseks on väike puisteväli,
+s.t magnetvälja väiksem hajumine südamikust väljapoole.
+
+Mantelsüdamikel on hargnev magnetahel, mis ümbritseb ka mähiseid; mõlemad mähised ‒ primaar- ja 
+sekundaarmähis ‒ paiknevad keskmisel sambal.
+
+Sammassüdamikul on hargnematu magnetahel, kusjuures kummalegi sambale paigutatakse pool primaarmähise
+ja pool sekundaarmähise keerde. Niiviisi saavutatakse tugevam induktiivsidestus (võrreldes sellega,
+kui mähised paikneksid eraldi, nagu on kujutatud trafo põhimõtte pildil).
+
+Mähis
+
+Mähis on traadikeerdude kogum, mis moodustab elektriahela. Selles ahelas summeeritakse iga keeru
+elektromotoorjõudu. Trafo mähised ja ka nendega ühendatud vooluringid on tavaliselt
+galvaaniliselt eraldatud, s.t nende vahel puudub vahetu elektrijuhtivus. Elektriohutuse eesmärgil
+kasutatakse vahel eraldustrafosid mille ülekandetegur on 1:1
+
+Ühefaasilise trafo südamikule on keritud üks primaarmähis ja üks või mitu sekundaarmähist.
+Kolmefaasilise trafo puhul on tegemist kolme ühesuguse keerdude arvuga mähiste gruppidega.
+
+Transformaatori eriliik on autotrafo, mille südamikul on ainult üks ühe või mitme harundiga
+(väljavõttega) mähis. Niisugusel trafol on osa mähisest primaar- ja sekundaarmähisele ühine:
+pinget madaldaval trafol on harundi(te) kaudu ühendatav ühine mähiseosa sekundaarmähis,
+pinget tõstval trafol primaarmähis. Autotrafo primaarmähis ja sekundaarmähis ei ole
+galvaaniliselt eraldatud!
+
+Signaaliedastusahelates kasutatakse trafosid signaaliahelate sidestamiseks, signaalide
+pinge muutmiseks, signaaliahelate impedantside sobitamiseks ning võimalikult väikeste
+kadude ja moonutustega ülekandmiseks, samuti voolu- ja pingeimpulsside tekitamiseks
+või muundamiseks (impulsstrafod).
+
